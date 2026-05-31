@@ -1,0 +1,465 @@
+@layer theme, base, clerk, components, utilities;
+@import "tailwindcss";
+/* for manual dark mode toggle */
+@custom-variant dark (&:where(.dark, .dark *));
+/* please do not import fonts directly in the css file, use nextjs's font modules */
+
+/* slightly less than pure white always */
+:root {
+	--background: #ffffff;
+	--foreground: #171717;
+	--page-bg: #f5f5f5;
+	/* white by default (green theme); colored themes add their brand-200 tint */
+	--widget-surface: #ffffff;
+}
+
+/* ── Color Themes ──────────────────────────────────────────────────────────── */
+/* Pink: hot pink energy, #FC4FAB as the accent */
+[data-theme="pink"] {
+	--color-brand-50: #fff0f9;
+	--color-brand-100: #fce3f5;
+	--color-brand-200: #f9bae7;
+	--color-brand-300: #f587d4;
+	--color-brand-400: #f059bc;
+	--color-brand-450: #f04caf;
+	--color-brand-500: #fc4fab;
+	--color-brand-600: #d93d91;
+	--color-brand-700: #b3297a;
+	--color-brand-800: #8a1860;
+	--color-brand-900: #5a0e3f;
+	--page-bg: #fff5fb;
+	--widget-surface: var(--color-brand-200);
+}
+
+/* Yellow: warm amber/gold, #FFD22F as the bright decorative accent */
+[data-theme="yellow"] {
+	--color-brand-50: #fffde7;
+	--color-brand-100: #fff9c4;
+	--color-brand-200: #fff176;
+	--color-brand-300: #ffd22f;
+	--color-brand-400: #e8bc1e;
+	--color-brand-450: #d4aa18;
+	--color-brand-500: #b88818;
+	--color-brand-600: #9e7211;
+	--color-brand-700: #82590c;
+	--color-brand-800: #624008;
+	--color-brand-900: #3d2504;
+	--page-bg: #fffef5;
+	--widget-surface: var(--color-brand-200);
+}
+
+/* Red: bold crimson accent */
+[data-theme="red"] {
+	--color-brand-50: #fff1f2;
+	--color-brand-100: #ffe4e6;
+	--color-brand-200: #fecdd3;
+	--color-brand-300: #fda4af;
+	--color-brand-400: #fb7185;
+	--color-brand-450: #f43f5e;
+	--color-brand-500: #e11d48;
+	--color-brand-600: #be123c;
+	--color-brand-700: #9f1239;
+	--color-brand-800: #881337;
+	--color-brand-900: #4c0519;
+	--page-bg: #fff1f2;
+	--widget-surface: var(--color-brand-200);
+}
+
+/* Purple: deep violet accent */
+[data-theme="purple"] {
+	--color-brand-50: #faf5ff;
+	--color-brand-100: #f3e8ff;
+	--color-brand-200: #e9d5ff;
+	--color-brand-300: #d8b4fe;
+	--color-brand-400: #c084fc;
+	--color-brand-450: #a855f7;
+	--color-brand-500: #9333ea;
+	--color-brand-600: #7e22ce;
+	--color-brand-700: #6b21a8;
+	--color-brand-800: #581c87;
+	--color-brand-900: #3b0764;
+	--page-bg: #faf5ff;
+	--widget-surface: var(--color-brand-200);
+}
+
+/* Blue: electric cobalt accent */
+[data-theme="blue"] {
+	--color-brand-50: #eff6ff;
+	--color-brand-100: #dbeafe;
+	--color-brand-200: #bfdbfe;
+	--color-brand-300: #93c5fd;
+	--color-brand-400: #60a5fa;
+	--color-brand-450: #3b82f6;
+	--color-brand-500: #2563eb;
+	--color-brand-600: #1d4ed8;
+	--color-brand-700: #1e40af;
+	--color-brand-800: #1e3a8a;
+	--color-brand-900: #172554;
+	--page-bg: #f0f4ff;
+	--widget-surface: var(--color-brand-200);
+}
+@theme inline {
+	--color-background: var(--background);
+	--color-foreground: var(--foreground);
+	--font-sans: var(--font-geist-sans);
+	--font-mono: var(--font-geist-mono);
+}
+
+/* required to get the completion in tailwind */
+@theme {
+	--color-neutral-750: oklch(31.9% 0 0);
+	/* custom fonts here */
+	--font-space-grotesk: var(--font-space-grotesk);
+	--font-liebling: var(--font-liebling);
+	--font-instrument-serif: var(--font-instrument-serif);
+
+	/* these are the colors you actually use in tailwind className */
+	/* please do this so we can change the colors easily if needed */
+	--color-brand-50: #f7fbf6;
+	--color-brand-100: #e3f1e6;
+	--color-brand-200: #cce5cf;
+	--color-brand-300: #c6d89a; /* brand accent */
+	--color-brand-400: #8fb87a;
+	--color-brand-450: #6fa06a;
+	--color-brand-500: #347c45; /* brand light */
+	--color-brand-600: #2e6d3e;
+	--color-brand-700: #265835; /* brand mediu */
+	--color-brand-800: #20472b;
+	--color-brand-900: #1c351c; /* brand dark */
+
+	/* for my super wide titles on some stuff */
+	--tracking-superwide: 0.25em;
+	--tracking-ultrawide: 0.4em;
+
+	--animate-shimmer: backgroundshimmer 15s linear infinite;
+	@keyframes backgroundshimmer {
+		0% {
+			background-position: 200% 0;
+		}
+		100% {
+			background-position: -200% 0;
+		}
+	}
+}
+
+@keyframes transformshimmer {
+	0% {
+		transform: "translateX(-150%)";
+	}
+	60% {
+		transform: "translateX(150%)";
+	}
+	100% {
+		transform: "translateX(150%)";
+	}
+}
+
+body {
+	position: relative;
+	background: var(--background);
+	color: var(--foreground);
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/* this is for our pixel art assests */
+/* https://stackoverflow.com/questions/8028864/using-nearest-neighbor-with-css-zoom-on-canvas-and-img */
+.nearest {
+	-ms-interpolation-mode: nearest-neighbor;
+	/* Firefox */
+	image-rendering: crisp-edges;
+	/* Chromium + Safari */
+	image-rendering: pixelated;
+}
+.main-gradient-background {
+	background: #fafafa;
+	background: linear-gradient(
+		180deg,
+		rgb(255, 255, 255) 0%,
+		rgb(218, 219, 218) 25%,
+		rgba(247, 247, 247, 1) 55%,
+		rgb(223, 222, 222) 72%,
+		rgb(244, 243, 243) 86%,
+		rgba(240, 240, 240, 1) 100%
+	);
+}
+
+@layer components {
+	.auth-btn-base {
+		cursor: pointer;
+		position: relative;
+		overflow: hidden;
+		text-transform: uppercase;
+	}
+	.prize-background {
+		background: linear-gradient(
+			color(display-p3 0.9725 0.9882 0.9765 / 0) 0%,
+			color(display-p3 0.83 0.9 0.81) 6.8%,
+			color(display-p3 0.47 0.95 0.52) 20.91%,
+			color(display-p3 0.1493 0.942 0.4928) 33.17%,
+			color(display-p3 0.0245 0.6755 0.1981) 51.61%,
+			color(display-p3 0.0161 0.4439 0.0731) 62.97%,
+			color(display-p3 0 0.24 0.052) 76.07%,
+			color(display-p3 0 0.18 0.021) 81.3%,
+			color(display-p3 0 0.12 0.014) 91.76%,
+			color(display-p3 0 0.08 0.0093) 100%
+		);
+	}
+}
+
+@keyframes scroll-banner-vertical {
+	0% {
+		transform: translateY(0);
+	}
+	100% {
+		/* calculated by 100 / # of elements */
+		/* transform: translateY(-9.0909%); */
+		transform: translateY(-33.33%);
+	}
+}
+.animate-scroll-banner-vertical {
+	animation: scroll-banner-vertical 5s linear infinite;
+}
+@keyframes scroll-banner-horizontal {
+	0% {
+		transform: translateX(0);
+	}
+	100% {
+		/* calculated by 100 / # of elements */
+		/* transform: translateX(-9.0909%); */
+		transform: translateX(-50%);
+	}
+}
+.animate-scroll-banner-horizontal {
+	animation: scroll-banner-horizontal 5s linear infinite;
+}
+@keyframes slow-scroll-banner-horizontal {
+	0% {
+		transform: translateX(0);
+	}
+	100% {
+		/* calculated by 100 / # of elements */
+		/* transform: translateX(-9.0909%); */
+		transform: translateX(-12.5%);
+	}
+}
+.animate-scroll-banner-roster {
+	animation: slow-scroll-banner-horizontal 5s linear infinite;
+}
+
+@keyframes holo-drift {
+	0% {
+		background-position: 10% 20%;
+	}
+	100% {
+		background-position: 70% 80%;
+	}
+}
+
+.widget-dotted-border {
+	position: absolute;
+	top: 6px;
+	right: -2px;
+	bottom: 6px;
+	width: 2px;
+	pointer-events: none;
+	opacity: 0;
+	transition: opacity 0.2s;
+	background: var(--color-brand-500);
+}
+.group:hover .widget-dotted-border {
+	opacity: 1;
+}
+
+/* feel free to change the background-size */
+.holo-fade {
+	color: transparent;
+	filter: brightness(1.2) contrast(1.2);
+	mix-blend-mode: screen;
+
+	background-image: url("./_assets/textures/holo1.jpeg");
+	background-position: center;
+	background-size: auto;
+
+	-webkit-background-clip: text;
+	background-clip: text;
+
+	-webkit-mask-image: linear-gradient(to left, rgba(0, 0, 0, 1) 60%, rgba(0, 0, 0, 0) 100%);
+	mask-image: linear-gradient(to left, rgba(0, 0, 0, 1) 60%, rgba(0, 0, 0, 0) 100%);
+
+	animation: holo-drift 7s ease-in-out infinite alternate;
+}
+
+/* necessary to prevent clipping on view transition usage */
+.navbar {
+	view-transition-name: navbargroup;
+}
+::view-transition-group(navbargroup) {
+	z-index: 100;
+}
+
+.member-hover {
+	transform: scale(1);
+	clip-path: polygon(10% 0%, 100% 0%, 100% 90%, 90% 100%, 0% 100%, 0% 10%);
+	transition: clip-path 0.15s cubic-bezier(0.05, 0.52, 0.65, 1.05);
+}
+.group:hover .member-hover {
+	transform: scale(1.3);
+	clip-path: polygon(19% 8%, 82% 18%, 99% 0, 79% 100%, 24% 93%, 8% 100%);
+}
+.group:hover .member-hover-outline {
+	transform: scale(1.4);
+	clip-path: polygon(18% 8%, 82% 15%, 98% 0%, 80% 99%, 24% 93%, 8% 100%);
+}
+
+/* for director */
+@keyframes rainbow-anim {
+	from {
+		filter: hue-rotate(0deg);
+	}
+	to {
+		filter: hue-rotate(360deg);
+	}
+}
+.rainbow-background {
+	animation: rainbow-anim 7s linear infinite;
+}
+
+/* for exec */
+@keyframes gold-shine {
+	0% {
+		transform: translateX(-150%) translateY(-150%);
+	}
+	100% {
+		transform: translateX(150%) translateY(150%);
+	}
+}
+.gold-background::after {
+	content: "";
+	position: absolute;
+	inset: 0;
+	background: linear-gradient(
+		135deg,
+		transparent 0%,
+		transparent 44%,
+		rgba(255, 215, 0, 0.7) 45%,
+		rgba(255, 215, 0, 0.7) 55%,
+		transparent 56%,
+		transparent 100%
+	);
+	width: 300%;
+	height: 300%;
+	top: -100%;
+	left: -100%;
+	animation: gold-shine 3s linear infinite;
+	pointer-events: none;
+}
+
+/* MLH red/blue/yellow flowing across letters.
+   Diagonal angle so the colour edge isn't a vertical straight line,
+   wide pure-colour plateaus + short blends so the dominant colours stay
+   clean red/blue/yellow, first stop == last stop so the loop is seamless. */
+@keyframes mlh-color-sweep {
+	0% {
+		background-position: 0% 50%;
+	}
+	100% {
+		background-position: 200% 50%;
+	}
+}
+.mlh-color-text {
+	display: inline-block;
+	background-image: linear-gradient(
+		110deg,
+		#e4002b 0%,
+		#e4002b 14%,
+		#0067b9 33%,
+		#0067b9 47%,
+		#ffd200 66%,
+		#ffd200 80%,
+		#e4002b 100%
+	);
+	background-size: 200% auto;
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+	color: transparent;
+	animation: mlh-color-sweep 9s linear infinite;
+}
+@media (prefers-reduced-motion: reduce) {
+	.mlh-color-text {
+		animation: none;
+	}
+}
+
+/* QuackHacks two-tone green flow — same recipe as .mlh-color-text.
+   Deep brand green ⇄ lighter green; single hue family, no muddy midtones. */
+@keyframes qh-color-sweep {
+	0% {
+		background-position: 0% 50%;
+	}
+	100% {
+		background-position: 200% 50%;
+	}
+}
+.qh-color-text {
+	display: inline-block;
+	background-image: linear-gradient(
+		110deg,
+		#347c45 0%,
+		#347c45 16%,
+		#a3d977 40%,
+		#a3d977 60%,
+		#347c45 84%,
+		#347c45 100%
+	);
+	background-size: 200% auto;
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+	color: transparent;
+	animation: qh-color-sweep 15s linear infinite;
+}
+@media (prefers-reduced-motion: reduce) {
+	.qh-color-text {
+		animation: none;
+	}
+}
+
+@keyframes scanlines {
+	0% {
+		background-position: 0 0;
+	}
+	100% {
+		background-position: 0 -40px;
+	}
+}
+@keyframes pulse-low {
+	0% {
+		opacity: 1;
+	}
+	70% {
+		opacity: 0.7;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes nowPlayingIn {
+	from {
+		opacity: 0;
+		transform: translateY(-6px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+@keyframes vinylSpin {
+	from {
+		transform: translateY(-50%) rotate(0deg);
+	}
+	to {
+		transform: translateY(-50%) rotate(360deg);
+	}
+}
