@@ -4,7 +4,7 @@ import base44_Image from "@assets/sponsors/base44.webp";
 import google_Image from "@assets/sponsors/google.webp";
 import emberex_Image from "@assets/sponsors/emberex.webp";
 import pipeworks_Image from "@assets/sponsors/pipeworks.webp";
-// import codex_Image from "@assets/sponsors/codex.webp";
+import codex_Image from "@assets/sponsors/codex.webp";
 import mongodb_Image from "@assets/sponsors/mongodb.webp";
 
 type SponsorSize = "sm" | "md" | "lg";
@@ -30,7 +30,7 @@ const sponsors: Sponsor[] = [
 	{ name: "Pipeworks", size: "md", logo: pipeworks_Image },
 	{ name: "Base44", size: "md", logo: base44_Image },
 	{ name: "Emberex", size: "sm", logo: emberex_Image },
-	// { name: "Codex", size: "lg", logo: codex_Image },
+	{ name: "Codex", size: "lg", logo: codex_Image },
 	{ name: "MongoDB", size: "lg", logo: mongodb_Image },
 ];
 

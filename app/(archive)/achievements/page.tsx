@@ -3,7 +3,7 @@ import { achievements, getAchievementIdsByUser, leaderboard } from "@/lib/archiv
 import { LeaderboardClient } from "../leaderboard/LeaderboardClient";
 
 export const metadata: Metadata = {
-	title: "Badges | QuackHacks",
+	title: "Achievements | QuackHacks",
 	description: "Archived QuackHacks point rankings and achievement showcase",
 };
 

@@ -6,7 +6,7 @@ import { AchievementRow } from "@/lib/types";
 import { Crown, Star, Trophy, Award, X, ChevronDown, Watch } from "lucide-react";
 import Image from "next/image";
 import { BADGE_MAP } from "@/app/constants";
-import { AllAchievementsBoard } from "../gallery/AllAchievementsBoard";
+import { AllAchievementsBoard } from "../achievements/AllAchievementsBoard";
 import { BadgesBackground } from "./BadgesBackground";
 import RankingRow from "./_components/RankingRow";
 
@@ -271,7 +271,7 @@ export function LeaderboardClient({
 				<motion.div initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} className="mb-10">
 					<div>
 						<h1 className="font-liebling font-bold text-4xl md:text-5xl text-neutral-900 mb-2 leading-tight">
-							Badges
+							Achievements
 						</h1>
 						<p className="text-neutral-500 text-sm max-w-xl leading-relaxed">
 							Point rankings and achievement history from QuackHacks 3.

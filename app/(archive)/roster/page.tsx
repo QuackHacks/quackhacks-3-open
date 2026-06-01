@@ -58,7 +58,7 @@ const UsersProfileList = () => {
 	}
 
 	const schools = [...new Set(allUsers.map((u) => u.university).filter(Boolean))].filter(
-		(school) => school.toLowerCase() !== "other",
+		(school) => school?.toLowerCase() !== "other",
 	) as string[];
 
 	return <RosterPageClient users={allUsers} tickerItems={schools} />;

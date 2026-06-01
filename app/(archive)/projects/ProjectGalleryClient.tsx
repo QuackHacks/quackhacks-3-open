@@ -3,7 +3,7 @@
 import { useMemo, useState } from "react";
 import { SubmissionCard, type SubmissionCardData } from "./SubmissionCard";
 
-type TrackFilter = "All" | "Base44" | "Google" | "Pipeworks";
+type TrackFilter = "All" | "Base44" | "Google" | "Pipeworks" | "MongoDB";
 type MlhFilter =
 	| "All"
 	| "gemini_api"
@@ -14,7 +14,7 @@ type MlhFilter =
 	| "tech_domains"
 	| "backboard";
 
-const TRACK_FILTERS: TrackFilter[] = ["All", "Base44", "Google", "Pipeworks"];
+const TRACK_FILTERS: TrackFilter[] = ["All", "Base44", "Google", "Pipeworks", "MongoDB"];
 
 const TRACK_META: Record<TrackFilter, { label: string; cls: string }> = {
 	All: {
@@ -33,6 +33,10 @@ const TRACK_META: Record<TrackFilter, { label: string; cls: string }> = {
 		label: "Pipeworks",
 		cls: "bg-rose-50 text-rose-800 border-rose-300 data-[active=true]:bg-rose-600 data-[active=true]:text-white data-[active=true]:border-rose-600",
 	},
+	MongoDB: {
+		label: "MongoDB",
+		cls: "bg-rose-50 text-emerald-800 border-green-300 data-[active=true]:bg-green-600 data-[active=true]:text-white data-[active=true]:border-green-600",
+	}
 };
 
 const MLH_FILTERS: MlhFilter[] = [
@@ -88,6 +92,7 @@ export function ProjectGalleryClient({ cards }: { cards: SubmissionCardData[] })
 			Base44: 0,
 			Google: 0,
 			Pipeworks: 0,
+			MongoDB: 0
 		};
 		for (const c of cards) {
 			if (c.qh_track && c.qh_track in counts) {

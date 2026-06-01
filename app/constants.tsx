@@ -16,7 +16,7 @@ export const kHomeLinks: NavLink[] = [
 	{ href: "/about", label: "About" },
 	{ href: "/timeline", label: "Timeline" },
 	{ href: "/roster", label: "Roster" },
-	{ href: "/gallery", label: "Badges" },
+	{ href: "/achievements", label: "Achievements" },
 	{ href: "/projects", label: "Projects" },
 ];
 
