@@ -1,11 +1,11 @@
 import Image, { StaticImageData } from "next/image";
 import SectionWrapper from "../_components/SectionWrapper";
 import base44_Image from "@assets/sponsors/base44.webp";
-import google_Image from "@assets/sponsors/google.png";
+import google_Image from "@assets/sponsors/google.webp";
 import emberex_Image from "@assets/sponsors/emberex.webp";
-import pipeworks_Image from "@assets/sponsors/pipeworks.png";
-// import codex_Image from "@assets/sponsors/codex.png";
-import mongodb_Image from "@assets/sponsors/mongodb.png";
+import pipeworks_Image from "@assets/sponsors/pipeworks.webp";
+// import codex_Image from "@assets/sponsors/codex.webp";
+import mongodb_Image from "@assets/sponsors/mongodb.webp";
 
 type SponsorSize = "sm" | "md" | "lg";
 

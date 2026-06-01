@@ -5,7 +5,7 @@ import { motion } from "motion/react";
 import { useId, useMemo, useState } from "react";
 
 // every team member photo imported as StaticImageData
-import Image_DeafaultAvatar from "../../../../public/default-avatar.jpg";
+import Image_DeafaultAvatar from "../../../../public/default-avatar.webp";
 
 // Tech
 import anthony from "@team/anthony.webp";

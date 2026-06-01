@@ -3,8 +3,8 @@ import Image from "next/image";
 import Link from "next/link";
 
 // public images, this is so bad holy shit
-import Image_PixelArrow from "@assets/elements/pixelarrow.png";
-import Image_PixelSquare3x3 from "@assets/elements/gappixelsquare3x3.png";
+import Image_PixelArrow from "@assets/elements/pixelarrow.webp";
+import Image_PixelSquare3x3 from "@assets/elements/gappixelsquare3x3.webp";
 import SVG_WarningSquare from "@assets/elements/warningsquare.svg";
 import DuckCanvasPassive from "@/app/_components/duck/DuckCanvasPassive";
 import useMediaQuery from "@/app/_utils/useMediaQuery";

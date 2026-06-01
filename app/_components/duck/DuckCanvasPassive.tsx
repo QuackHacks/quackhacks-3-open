@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useRef } from "react";
-import DuckClosedMouth from "../../_assets/elements/duckClosed.png";
+import DuckClosedMouth from "../../_assets/elements/duckClosed.webp";
 
 const CANVAS_SIZE = 640;
 const TARGET_FPS = 30;

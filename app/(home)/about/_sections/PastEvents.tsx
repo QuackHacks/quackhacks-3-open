@@ -4,12 +4,12 @@ import { useCallback, useEffect, useRef, useState } from "react";
 import Image, { StaticImageData } from "next/image";
 import { motion, useMotionValue, animate } from "motion/react";
 
-import Img04 from "../../../../public/photos/moments-19.jpg";
-import Img05 from "../../../../public/photos/moments-17.jpg";
-import Img06 from "../../../../public/photos/moments-06.jpg";
-import Img07 from "../../../../public/photos/moments-07.jpg";
-import Img08 from "../../../../public/photos/moments-08.jpg";
-import Img09 from "../../../../public/photos/moments-18.jpg";
+import Img04 from "../../../../public/photos/moments-19.webp";
+import Img05 from "../../../../public/photos/moments-17.webp";
+import Img06 from "../../../../public/photos/moments-06.webp";
+import Img07 from "../../../../public/photos/moments-07.webp";
+import Img08 from "../../../../public/photos/moments-08.webp";
+import Img09 from "../../../../public/photos/moments-18.webp";
 
 import { fadeUp, viewportOpts } from "../_utils/animations";
 import SectionHeader from "../_components/SectionHeader";

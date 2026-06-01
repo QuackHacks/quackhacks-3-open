@@ -1,17 +1,5 @@
 [
   {
-    "id": "achievement-first-blood",
-    "key": "first_blood",
-    "name": "First Blood",
-    "description": "Be the first to earn any achievement",
-    "points": 50,
-    "difficulty": "HARD",
-    "category": "Special",
-    "icon": "trophy",
-    "easter_egg": false,
-    "sort_order": 1
-  },
-  {
     "id": "achievement-top-1",
     "key": "top_1",
     "name": "The Golden Duck",
@@ -20,6 +8,18 @@
     "difficulty": "HARD",
     "category": "Result",
     "icon": null,
+    "easter_egg": false,
+    "sort_order": 1
+  },
+  {
+    "id": "achievement-first-blood",
+    "key": "first_blood",
+    "name": "First Blood",
+    "description": "Be the first to earn any achievement",
+    "points": 50,
+    "difficulty": "HARD",
+    "category": "Special",
+    "icon": "trophy",
     "easter_egg": false,
     "sort_order": 1
   },
@@ -204,18 +204,6 @@
     "sort_order": 40
   },
   {
-    "id": "achievement-speed-runner",
-    "key": "speed_runner",
-    "name": "Terminal Velocity",
-    "description": "Submit your project within the last 2 minutes before the deadline.",
-    "points": 50,
-    "difficulty": "HARD",
-    "category": "Dev",
-    "icon": "zap",
-    "easter_egg": false,
-    "sort_order": 45
-  },
-  {
     "id": "achievement-solo-duckling",
     "key": "solo_duckling",
     "name": "Solo Duckling",
@@ -228,6 +216,18 @@
     "sort_order": 45
   },
   {
+    "id": "achievement-speed-runner",
+    "key": "speed_runner",
+    "name": "Terminal Velocity",
+    "description": "Submit your project within the last 2 minutes before the deadline.",
+    "points": 50,
+    "difficulty": "HARD",
+    "category": "Dev",
+    "icon": "zap",
+    "easter_egg": false,
+    "sort_order": 45
+  },
+  {
     "id": "achievement-voice-of-the-pond",
     "key": "voice_of_the_pond",
     "name": "Voice of the Pond",
@@ -235,7 +235,7 @@
     "points": 10,
     "difficulty": "EASY",
     "category": "Engagement",
-    "icon": "/badgess/VoiceOfThePond.png",
+    "icon": "/badgess/VoiceOfThePond.webp",
     "easter_egg": false,
     "sort_order": 47
   },
@@ -247,7 +247,7 @@
     "points": 25,
     "difficulty": "MEDIUM",
     "category": "Special",
-    "icon": "/badgess/QH3_achievement_AchievementHunter.png",
+    "icon": "/badgess/QH3_achievement_AchievementHunter.webp",
     "easter_egg": false,
     "sort_order": 48
   },
@@ -268,7 +268,7 @@
     "key": "chosen_duck",
     "name": "The Chosen Duck",
     "description": "Randomly selected as a special participant.",
-    "points": 100,
+    "points": 40,
     "difficulty": "HARD",
     "category": "Special",
     "icon": null,

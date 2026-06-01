@@ -23,8 +23,8 @@ export default function ProjectGalleryPage() {
 	}));
 
 	return (
-		<main className="min-h-full relative">
-			<div aria-hidden="true" className="pointer-events-none fixed inset-0 overflow-hidden bg-[#f4f4f4]">
+		<main className="min-h-full relative overflow-hidden bg-[#f4f4f4]">
+			<div aria-hidden="true" className="pointer-events-none absolute inset-0 overflow-hidden">
 				<div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(227,241,230,0.55),transparent_45%),conic-gradient(from_140deg_at_85%_0%,rgba(52,124,69,0.10),transparent_30%),radial-gradient(60%_45%_at_10%_100%,rgba(198,216,154,0.30),transparent_70%)]" />
 				<div className="absolute inset-0 opacity-[0.18] bg-[radial-gradient(circle_at_1px_1px,#347c45_1px,transparent_0)] [background-size:22px_22px]" />
 				<div className="absolute -top-16 -right-20 h-72 w-72 rotate-12 border-2 border-brand-700/30 bg-brand-300/30" />

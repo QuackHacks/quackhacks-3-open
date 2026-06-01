@@ -1,8 +1,56 @@
 [
   {
-    "id": "participant-201",
+    "id": "participant-056",
+    "name": "Bekzat Uraimov",
+    "total_points": 270,
+    "achievement_ids": [
+      "achievement-joined-team",
+      "achievement-squad-4",
+      "achievement-team-creator",
+      "achievement-team-builder",
+      "achievement-github-connected",
+      "achievement-achievement-hunter",
+      "achievement-century",
+      "achievement-discord-joined",
+      "achievement-voice-of-the-pond",
+      "achievement-speed-runner",
+      "achievement-project-submitted",
+      "achievement-commit-stormer"
+    ]
+  },
+  {
+    "id": "participant-103",
+    "name": "Edward Kuoha, IV",
+    "total_points": 190,
+    "achievement_ids": [
+      "achievement-team-creator",
+      "achievement-squad-4",
+      "achievement-team-builder",
+      "achievement-discord-joined",
+      "achievement-github-connected",
+      "achievement-achievement-hunter",
+      "achievement-century",
+      "achievement-voice-of-the-pond"
+    ]
+  },
+  {
+    "id": "participant-084",
+    "name": "Connor Lowery-North",
+    "total_points": 190,
+    "achievement_ids": [
+      "achievement-team-creator",
+      "achievement-github-connected",
+      "achievement-squad-4",
+      "achievement-team-builder",
+      "achievement-achievement-hunter",
+      "achievement-century",
+      "achievement-voice-of-the-pond"
+    ]
+  },
+  {
+    "id": "participant-205",
     "name": "Kyran McCown",
-    "total_points": 150,
+    "total_points": 190,
     "achievement_ids": [
       "achievement-team-creator",
       "achievement-github-connected",
@@ -14,9 +62,21 @@
     ]
   },
   {
-    "id": "participant-114",
+    "id": "participant-175",
+    "name": "Jonathon Lim",
+    "total_points": 185,
+    "achievement_ids": [
+      "achievement-team-creator",
+      "achievement-squad-4",
+      "achievement-team-builder",
+      "achievement-github-connected",
+      "achievement-top-6"
+    ]
+  },
+  {
+    "id": "participant-115",
     "name": "Ethan Westerdahl",
-    "total_points": 130,
+    "total_points": 170,
     "achievement_ids": [
       "achievement-team-creator",
       "achievement-github-connected",
@@ -27,33 +87,281 @@
     ]
   },
   {
-    "id": "participant-085",
-    "name": "Connor Lowery-North",
-    "total_points": 130,
-    "achievement_ids": [
-      "achievement-team-creator",
-      "achievement-github-connected",
-      "achievement-squad-4",
-      "achievement-team-builder",
-      "achievement-achievement-hunter",
-      "achievement-century"
-    ]
-  },
-  {
-    "id": "participant-236",
+    "id": "participant-241",
     "name": "Minsu Kim",
+    "total_points": 165,
+    "achievement_ids": [
+      "achievement-team-creator",
+      "achievement-squad-4",
+      "achievement-team-builder",
+      "achievement-voice-of-the-pond",
+      "achievement-achievement-hunter",
+      "achievement-century"
+    ]
+  },
+  {
+    "id": "participant-024",
+    "name": "Alex Picon",
+    "total_points": 155,
+    "achievement_ids": [
+      "achievement-team-creator",
+      "achievement-github-connected",
+      "achievement-voice-of-the-pond",
+      "achievement-century",
+      "achievement-joined-team",
+      "achievement-achievement-hunter"
+    ]
+  },
+  {
+    "id": "participant-279",
+    "name": "Rahul S Kannan",
+    "total_points": 150,
+    "achievement_ids": [
+      "achievement-team-creator",
+      "achievement-squad-4",
+      "achievement-team-builder",
+      "achievement-github-connected",
+      "achievement-discord-joined",
+      "achievement-voice-of-the-pond",
+      "achievement-achievement-hunter",
+      "achievement-century"
+    ]
+  },
+  {
+    "id": "participant-021",
+    "name": "Alan Nguyen",
+    "total_points": 140,
+    "achievement_ids": [
+      "achievement-joined-team",
+      "achievement-squad-4",
+      "achievement-top-6"
+    ]
+  },
+  {
+    "id": "participant-027",
+    "name": "Ally Chen",
+    "total_points": 140,
+    "achievement_ids": [
+      "achievement-joined-team",
+      "achievement-squad-4",
+      "achievement-top-6"
+    ]
+  },
+  {
+    "id": "participant-104",
+    "name": "Ekansh Arora",
+    "total_points": 140,
+    "achievement_ids": [
+      "achievement-joined-team",
+      "achievement-squad-4",
+      "achievement-top-6"
+    ]
+  },
+  {
+    "id": "participant-054",
+    "name": "Bawan Boparai",
+    "total_points": 135,
+    "achievement_ids": [
+      "achievement-joined-team",
+      "achievement-discord-joined",
+      "achievement-team-creator",
+      "achievement-century",
+      "achievement-achievement-hunter",
+      "achievement-github-connected"
+    ]
+  },
+  {
+    "id": "participant-192",
+    "name": "Kanish Gupta",
+    "total_points": 135,
+    "achievement_ids": [
+      "achievement-team-creator",
+      "achievement-squad-2",
+      "achievement-squad-4",
+      "achievement-team-builder",
+      "achievement-github-connected",
+      "achievement-achievement-hunter",
+      "achievement-century"
+    ]
+  },
+  {
+    "id": "participant-122",
+    "name": "Fedya Semenov",
+    "total_points": 130,
+    "achievement_ids": [
+      "achievement-team-creator",
+      "achievement-squad-4",
+      "achievement-team-builder"
+    ]
+  },
+  {
+    "id": "participant-059",
+    "name": "Ben Tell",
     "total_points": 125,
     "achievement_ids": [
       "achievement-team-creator",
       "achievement-squad-4",
       "achievement-team-builder",
+      "achievement-joined-team",
+      "achievement-achievement-hunter",
+      "achievement-century"
+    ]
+  },
+  {
+    "id": "participant-362",
+    "name": "William Haas",
+    "total_points": 125,
+    "achievement_ids": [
+      "achievement-joined-team",
+      "achievement-squad-4",
+      "achievement-team-creator",
+      "achievement-github-connected",
+      "achievement-achievement-hunter",
+      "achievement-voice-of-the-pond",
+      "achievement-century"
+    ]
+  },
+  {
+    "id": "participant-034",
+    "name": "Angad Srivastava",
+    "total_points": 120,
+    "achievement_ids": [
+      "achievement-team-creator",
+      "achievement-squad-4",
+      "achievement-team-builder",
+      "achievement-discord-joined",
+      "achievement-first-blood"
+    ]
+  },
+  {
+    "id": "participant-372",
+    "name": "Zahra Alsulaimawi",
+    "total_points": 120,
+    "achievement_ids": [
+      "achievement-joined-team",
+      "achievement-squad-4",
+      "achievement-github-connected",
+      "achievement-discord-joined",
       "achievement-voice-of-the-pond",
       "achievement-achievement-hunter",
       "achievement-century"
     ]
   },
   {
-    "id": "participant-191",
+    "id": "participant-222",
+    "name": "Marcus Tin",
+    "total_points": 120,
+    "achievement_ids": [
+      "achievement-joined-team",
+      "achievement-discord-joined"
+    ]
+  },
+  {
+    "id": "participant-152",
+    "name": "Jadine Delfin-Watanabe",
+    "total_points": 105,
+    "achievement_ids": [
+      "achievement-joined-team",
+      "achievement-squad-4",
+      "achievement-discord-joined",
+      "achievement-voice-of-the-pond",
+      "achievement-achievement-hunter",
+      "achievement-century"
+    ]
+  },
+  {
+    "id": "participant-055",
+    "name": "Beatriz Arevalo Leal",
+    "total_points": 105,
+    "achievement_ids": [
+      "achievement-team-creator",
+      "achievement-github-connected",
+      "achievement-discord-joined",
+      "achievement-voice-of-the-pond",
+      "achievement-achievement-hunter",
+      "achievement-century"
+    ]
+  },
+  {
+    "id": "participant-036",
+    "name": "Anish Dulal",
+    "total_points": 100,
+    "achievement_ids": [
+      "achievement-team-creator",
+      "achievement-squad-4",
+      "achievement-team-builder",
+      "achievement-top-6"
+    ]
+  },
+  {
+    "id": "participant-162",
+    "name": "Jason Tran",
+    "total_points": 95,
+    "achievement_ids": [
+      "achievement-joined-team",
+      "achievement-squad-4",
+      "achievement-discord-joined",
+      "achievement-github-connected"
+    ]
+  },
+  {
+    "id": "participant-278",
+    "name": "Raghav Ojha",
+    "total_points": 90,
+    "achievement_ids": [
+      "achievement-team-creator",
+      "achievement-discord-joined",
+      "achievement-github-connected",
+      "achievement-voice-of-the-pond"
+    ]
+  },
+  {
+    "id": "participant-067",
+    "name": "Bryce Estacio",
+    "total_points": 85,
+    "achievement_ids": [
+      "achievement-joined-team",
+      "achievement-squad-2",
+      "achievement-squad-4",
+      "achievement-discord-joined"
+    ]
+  },
+  {
+    "id": "participant-370",
+    "name": "Zachary Brunner",
+    "total_points": 85,
+    "achievement_ids": [
+      "achievement-team-creator",
+      "achievement-github-connected",
+      "achievement-squad-4",
+      "achievement-team-builder",
+      "achievement-top-6"
+    ]
+  },
+  {
+    "id": "participant-045",
+    "name": "Asim Nepal",
+    "total_points": 85,
+    "achievement_ids": [
+      "achievement-joined-team",
+      "achievement-squad-4",
+      "achievement-github-connected",
+      "achievement-top-6"
+    ]
+  },
+  {
+    "id": "participant-272",
+    "name": "Prasaya Acharya",
+    "total_points": 80,
+    "achievement_ids": [
+      "achievement-joined-team",
+      "achievement-discord-joined",
+      "achievement-squad-4",
+      "achievement-top-6"
+    ]
+  },
+  {
+    "id": "participant-195",
     "name": "Kevin Le",
     "total_points": 75,
     "achievement_ids": [
@@ -64,18 +372,7 @@
     ]
   },
   {
-    "id": "participant-363",
-    "name": "Zachary Brunner",
-    "total_points": 75,
-    "achievement_ids": [
-      "achievement-team-creator",
-      "achievement-github-connected",
-      "achievement-squad-4",
-      "achievement-team-builder"
-    ]
-  },
-  {
-    "id": "participant-232",
+    "id": "participant-237",
     "name": "Miles Hamilton-Sommer",
     "total_points": 75,
     "achievement_ids": [
@@ -86,7 +383,7 @@
     ]
   },
   {
-    "id": "participant-030",
+    "id": "participant-029",
     "name": "An Vo",
     "total_points": 75,
     "achievement_ids": [
@@ -97,7 +394,7 @@
     ]
   },
   {
-    "id": "participant-266",
+    "id": "participant-271",
     "name": "Pranav Cheraku",
     "total_points": 75,
     "achievement_ids": [
@@ -108,18 +405,7 @@
     ]
   },
   {
-    "id": "participant-274",
-    "name": "Rahul S Kannan",
-    "total_points": 75,
-    "achievement_ids": [
-      "achievement-team-creator",
-      "achievement-squad-4",
-      "achievement-team-builder",
-      "achievement-github-connected"
-    ]
-  },
-  {
-    "id": "participant-189",
+    "id": "participant-193",
     "name": "Kate Spencer",
     "total_points": 75,
     "achievement_ids": [
@@ -130,8 +416,8 @@
     ]
   },
   {
-    "id": "participant-171",
-    "name": "Jonathon Lim",
+    "id": "participant-297",
+    "name": "Salem Alfassam",
     "total_points": 75,
     "achievement_ids": [
       "achievement-team-creator",
@@ -141,8 +427,29 @@
     ]
   },
   {
-    "id": "participant-057",
-    "name": "Bekzat Uraimov",
+    "id": "participant-070",
+    "name": "Cameron Coleman",
+    "total_points": 75,
+    "achievement_ids": [
+      "achievement-team-creator",
+      "achievement-squad-4",
+      "achievement-team-builder",
+      "achievement-github-connected"
+    ]
+  },
+  {
+    "id": "participant-249",
+    "name": "Myan Gupta",
+    "total_points": 75,
+    "achievement_ids": [
+      "achievement-team-creator",
+      "achievement-squad-2",
+      "achievement-github-connected"
+    ]
+  },
+  {
+    "id": "participant-114",
+    "name": "Ethan Reinhart",
     "total_points": 70,
     "achievement_ids": [
       "achievement-joined-team",
@@ -152,40 +459,146 @@
     ]
   },
   {
-    "id": "participant-035",
-    "name": "Angad Srivastava",
+    "id": "participant-009",
+    "name": "Adilbek Bazarkulov",
+    "total_points": 70,
+    "achievement_ids": [
+      "achievement-joined-team",
+      "achievement-squad-4"
+    ]
+  },
+  {
+    "id": "participant-146",
+    "name": "Jack Bernstein-Sheehan",
+    "total_points": 70,
+    "achievement_ids": [
+      "achievement-joined-team",
+      "achievement-squad-4"
+    ]
+  },
+  {
+    "id": "participant-143",
+    "name": "ilhan bas",
+    "total_points": 70,
+    "achievement_ids": [
+      "achievement-joined-team",
+      "achievement-squad-4"
+    ]
+  },
+  {
+    "id": "participant-037",
+    "name": "Anna Tymoshenko",
+    "total_points": 70,
+    "achievement_ids": [
+      "achievement-joined-team",
+      "achievement-squad-4"
+    ]
+  },
+  {
+    "id": "participant-161",
+    "name": "Jason Do",
+    "total_points": 70,
+    "achievement_ids": [
+      "achievement-joined-team",
+      "achievement-squad-4"
+    ]
+  },
+  {
+    "id": "participant-013",
+    "name": "Adrian Partain",
+    "total_points": 70,
+    "achievement_ids": [
+      "achievement-joined-team",
+      "achievement-squad-4"
+    ]
+  },
+  {
+    "id": "participant-123",
+    "name": "Finian Kierstead",
+    "total_points": 70,
+    "achievement_ids": [
+      "achievement-joined-team",
+      "achievement-squad-4"
+    ]
+  },
+  {
+    "id": "participant-019",
+    "name": "Akan Abdireshov",
+    "total_points": 70,
+    "achievement_ids": [
+      "achievement-joined-team",
+      "achievement-squad-4"
+    ]
+  },
+  {
+    "id": "participant-378",
+    "name": "Zuriahn Yun",
+    "total_points": 70,
+    "achievement_ids": [
+      "achievement-joined-team",
+      "achievement-squad-4"
+    ]
+  },
+  {
+    "id": "participant-214",
+    "name": "Lucas Bennett",
+    "total_points": 70,
+    "achievement_ids": [
+      "achievement-joined-team",
+      "achievement-squad-4"
+    ]
+  },
+  {
+    "id": "participant-246",
+    "name": "Mostafa Elshenawy",
+    "total_points": 70,
+    "achievement_ids": [
+      "achievement-team-creator",
+      "achievement-github-connected"
+    ]
+  },
+  {
+    "id": "participant-348",
+    "name": "ulys cd",
     "total_points": 70,
     "achievement_ids": [
       "achievement-team-creator",
       "achievement-squad-4",
       "achievement-team-builder",
-      "achievement-discord-joined"
+      "achievement-top-6"
     ]
   },
   {
-    "id": "participant-103",
-    "name": "Edward Kuoha, IV",
+    "id": "participant-014",
+    "name": "Adriana Walls",
     "total_points": 70,
     "achievement_ids": [
-      "achievement-team-creator",
+      "achievement-joined-team",
       "achievement-squad-4",
-      "achievement-team-builder",
       "achievement-discord-joined"
     ]
   },
   {
-    "id": "participant-188",
-    "name": "Kanish Gupta",
-    "total_points": 65,
+    "id": "participant-359",
+    "name": "Wiggle coin",
+    "total_points": 70,
     "achievement_ids": [
-      "achievement-team-creator",
-      "achievement-squad-2",
+      "achievement-joined-team",
       "achievement-squad-4",
-      "achievement-team-builder"
+      "achievement-top-6"
     ]
   },
   {
-    "id": "participant-305",
+    "id": "participant-363",
+    "name": "William Tu",
+    "total_points": 70,
+    "achievement_ids": [
+      "achievement-joined-team",
+      "achievement-discord-joined"
+    ]
+  },
+  {
+    "id": "participant-311",
     "name": "Shamil Khamrayev",
     "total_points": 65,
     "achievement_ids": [
@@ -196,7 +609,7 @@
     ]
   },
   {
-    "id": "participant-197",
+    "id": "participant-201",
     "name": "Knoll Owen",
     "total_points": 65,
     "achievement_ids": [
@@ -207,7 +620,15 @@
     ]
   },
   {
-    "id": "participant-313",
+    "id": "participant-156",
+    "name": "Jakhangir Tynshimov",
+    "total_points": 65,
+    "achievement_ids": [
+      "achievement-team-creator"
+    ]
+  },
+  {
+    "id": "participant-319",
     "name": "Siddharth S Sundaram",
     "total_points": 60,
     "achievement_ids": [
@@ -217,7 +638,7 @@
     ]
   },
   {
-    "id": "participant-343",
+    "id": "participant-349",
     "name": "Val Levy",
     "total_points": 60,
     "achievement_ids": [
@@ -227,47 +648,7 @@
     ]
   },
   {
-    "id": "participant-342",
-    "name": "ulys cd",
-    "total_points": 60,
-    "achievement_ids": [
-      "achievement-team-creator",
-      "achievement-squad-4",
-      "achievement-team-builder"
-    ]
-  },
-  {
-    "id": "participant-071",
-    "name": "Cameron Coleman",
-    "total_points": 60,
-    "achievement_ids": [
-      "achievement-team-creator",
-      "achievement-squad-4",
-      "achievement-team-builder"
-    ]
-  },
-  {
-    "id": "participant-120",
-    "name": "Fedya Semenov",
-    "total_points": 60,
-    "achievement_ids": [
-      "achievement-team-creator",
-      "achievement-squad-4",
-      "achievement-team-builder"
-    ]
-  },
-  {
-    "id": "participant-291",
-    "name": "Salem Alfassam",
-    "total_points": 60,
-    "achievement_ids": [
-      "achievement-team-creator",
-      "achievement-squad-4",
-      "achievement-team-builder"
-    ]
-  },
-  {
-    "id": "participant-145",
+    "id": "participant-147",
     "name": "Jack Smith",
     "total_points": 60,
     "achievement_ids": [
@@ -277,8 +658,8 @@
     ]
   },
   {
-    "id": "participant-126",
-    "name": "Future Pear",
+    "id": "participant-012",
+    "name": "Adrian Alupoaei",
     "total_points": 60,
     "achievement_ids": [
       "achievement-team-creator",
@@ -287,35 +668,62 @@
     ]
   },
   {
-    "id": "participant-037",
-    "name": "Anish Dulal",
+    "id": "participant-048",
+    "name": "avd De",
     "total_points": 60,
     "achievement_ids": [
-      "achievement-team-creator",
-      "achievement-squad-4",
-      "achievement-team-builder"
+      "achievement-joined-team",
+      "achievement-squad-4"
     ]
   },
   {
-    "id": "participant-159",
-    "name": "Jason Tran",
+    "id": "participant-182",
+    "name": "Justice Gaines",
+    "total_points": 60,
+    "achievement_ids": [
+      "achievement-joined-team",
+      "achievement-squad-4"
+    ]
+  },
+  {
+    "id": "participant-041",
+    "name": "Arav Sarma",
     "total_points": 55,
     "achievement_ids": [
       "achievement-joined-team",
       "achievement-squad-4",
+      "achievement-github-connected",
+      "achievement-top-6"
+    ]
+  },
+  {
+    "id": "participant-098",
+    "name": "Donovan Thach",
+    "total_points": 50,
+    "achievement_ids": [
+      "achievement-joined-team"
+    ]
+  },
+  {
+    "id": "participant-040",
+    "name": "Antonio Robles",
+    "total_points": 50,
+    "achievement_ids": [
+      "achievement-team-creator",
+      "achievement-voice-of-the-pond",
       "achievement-discord-joined",
       "achievement-github-connected"
     ]
   },
   {
-    "id": "participant-355",
-    "name": "William Haas",
+    "id": "participant-298",
+    "name": "Sam Garcia Lopez",
     "total_points": 50,
     "achievement_ids": [
       "achievement-joined-team",
       "achievement-squad-4",
-      "achievement-team-creator",
-      "achievement-squad-2"
+      "achievement-discord-joined",
+      "achievement-voice-of-the-pond"
     ]
   },
   {
@@ -330,7 +738,7 @@
     ]
   },
   {
-    "id": "participant-269",
+    "id": "participant-274",
     "name": "Quack Welburn",
     "total_points": 45,
     "achievement_ids": [
@@ -341,18 +749,7 @@
     ]
   },
   {
-    "id": "participant-068",
-    "name": "Bryce Estacio",
-    "total_points": 45,
-    "achievement_ids": [
-      "achievement-joined-team",
-      "achievement-squad-2",
-      "achievement-squad-4",
-      "achievement-discord-joined"
-    ]
-  },
-  {
-    "id": "participant-016",
+    "id": "participant-015",
     "name": "Adwaith Renjith",
     "total_points": 45,
     "achievement_ids": [
@@ -362,7 +759,7 @@
     ]
   },
   {
-    "id": "participant-281",
+    "id": "participant-286",
     "name": "Richard Ramirez",
     "total_points": 45,
     "achievement_ids": [
@@ -372,7 +769,7 @@
     ]
   },
   {
-    "id": "participant-229",
+    "id": "participant-233",
     "name": "Mehul Munankarmi",
     "total_points": 45,
     "achievement_ids": [
@@ -382,13 +779,44 @@
     ]
   },
   {
-    "id": "participant-015",
-    "name": "Adriana Walls",
-    "total_points": 40,
+    "id": "participant-299",
+    "name": "Sam Hatler",
+    "total_points": 45,
     "achievement_ids": [
       "achievement-joined-team",
       "achievement-squad-4",
-      "achievement-discord-joined"
+      "achievement-github-connected"
+    ]
+  },
+  {
+    "id": "participant-052",
+    "name": "Bardia Ahmadi Dafchahi",
+    "total_points": 45,
+    "achievement_ids": [
+      "achievement-joined-team",
+      "achievement-squad-4",
+      "achievement-github-connected"
+    ]
+  },
+  {
+    "id": "participant-074",
+    "name": "Charlie Sneed",
+    "total_points": 45,
+    "achievement_ids": [
+      "achievement-joined-team",
+      "achievement-squad-4",
+      "achievement-team-creator"
+    ]
+  },
+  {
+    "id": "participant-328",
+    "name": "Sudarshan Sridhar",
+    "total_points": 45,
+    "achievement_ids": [
+      "achievement-team-creator",
+      "achievement-squad-2",
+      "achievement-discord-joined",
+      "achievement-github-connected"
     ]
   },
   {
@@ -402,7 +830,7 @@
     ]
   },
   {
-    "id": "participant-167",
+    "id": "participant-170",
     "name": "Jerry Zhou",
     "total_points": 40,
     "achievement_ids": [
@@ -412,7 +840,7 @@
     ]
   },
   {
-    "id": "participant-170",
+    "id": "participant-174",
     "name": "Johnny Tran",
     "total_points": 40,
     "achievement_ids": [
@@ -422,7 +850,7 @@
     ]
   },
   {
-    "id": "participant-013",
+    "id": "participant-011",
     "name": "Adithya Nair",
     "total_points": 40,
     "achievement_ids": [
@@ -432,7 +860,7 @@
     ]
   },
   {
-    "id": "participant-250",
+    "id": "participant-255",
     "name": "Nathaniel DeMoro",
     "total_points": 40,
     "achievement_ids": [
@@ -442,7 +870,7 @@
     ]
   },
   {
-    "id": "participant-289",
+    "id": "participant-295",
     "name": "Ryan Shankar",
     "total_points": 40,
     "achievement_ids": [
@@ -452,7 +880,7 @@
     ]
   },
   {
-    "id": "participant-160",
+    "id": "participant-163",
     "name": "Jaya Sneha Sannidhi",
     "total_points": 40,
     "achievement_ids": [
@@ -463,17 +891,67 @@
     ]
   },
   {
-    "id": "participant-267",
-    "name": "Prasaya Acharya",
+    "id": "participant-133",
+    "name": "Han Lee",
     "total_points": 40,
     "achievement_ids": [
-      "achievement-joined-team",
+      "achievement-team-creator",
       "achievement-discord-joined",
-      "achievement-squad-4"
+      "achievement-github-connected"
     ]
   },
   {
-    "id": "participant-078",
+    "id": "participant-355",
+    "name": "vital kyungu",
+    "total_points": 40,
+    "achievement_ids": [
+      "achievement-team-creator",
+      "achievement-discord-joined",
+      "achievement-github-connected"
+    ]
+  },
+  {
+    "id": "participant-327",
+    "name": "Steven Sanchez",
+    "total_points": 40,
+    "achievement_ids": [
+      "achievement-joined-team",
+      "achievement-squad-4",
+      "achievement-top-6"
+    ]
+  },
+  {
+    "id": "participant-229",
+    "name": "Maximo Stowers-DeWolfe",
+    "total_points": 40,
+    "achievement_ids": [
+      "achievement-joined-team",
+      "achievement-squad-4",
+      "achievement-top-6"
+    ]
+  },
+  {
+    "id": "participant-339",
+    "name": "Timothy Mullen",
+    "total_points": 40,
+    "achievement_ids": [
+      "achievement-joined-team",
+      "achievement-squad-4",
+      "achievement-top-6"
+    ]
+  },
+  {
+    "id": "participant-360",
+    "name": "Will Bozich",
+    "total_points": 35,
+    "achievement_ids": [
+      "achievement-team-creator",
+      "achievement-squad-2",
+      "achievement-github-connected"
+    ]
+  },
+  {
+    "id": "participant-077",
     "name": "Chris Ho",
     "total_points": 35,
     "achievement_ids": [
@@ -483,7 +961,7 @@
     ]
   },
   {
-    "id": "participant-341",
+    "id": "participant-347",
     "name": "Tyler Quach",
     "total_points": 35,
     "achievement_ids": [
@@ -493,17 +971,7 @@
     ]
   },
   {
-    "id": "participant-041",
-    "name": "Antonio Robles",
-    "total_points": 35,
-    "achievement_ids": [
-      "achievement-team-creator",
-      "achievement-voice-of-the-pond",
-      "achievement-discord-joined"
-    ]
-  },
-  {
-    "id": "participant-135",
+    "id": "participant-136",
     "name": "Harry Johnson",
     "total_points": 35,
     "achievement_ids": [
@@ -513,17 +981,27 @@
     ]
   },
   {
-    "id": "participant-357",
-    "name": "Winnie Zhen",
+    "id": "participant-303",
+    "name": "Sarvesha Kumar Kombaiah Seetha",
     "total_points": 35,
     "achievement_ids": [
-      "achievement-joined-team",
-      "achievement-squad-4",
-      "achievement-squad-2"
+      "achievement-team-creator",
+      "achievement-squad-2",
+      "achievement-github-connected"
     ]
   },
   {
-    "id": "participant-136",
+    "id": "participant-076",
+    "name": "Chris Gallinger-Long",
+    "total_points": 35,
+    "achievement_ids": [
+      "achievement-team-creator",
+      "achievement-squad-2",
+      "achievement-github-connected"
+    ]
+  },
+  {
+    "id": "participant-137",
     "name": "Hayden Rivas",
     "total_points": 30,
     "achievement_ids": [
@@ -533,17 +1011,7 @@
     ]
   },
   {
-    "id": "participant-006",
-    "name": "Aaron Reyes Rodriguez",
-    "total_points": 30,
-    "achievement_ids": [
-      "achievement-joined-team",
-      "achievement-squad-2",
-      "achievement-team-creator"
-    ]
-  },
-  {
-    "id": "participant-337",
+    "id": "participant-343",
     "name": "Tristan Brester",
     "total_points": 30,
     "achievement_ids": [
@@ -552,7 +1020,7 @@
     ]
   },
   {
-    "id": "participant-008",
+    "id": "participant-006",
     "name": "Aaryan Ilanchelian",
     "total_points": 30,
     "achievement_ids": [
@@ -561,25 +1029,7 @@
     ]
   },
   {
-    "id": "participant-293",
-    "name": "Sam Hatler",
-    "total_points": 30,
-    "achievement_ids": [
-      "achievement-joined-team",
-      "achievement-squad-4"
-    ]
-  },
-  {
-    "id": "participant-328",
-    "name": "Tejas Govind",
-    "total_points": 30,
-    "achievement_ids": [
-      "achievement-team-creator",
-      "achievement-github-connected"
-    ]
-  },
-  {
-    "id": "participant-368",
+    "id": "participant-375",
     "name": "Zhan Erali",
     "total_points": 30,
     "achievement_ids": [
@@ -588,7 +1038,7 @@
     ]
   },
   {
-    "id": "participant-122",
+    "id": "participant-124",
     "name": "Finn Fujimura",
     "total_points": 30,
     "achievement_ids": [
@@ -597,7 +1047,7 @@
     ]
   },
   {
-    "id": "participant-179",
+    "id": "participant-183",
     "name": "Justin hatch",
     "total_points": 30,
     "achievement_ids": [
@@ -606,34 +1056,17 @@
     ]
   },
   {
-    "id": "participant-225",
-    "name": "Maximo Stowers-DeWolfe",
+    "id": "participant-210",
+    "name": "Leo Carlsson",
     "total_points": 30,
     "achievement_ids": [
+      "achievement-team-creator",
       "achievement-joined-team",
-      "achievement-squad-4"
+      "achievement-squad-2"
     ]
   },
   {
-    "id": "participant-042",
-    "name": "Arav Sarma",
-    "total_points": 30,
-    "achievement_ids": [
-      "achievement-joined-team",
-      "achievement-squad-4"
-    ]
-  },
-  {
-    "id": "participant-320",
-    "name": "Steven Sanchez",
-    "total_points": 30,
-    "achievement_ids": [
-      "achievement-joined-team",
-      "achievement-squad-4"
-    ]
-  },
-  {
-    "id": "participant-033",
+    "id": "participant-032",
     "name": "Andrew Hull",
     "total_points": 30,
     "achievement_ids": [
@@ -642,7 +1075,7 @@
     ]
   },
   {
-    "id": "participant-364",
+    "id": "participant-371",
     "name": "Zack Wicker",
     "total_points": 30,
     "achievement_ids": [
@@ -651,16 +1084,7 @@
     ]
   },
   {
-    "id": "participant-141",
-    "name": "ilhan bas",
-    "total_points": 30,
-    "achievement_ids": [
-      "achievement-joined-team",
-      "achievement-squad-4"
-    ]
-  },
-  {
-    "id": "participant-198",
+    "id": "participant-202",
     "name": "Koa Castillo",
     "total_points": 30,
     "achievement_ids": [
@@ -678,7 +1102,7 @@
     ]
   },
   {
-    "id": "participant-059",
+    "id": "participant-058",
     "name": "Ben Gilmour",
     "total_points": 30,
     "achievement_ids": [
@@ -687,7 +1111,7 @@
     ]
   },
   {
-    "id": "participant-054",
+    "id": "participant-053",
     "name": "Basim Ibsies",
     "total_points": 30,
     "achievement_ids": [
@@ -696,52 +1120,7 @@
     ]
   },
   {
-    "id": "participant-014",
-    "name": "Adrian Partain",
-    "total_points": 30,
-    "achievement_ids": [
-      "achievement-joined-team",
-      "achievement-squad-4"
-    ]
-  },
-  {
-    "id": "participant-210",
-    "name": "Lucas Bennett",
-    "total_points": 30,
-    "achievement_ids": [
-      "achievement-joined-team",
-      "achievement-squad-4"
-    ]
-  },
-  {
-    "id": "participant-144",
-    "name": "Jack Bernstein-Sheehan",
-    "total_points": 30,
-    "achievement_ids": [
-      "achievement-joined-team",
-      "achievement-squad-4"
-    ]
-  },
-  {
-    "id": "participant-121",
-    "name": "Finian Kierstead",
-    "total_points": 30,
-    "achievement_ids": [
-      "achievement-joined-team",
-      "achievement-squad-4"
-    ]
-  },
-  {
-    "id": "participant-053",
-    "name": "Bardia Ahmadi Dafchahi",
-    "total_points": 30,
-    "achievement_ids": [
-      "achievement-joined-team",
-      "achievement-squad-4"
-    ]
-  },
-  {
-    "id": "participant-233",
+    "id": "participant-238",
     "name": "Miles Miller",
     "total_points": 30,
     "achievement_ids": [
@@ -750,7 +1129,7 @@
     ]
   },
   {
-    "id": "participant-062",
+    "id": "participant-061",
     "name": "Blake Staats",
     "total_points": 30,
     "achievement_ids": [
@@ -759,7 +1138,7 @@
     ]
   },
   {
-    "id": "participant-223",
+    "id": "participant-227",
     "name": "Matthew Stone",
     "total_points": 30,
     "achievement_ids": [
@@ -768,34 +1147,7 @@
     ]
   },
   {
-    "id": "participant-038",
-    "name": "Anna Tymoshenko",
-    "total_points": 30,
-    "achievement_ids": [
-      "achievement-joined-team",
-      "achievement-squad-4"
-    ]
-  },
-  {
-    "id": "participant-011",
-    "name": "Adilbek Bazarkulov",
-    "total_points": 30,
-    "achievement_ids": [
-      "achievement-joined-team",
-      "achievement-squad-4"
-    ]
-  },
-  {
-    "id": "participant-333",
-    "name": "Timothy Mullen",
-    "total_points": 30,
-    "achievement_ids": [
-      "achievement-joined-team",
-      "achievement-squad-4"
-    ]
-  },
-  {
-    "id": "participant-173",
+    "id": "participant-177",
     "name": "josh gould",
     "total_points": 30,
     "achievement_ids": [
@@ -804,7 +1156,7 @@
     ]
   },
   {
-    "id": "participant-192",
+    "id": "participant-196",
     "name": "Kian Collins",
     "total_points": 30,
     "achievement_ids": [
@@ -813,7 +1165,7 @@
     ]
   },
   {
-    "id": "participant-045",
+    "id": "participant-044",
     "name": "Aryan Arya",
     "total_points": 30,
     "achievement_ids": [
@@ -822,7 +1174,7 @@
     ]
   },
   {
-    "id": "participant-137",
+    "id": "participant-139",
     "name": "Hayden Truong",
     "total_points": 30,
     "achievement_ids": [
@@ -831,7 +1183,7 @@
     ]
   },
   {
-    "id": "participant-216",
+    "id": "participant-220",
     "name": "Lukas Seufert",
     "total_points": 30,
     "achievement_ids": [
@@ -840,7 +1192,7 @@
     ]
   },
   {
-    "id": "participant-021",
+    "id": "participant-020",
     "name": "Aki X",
     "total_points": 30,
     "achievement_ids": [
@@ -849,7 +1201,7 @@
     ]
   },
   {
-    "id": "participant-073",
+    "id": "participant-072",
     "name": "Carson Secrest",
     "total_points": 30,
     "achievement_ids": [
@@ -858,25 +1210,7 @@
     ]
   },
   {
-    "id": "participant-178",
-    "name": "Justice Gaines",
-    "total_points": 30,
-    "achievement_ids": [
-      "achievement-joined-team",
-      "achievement-squad-4"
-    ]
-  },
-  {
-    "id": "participant-049",
-    "name": "avd De",
-    "total_points": 30,
-    "achievement_ids": [
-      "achievement-joined-team",
-      "achievement-squad-4"
-    ]
-  },
-  {
-    "id": "participant-284",
+    "id": "participant-289",
     "name": "Robert Mimms",
     "total_points": 30,
     "achievement_ids": [
@@ -885,7 +1219,7 @@
     ]
   },
   {
-    "id": "participant-111",
+    "id": "participant-112",
     "name": "Esmé Nadeau",
     "total_points": 30,
     "achievement_ids": [
@@ -894,7 +1228,7 @@
     ]
   },
   {
-    "id": "participant-214",
+    "id": "participant-218",
     "name": "Luis Guzman-Cornejo",
     "total_points": 30,
     "achievement_ids": [
@@ -903,7 +1237,7 @@
     ]
   },
   {
-    "id": "participant-079",
+    "id": "participant-078",
     "name": "Chris Nguyen",
     "total_points": 30,
     "achievement_ids": [
@@ -912,7 +1246,7 @@
     ]
   },
   {
-    "id": "participant-150",
+    "id": "participant-153",
     "name": "Jae Grunwald",
     "total_points": 30,
     "achievement_ids": [
@@ -921,7 +1255,7 @@
     ]
   },
   {
-    "id": "participant-340",
+    "id": "participant-346",
     "name": "Tyler Payne",
     "total_points": 30,
     "achievement_ids": [
@@ -930,7 +1264,7 @@
     ]
   },
   {
-    "id": "participant-234",
+    "id": "participant-239",
     "name": "Miles Parker",
     "total_points": 30,
     "achievement_ids": [
@@ -939,7 +1273,7 @@
     ]
   },
   {
-    "id": "participant-040",
+    "id": "participant-039",
     "name": "Anthony Duenez Ramirez",
     "total_points": 30,
     "achievement_ids": [
@@ -948,16 +1282,7 @@
     ]
   },
   {
-    "id": "participant-158",
-    "name": "Jason Do",
-    "total_points": 30,
-    "achievement_ids": [
-      "achievement-joined-team",
-      "achievement-squad-4"
-    ]
-  },
-  {
-    "id": "participant-146",
+    "id": "participant-148",
     "name": "Jacob Cordova",
     "total_points": 30,
     "achievement_ids": [
@@ -966,16 +1291,7 @@
     ]
   },
   {
-    "id": "participant-075",
-    "name": "Charlie Sneed",
-    "total_points": 30,
-    "achievement_ids": [
-      "achievement-joined-team",
-      "achievement-squad-4"
-    ]
-  },
-  {
-    "id": "participant-048",
+    "id": "participant-047",
     "name": "Audrey Hudspeth",
     "total_points": 30,
     "achievement_ids": [
@@ -984,7 +1300,7 @@
     ]
   },
   {
-    "id": "participant-143",
+    "id": "participant-145",
     "name": "Israel Avendano",
     "total_points": 30,
     "achievement_ids": [
@@ -993,16 +1309,7 @@
     ]
   },
   {
-    "id": "participant-371",
-    "name": "Zuriahn Yun",
-    "total_points": 30,
-    "achievement_ids": [
-      "achievement-joined-team",
-      "achievement-squad-4"
-    ]
-  },
-  {
-    "id": "participant-164",
+    "id": "participant-167",
     "name": "Jeffrey Guo",
     "total_points": 30,
     "achievement_ids": [
@@ -1011,16 +1318,7 @@
     ]
   },
   {
-    "id": "participant-020",
-    "name": "Akan Abdireshov",
-    "total_points": 30,
-    "achievement_ids": [
-      "achievement-joined-team",
-      "achievement-squad-4"
-    ]
-  },
-  {
-    "id": "participant-258",
+    "id": "participant-263",
     "name": "Nurbek Bekmuratov",
     "total_points": 30,
     "achievement_ids": [
@@ -1029,7 +1327,7 @@
     ]
   },
   {
-    "id": "participant-155",
+    "id": "participant-158",
     "name": "James OConnor",
     "total_points": 30,
     "achievement_ids": [
@@ -1038,7 +1336,7 @@
     ]
   },
   {
-    "id": "participant-165",
+    "id": "participant-168",
     "name": "Jeffrey McMillan",
     "total_points": 30,
     "achievement_ids": [
@@ -1047,7 +1345,7 @@
     ]
   },
   {
-    "id": "participant-118",
+    "id": "participant-119",
     "name": "Evan Thompson",
     "total_points": 30,
     "achievement_ids": [
@@ -1056,7 +1354,7 @@
     ]
   },
   {
-    "id": "participant-116",
+    "id": "participant-117",
     "name": "Evan lee",
     "total_points": 30,
     "achievement_ids": [
@@ -1066,44 +1364,7 @@
     ]
   },
   {
-    "id": "participant-321",
-    "name": "Sudarshan Sridhar",
-    "total_points": 30,
-    "achievement_ids": [
-      "achievement-team-creator",
-      "achievement-squad-2",
-      "achievement-discord-joined"
-    ]
-  },
-  {
-    "id": "participant-104",
-    "name": "Ekansh Arora",
-    "total_points": 30,
-    "achievement_ids": [
-      "achievement-joined-team",
-      "achievement-squad-4"
-    ]
-  },
-  {
-    "id": "participant-022",
-    "name": "Alan Nguyen",
-    "total_points": 30,
-    "achievement_ids": [
-      "achievement-joined-team",
-      "achievement-squad-4"
-    ]
-  },
-  {
-    "id": "participant-028",
-    "name": "Ally Chen",
-    "total_points": 30,
-    "achievement_ids": [
-      "achievement-joined-team",
-      "achievement-squad-4"
-    ]
-  },
-  {
-    "id": "participant-169",
+    "id": "participant-172",
     "name": "JJ Meza",
     "total_points": 30,
     "achievement_ids": [
@@ -1112,53 +1373,8 @@
     ]
   },
   {
-    "id": "participant-292",
-    "name": "Sam Garcia Lopez",
-    "total_points": 30,
-    "achievement_ids": [
-      "achievement-joined-team",
-      "achievement-squad-4"
-    ]
-  },
-  {
-    "id": "participant-365",
-    "name": "Zahra Alsulaimawi",
-    "total_points": 30,
-    "achievement_ids": [
-      "achievement-joined-team",
-      "achievement-squad-4"
-    ]
-  },
-  {
-    "id": "participant-149",
-    "name": "Jadine Delfin-Watanabe",
-    "total_points": 30,
-    "achievement_ids": [
-      "achievement-joined-team",
-      "achievement-squad-4"
-    ]
-  },
-  {
-    "id": "participant-032",
+    "id": "participant-031",
     "name": "Andrew Chan",
-    "total_points": 30,
-    "achievement_ids": [
-      "achievement-team-creator",
-      "achievement-github-connected"
-    ]
-  },
-  {
-    "id": "participant-056",
-    "name": "Beatriz Arevalo Leal",
-    "total_points": 30,
-    "achievement_ids": [
-      "achievement-team-creator",
-      "achievement-github-connected"
-    ]
-  },
-  {
-    "id": "participant-025",
-    "name": "Alex Picon",
     "total_points": 30,
     "achievement_ids": [
       "achievement-team-creator",
@@ -1175,8 +1391,8 @@
     ]
   },
   {
-    "id": "participant-046",
-    "name": "Asim Nepal",
+    "id": "participant-131",
+    "name": "Gilbert Knight",
     "total_points": 30,
     "achievement_ids": [
       "achievement-joined-team",
@@ -1184,8 +1400,8 @@
     ]
   },
   {
-    "id": "participant-353",
-    "name": "Wiggle coin",
+    "id": "participant-198",
+    "name": "Kimball Weeks",
     "total_points": 30,
     "achievement_ids": [
       "achievement-joined-team",
@@ -1193,7 +1409,163 @@
     ]
   },
   {
-    "id": "participant-316",
+    "id": "participant-088",
+    "name": "Daniel Diyali",
+    "total_points": 30,
+    "achievement_ids": [
+      "achievement-team-creator",
+      "achievement-github-connected"
+    ]
+  },
+  {
+    "id": "participant-364",
+    "name": "Winnie Zhen",
+    "total_points": 30,
+    "achievement_ids": [
+      "achievement-joined-team",
+      "achievement-squad-4"
+    ]
+  },
+  {
+    "id": "participant-108",
+    "name": "Enoch Elumba",
+    "total_points": 30,
+    "achievement_ids": [
+      "achievement-team-creator",
+      "achievement-github-connected"
+    ]
+  },
+  {
+    "id": "participant-374",
+    "name": "Zander Johnson",
+    "total_points": 30,
+    "achievement_ids": [
+      "achievement-team-creator",
+      "achievement-github-connected"
+    ]
+  },
+  {
+    "id": "participant-191",
+    "name": "Kalab Kahsay",
+    "total_points": 30,
+    "achievement_ids": [
+      "achievement-team-creator",
+      "achievement-github-connected"
+    ]
+  },
+  {
+    "id": "participant-166",
+    "name": "Jazveer Kaler",
+    "total_points": 30,
+    "achievement_ids": [
+      "achievement-team-creator",
+      "achievement-github-connected"
+    ]
+  },
+  {
+    "id": "participant-194",
+    "name": "Kellen Snider",
+    "total_points": 30,
+    "achievement_ids": [
+      "achievement-team-creator",
+      "achievement-github-connected"
+    ]
+  },
+  {
+    "id": "participant-075",
+    "name": "Chengen Li",
+    "total_points": 30,
+    "achievement_ids": [
+      "achievement-team-creator",
+      "achievement-github-connected"
+    ]
+  },
+  {
+    "id": "participant-184",
+    "name": "Justin Lee",
+    "total_points": 30,
+    "achievement_ids": [
+      "achievement-team-creator",
+      "achievement-github-connected"
+    ]
+  },
+  {
+    "id": "participant-181",
+    "name": "JR Quint",
+    "total_points": 30,
+    "achievement_ids": [
+      "achievement-team-creator",
+      "achievement-github-connected"
+    ]
+  },
+  {
+    "id": "participant-089",
+    "name": "Daniel Martin",
+    "total_points": 30,
+    "achievement_ids": [
+      "achievement-team-creator",
+      "achievement-github-connected"
+    ]
+  },
+  {
+    "id": "participant-169",
+    "name": "Jeremy Mitaux",
+    "total_points": 30,
+    "achievement_ids": [
+      "achievement-team-creator",
+      "achievement-github-connected"
+    ]
+  },
+  {
+    "id": "participant-101",
+    "name": "Dylan Murphy",
+    "total_points": 30,
+    "achievement_ids": [
+      "achievement-team-creator",
+      "achievement-github-connected"
+    ]
+  },
+  {
+    "id": "participant-110",
+    "name": "Enrique Viton",
+    "total_points": 30,
+    "achievement_ids": [
+      "achievement-team-creator",
+      "achievement-github-connected"
+    ]
+  },
+  {
+    "id": "participant-262",
+    "name": "Norton and Me",
+    "total_points": 30,
+    "achievement_ids": [
+      "achievement-team-creator",
+      "achievement-joined-team",
+      "achievement-squad-2"
+    ]
+  },
+  {
+    "id": "participant-141",
+    "name": "Huy Nguyen",
+    "total_points": 30,
+    "achievement_ids": [
+      "achievement-joined-team",
+      "achievement-squad-2",
+      "achievement-github-connected"
+    ]
+  },
+  {
+    "id": "participant-356",
+    "name": "Vivek Patel",
+    "total_points": 30,
+    "achievement_ids": [
+      "achievement-joined-team",
+      "achievement-squad-2",
+      "achievement-github-connected"
+    ]
+  },
+  {
+    "id": "participant-322",
     "name": "Song Zhang",
     "total_points": 25,
     "achievement_ids": [
@@ -1203,7 +1575,7 @@
     ]
   },
   {
-    "id": "participant-012",
+    "id": "participant-010",
     "name": "Adithya Giri",
     "total_points": 25,
     "achievement_ids": [
@@ -1212,16 +1584,7 @@
     ]
   },
   {
-    "id": "participant-132",
-    "name": "Han Lee",
-    "total_points": 25,
-    "achievement_ids": [
-      "achievement-team-creator",
-      "achievement-discord-joined"
-    ]
-  },
-  {
-    "id": "participant-156",
+    "id": "participant-159",
     "name": "Jana Hazimeh",
     "total_points": 25,
     "achievement_ids": [
@@ -1231,25 +1594,7 @@
     ]
   },
   {
-    "id": "participant-273",
-    "name": "Raghav Ojha",
-    "total_points": 25,
-    "achievement_ids": [
-      "achievement-team-creator",
-      "achievement-discord-joined"
-    ]
-  },
-  {
-    "id": "participant-349",
-    "name": "vital kyungu",
-    "total_points": 25,
-    "achievement_ids": [
-      "achievement-team-creator",
-      "achievement-discord-joined"
-    ]
-  },
-  {
-    "id": "participant-275",
+    "id": "participant-280",
     "name": "ramsaran vk",
     "total_points": 25,
     "achievement_ids": [
@@ -1259,7 +1604,7 @@
     ]
   },
   {
-    "id": "participant-152",
+    "id": "participant-155",
     "name": "Jaiden Stipp",
     "total_points": 25,
     "achievement_ids": [
@@ -1268,7 +1613,7 @@
     ]
   },
   {
-    "id": "participant-336",
+    "id": "participant-342",
     "name": "Trevor Tallman",
     "total_points": 20,
     "achievement_ids": [
@@ -1277,7 +1622,16 @@
     ]
   },
   {
-    "id": "participant-331",
+    "id": "participant-235",
+    "name": "Miguel Pimienta",
+    "total_points": 20,
+    "achievement_ids": [
+      "achievement-team-creator",
+      "achievement-squad-2"
+    ]
+  },
+  {
+    "id": "participant-337",
     "name": "Thara Rao",
     "total_points": 20,
     "achievement_ids": [
@@ -1286,16 +1640,7 @@
     ]
   },
   {
-    "id": "participant-244",
-    "name": "Myan Gupta",
-    "total_points": 20,
-    "achievement_ids": [
-      "achievement-team-creator",
-      "achievement-squad-2"
-    ]
-  },
-  {
-    "id": "participant-007",
+    "id": "participant-005",
     "name": "Aaron Wong",
     "total_points": 20,
     "achievement_ids": [
@@ -1304,7 +1649,7 @@
     ]
   },
   {
-    "id": "participant-324",
+    "id": "participant-331",
     "name": "Tâm Đỗ Thành",
     "total_points": 20,
     "achievement_ids": [
@@ -1313,7 +1658,7 @@
     ]
   },
   {
-    "id": "participant-211",
+    "id": "participant-215",
     "name": "Lucas Meskel",
     "total_points": 20,
     "achievement_ids": [
@@ -1322,34 +1667,7 @@
     ]
   },
   {
-    "id": "participant-297",
-    "name": "Sarvesha Kumar Kombaiah Seetha",
-    "total_points": 20,
-    "achievement_ids": [
-      "achievement-team-creator",
-      "achievement-squad-2"
-    ]
-  },
-  {
-    "id": "participant-077",
-    "name": "Chris Gallinger-Long",
-    "total_points": 20,
-    "achievement_ids": [
-      "achievement-team-creator",
-      "achievement-squad-2"
-    ]
-  },
-  {
-    "id": "participant-055",
-    "name": "Bawan Boparai",
-    "total_points": 20,
-    "achievement_ids": [
-      "achievement-joined-team",
-      "achievement-discord-joined"
-    ]
-  },
-  {
-    "id": "participant-264",
+    "id": "participant-269",
     "name": "Peyton Nagle",
     "total_points": 20,
     "achievement_ids": [
@@ -1358,8 +1676,17 @@
     ]
   },
   {
-    "id": "participant-218",
-    "name": "Marcus Tin",
+    "id": "participant-197",
+    "name": "Kilion Phaigh",
+    "total_points": 20,
+    "achievement_ids": [
+      "achievement-team-creator",
+      "achievement-squad-2"
+    ]
+  },
+  {
+    "id": "participant-149",
+    "name": "Jacob Hurst",
     "total_points": 20,
     "achievement_ids": [
       "achievement-joined-team",
@@ -1367,16 +1694,7 @@
     ]
   },
   {
-    "id": "participant-356",
-    "name": "William Tu",
-    "total_points": 20,
-    "achievement_ids": [
-      "achievement-joined-team",
-      "achievement-discord-joined"
-    ]
-  },
-  {
-    "id": "participant-334",
+    "id": "participant-340",
     "name": "Trenston Ricks",
     "total_points": 15,
     "achievement_ids": [
@@ -1384,7 +1702,7 @@
     ]
   },
   {
-    "id": "participant-207",
+    "id": "participant-211",
     "name": "Leo Rachmady",
     "total_points": 15,
     "achievement_ids": [
@@ -1393,7 +1711,15 @@
     ]
   },
   {
-    "id": "participant-031",
+    "id": "participant-138",
+    "name": "Hayden Rivas",
+    "total_points": 15,
+    "achievement_ids": [
+      "achievement-team-creator"
+    ]
+  },
+  {
+    "id": "participant-030",
     "name": "Andrei Florea",
     "total_points": 15,
     "achievement_ids": [
@@ -1401,7 +1727,16 @@
     ]
   },
   {
-    "id": "participant-026",
+    "id": "participant-120",
+    "name": "Eyasu Berehanu",
+    "total_points": 15,
+    "achievement_ids": [
+      "achievement-joined-team",
+      "achievement-squad-2"
+    ]
+  },
+  {
+    "id": "participant-025",
     "name": "Alex Rankine",
     "total_points": 15,
     "achievement_ids": [
@@ -1410,7 +1745,7 @@
     ]
   },
   {
-    "id": "participant-127",
+    "id": "participant-128",
     "name": "Gabe Valdez",
     "total_points": 15,
     "achievement_ids": [
@@ -1418,7 +1753,7 @@
     ]
   },
   {
-    "id": "participant-318",
+    "id": "participant-325",
     "name": "Stephanie Yang",
     "total_points": 15,
     "achievement_ids": [
@@ -1427,7 +1762,7 @@
     ]
   },
   {
-    "id": "participant-072",
+    "id": "participant-071",
     "name": "Carmen  Park",
     "total_points": 15,
     "achievement_ids": [
@@ -1435,15 +1770,7 @@
     ]
   },
   {
-    "id": "participant-088",
-    "name": "Daniel Diyali",
-    "total_points": 15,
-    "achievement_ids": [
-      "achievement-team-creator"
-    ]
-  },
-  {
-    "id": "participant-181",
+    "id": "participant-185",
     "name": "Justin Metz",
     "total_points": 15,
     "achievement_ids": [
@@ -1452,7 +1779,7 @@
     ]
   },
   {
-    "id": "participant-010",
+    "id": "participant-008",
     "name": "Abhishek Adile",
     "total_points": 15,
     "achievement_ids": [
@@ -1461,16 +1788,7 @@
     ]
   },
   {
-    "id": "participant-350",
-    "name": "Vivek Patel",
-    "total_points": 15,
-    "achievement_ids": [
-      "achievement-joined-team",
-      "achievement-squad-2"
-    ]
-  },
-  {
-    "id": "participant-299",
+    "id": "participant-305",
     "name": "Scarlett Rhinehart",
     "total_points": 15,
     "achievement_ids": [
@@ -1479,16 +1797,8 @@
     ]
   },
   {
-    "id": "participant-242",
+    "id": "participant-247",
     "name": "Mujtaba Ali",
-    "total_points": 15,
-    "achievement_ids": [
-      "achievement-team-creator"
-    ]
-  },
-  {
-    "id": "participant-153",
-    "name": "Jakhangir Tynshimov",
     "total_points": 15,
     "achievement_ids": [
       "achievement-team-creator"
@@ -1504,7 +1814,7 @@
     ]
   },
   {
-    "id": "participant-029",
+    "id": "participant-028",
     "name": "Aman Nurmukhanbetov",
     "total_points": 15,
     "achievement_ids": [
@@ -1512,16 +1822,7 @@
     ]
   },
   {
-    "id": "participant-139",
-    "name": "Huy Nguyen",
-    "total_points": 15,
-    "achievement_ids": [
-      "achievement-joined-team",
-      "achievement-squad-2"
-    ]
-  },
-  {
-    "id": "participant-157",
+    "id": "participant-160",
     "name": "Jared Vaughn",
     "total_points": 15,
     "achievement_ids": [
@@ -1530,15 +1831,7 @@
     ]
   },
   {
-    "id": "participant-241",
-    "name": "Mostafa Elshenawy",
-    "total_points": 15,
-    "achievement_ids": [
-      "achievement-team-creator"
-    ]
-  },
-  {
-    "id": "participant-196",
+    "id": "participant-200",
     "name": "Kishan Gupta",
     "total_points": 15,
     "achievement_ids": [
@@ -1547,7 +1840,7 @@
     ]
   },
   {
-    "id": "participant-332",
+    "id": "participant-338",
     "name": "Theo Miranda-Zellnik",
     "total_points": 15,
     "achievement_ids": [
@@ -1555,31 +1848,7 @@
     ]
   },
   {
-    "id": "participant-089",
-    "name": "Daniel Martin",
-    "total_points": 15,
-    "achievement_ids": [
-      "achievement-team-creator"
-    ]
-  },
-  {
-    "id": "participant-166",
-    "name": "Jeremy Mitaux",
-    "total_points": 15,
-    "achievement_ids": [
-      "achievement-team-creator"
-    ]
-  },
-  {
-    "id": "participant-190",
-    "name": "Kellen Snider",
-    "total_points": 15,
-    "achievement_ids": [
-      "achievement-team-creator"
-    ]
-  },
-  {
-    "id": "participant-339",
+    "id": "participant-345",
     "name": "Tuan Hoang",
     "total_points": 15,
     "achievement_ids": [
@@ -1588,15 +1857,7 @@
     ]
   },
   {
-    "id": "participant-177",
-    "name": "JR Quint",
-    "total_points": 15,
-    "achievement_ids": [
-      "achievement-team-creator"
-    ]
-  },
-  {
-    "id": "participant-036",
+    "id": "participant-035",
     "name": "Angel Rivera",
     "total_points": 15,
     "achievement_ids": [
@@ -1605,39 +1866,7 @@
     ]
   },
   {
-    "id": "participant-101",
-    "name": "Dylan Murphy",
-    "total_points": 15,
-    "achievement_ids": [
-      "achievement-team-creator"
-    ]
-  },
-  {
-    "id": "participant-163",
-    "name": "Jazveer Kaler",
-    "total_points": 15,
-    "achievement_ids": [
-      "achievement-team-creator"
-    ]
-  },
-  {
-    "id": "participant-193",
-    "name": "Kilion Phaigh",
-    "total_points": 15,
-    "achievement_ids": [
-      "achievement-team-creator"
-    ]
-  },
-  {
-    "id": "participant-060",
-    "name": "Ben Tell",
-    "total_points": 15,
-    "achievement_ids": [
-      "achievement-team-creator"
-    ]
-  },
-  {
-    "id": "participant-209",
+    "id": "participant-213",
     "name": "London Doyoung Kim",
     "total_points": 15,
     "achievement_ids": [
@@ -1645,7 +1874,7 @@
     ]
   },
   {
-    "id": "participant-176",
+    "id": "participant-180",
     "name": "Joshua Vasquez",
     "total_points": 15,
     "achievement_ids": [
@@ -1653,31 +1882,7 @@
     ]
   },
   {
-    "id": "participant-107",
-    "name": "Enoch Elumba",
-    "total_points": 15,
-    "achievement_ids": [
-      "achievement-team-creator"
-    ]
-  },
-  {
-    "id": "participant-367",
-    "name": "Zander Johnson",
-    "total_points": 15,
-    "achievement_ids": [
-      "achievement-team-creator"
-    ]
-  },
-  {
-    "id": "participant-076",
-    "name": "Chengen Li",
-    "total_points": 15,
-    "achievement_ids": [
-      "achievement-team-creator"
-    ]
-  },
-  {
-    "id": "participant-282",
+    "id": "participant-287",
     "name": "Riley Patrick Rileyhop@UW.Edu",
     "total_points": 15,
     "achievement_ids": [
@@ -1685,23 +1890,56 @@
     ]
   },
   {
-    "id": "participant-005",
-    "name": "Aaron Reyes Rodriguez",
+    "id": "participant-309",
+    "name": "Selloane A",
+    "total_points": 15,
+    "achievement_ids": [
+      "achievement-joined-team",
+      "achievement-squad-2"
+    ]
+  },
+  {
+    "id": "participant-173",
+    "name": "Joe Lorance",
     "total_points": 15,
     "achievement_ids": [
       "achievement-team-creator"
     ]
   },
   {
-    "id": "participant-187",
-    "name": "Kalab Kahsay",
+    "id": "participant-132",
+    "name": "Haddy Alnasser",
+    "total_points": 15,
+    "achievement_ids": [
+      "achievement-joined-team"
+    ]
+  },
+  {
+    "id": "participant-365",
+    "name": "Wyatt Heath",
     "total_points": 15,
     "achievement_ids": [
       "achievement-team-creator"
     ]
   },
   {
-    "id": "participant-326",
+    "id": "participant-126",
+    "name": "Francisco Holdman",
+    "total_points": 15,
+    "achievement_ids": [
+      "achievement-team-creator"
+    ]
+  },
+  {
+    "id": "participant-069",
+    "name": "Calvin Cai",
+    "total_points": 15,
+    "achievement_ids": [
+      "achievement-team-creator"
+    ]
+  },
+  {
+    "id": "participant-333",
     "name": "Tanmay Sahu",
     "total_points": 10,
     "achievement_ids": [
@@ -1717,7 +1955,7 @@
     ]
   },
   {
-    "id": "participant-243",
+    "id": "participant-248",
     "name": "Musa Ahmed",
     "total_points": 10,
     "achievement_ids": [
@@ -1733,7 +1971,7 @@
     ]
   },
   {
-    "id": "participant-254",
+    "id": "participant-259",
     "name": "Nick Sakys",
     "total_points": 10,
     "achievement_ids": [
@@ -1741,7 +1979,7 @@
     ]
   },
   {
-    "id": "participant-162",
+    "id": "participant-165",
     "name": "Jayson Osurman",
     "total_points": 10,
     "achievement_ids": [
@@ -1757,15 +1995,7 @@
     ]
   },
   {
-    "id": "participant-131",
-    "name": "Haddy Alnasser",
-    "total_points": 10,
-    "achievement_ids": [
-      "achievement-joined-team"
-    ]
-  },
-  {
-    "id": "participant-043",
+    "id": "participant-042",
     "name": "Arhan Us",
     "total_points": 10,
     "achievement_ids": [
@@ -1773,7 +2003,7 @@
     ]
   },
   {
-    "id": "participant-288",
+    "id": "participant-293",
     "name": "Ruslan Kim",
     "total_points": 10,
     "achievement_ids": [
@@ -1781,7 +2011,7 @@
     ]
   },
   {
-    "id": "participant-370",
+    "id": "participant-377",
     "name": "Zheng H. Chen",
     "total_points": 10,
     "achievement_ids": [
@@ -1789,15 +2019,7 @@
     ]
   },
   {
-    "id": "participant-098",
-    "name": "Donovan Thach",
-    "total_points": 10,
-    "achievement_ids": [
-      "achievement-joined-team"
-    ]
-  },
-  {
-    "id": "participant-080",
+    "id": "participant-079",
     "name": "Chris Warner",
     "total_points": 10,
     "achievement_ids": [
@@ -1805,7 +2027,7 @@
     ]
   },
   {
-    "id": "participant-202",
+    "id": "participant-206",
     "name": "Lake Hackett",
     "total_points": 10,
     "achievement_ids": [
@@ -1813,7 +2035,7 @@
     ]
   },
   {
-    "id": "participant-086",
+    "id": "participant-085",
     "name": "Craig Chisholm",
     "total_points": 10,
     "achievement_ids": [
@@ -1821,7 +2043,7 @@
     ]
   },
   {
-    "id": "participant-300",
+    "id": "participant-306",
     "name": "Sebastian Morse",
     "total_points": 10,
     "achievement_ids": [
@@ -1837,7 +2059,7 @@
     ]
   },
   {
-    "id": "participant-283",
+    "id": "participant-288",
     "name": "Rishabh Bhargava Bhargava",
     "total_points": 10,
     "achievement_ids": [
@@ -1845,7 +2067,7 @@
     ]
   },
   {
-    "id": "participant-151",
+    "id": "participant-154",
     "name": "Jai Pandhoh",
     "total_points": 10,
     "achievement_ids": [
@@ -1853,7 +2075,7 @@
     ]
   },
   {
-    "id": "participant-253",
+    "id": "participant-258",
     "name": "Nick Porter",
     "total_points": 10,
     "achievement_ids": [
@@ -1861,23 +2083,7 @@
     ]
   },
   {
-    "id": "participant-130",
-    "name": "Gilbert Knight",
-    "total_points": 10,
-    "achievement_ids": [
-      "achievement-joined-team"
-    ]
-  },
-  {
-    "id": "participant-194",
-    "name": "Kimball Weeks",
-    "total_points": 10,
-    "achievement_ids": [
-      "achievement-joined-team"
-    ]
-  },
-  {
-    "id": "participant-359",
+    "id": "participant-366",
     "name": "Yael Roque",
     "total_points": 10,
     "achievement_ids": [
@@ -1885,15 +2091,7 @@
     ]
   },
   {
-    "id": "participant-206",
-    "name": "Legendofjacob18 Hurst",
-    "total_points": 10,
-    "achievement_ids": [
-      "achievement-joined-team"
-    ]
-  },
-  {
-    "id": "participant-027",
+    "id": "participant-026",
     "name": "Alexandr Iapara",
     "total_points": 10,
     "achievement_ids": [
@@ -1901,7 +2099,7 @@
     ]
   },
   {
-    "id": "participant-125",
+    "id": "participant-127",
     "name": "Freddie Ford",
     "total_points": 10,
     "achievement_ids": [
@@ -1909,7 +2107,7 @@
     ]
   },
   {
-    "id": "participant-174",
+    "id": "participant-178",
     "name": "Joshua Krasnogorov",
     "total_points": 10,
     "achievement_ids": [
@@ -1917,7 +2115,7 @@
     ]
   },
   {
-    "id": "participant-335",
+    "id": "participant-341",
     "name": "Trenton Pham",
     "total_points": 10,
     "achievement_ids": [
@@ -1927,14 +2125,6 @@
   {
     "id": "participant-090",
     "name": "Daniil Nahliuk",
-    "total_points": 10,
-    "achievement_ids": [
-      "achievement-joined-team"
-    ]
-  },
-  {
-    "id": "participant-303",
-    "name": "Selloane A",
     "total_points": 10,
     "achievement_ids": [
       "achievement-joined-team"

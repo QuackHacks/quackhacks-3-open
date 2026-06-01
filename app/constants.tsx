@@ -23,35 +23,35 @@ export const kHomeLinks: NavLink[] = [
 /** Badge image paths served from /public — keyed by achievement.key. */
 export const BADGE_MAP: Record<string, string> = {
 	// Result
-	top_1:              "/badgess/QH3_achievement_goldenDuck.png",
-	top_2:              "/badgess/QH3_achievement_silverQuacker.png",
-	top_3:              "/badgess/QH3_achievement_bronzeBeak.png",
-	top_6:              "/badgess/QH3_achievement_eliteQuacker.png",
-	lone_goose:         "/badgess/QH3_Achievementbadge_TheLoneGoose.png",
-	track_winner:       "/badgess/QH3_achievement_masterOfThePond.png",
-	chosen_duck:        "/badgess/ChosenDuckAchievementPRINT.png",
-	solo_duckling:      "/badgess/SoloDuckAchievementPRINTGradient.png",
+	top_1:              "/badgess/QH3_achievement_goldenDuck.webp",
+	top_2:              "/badgess/QH3_achievement_silverQuacker.webp",
+	top_3:              "/badgess/QH3_achievement_bronzeBeak.webp",
+	top_6:              "/badgess/QH3_achievement_eliteQuacker.webp",
+	lone_goose:         "/badgess/QH3_Achievementbadge_TheLoneGoose.webp",
+	track_winner:       "/badgess/QH3_achievement_masterOfThePond.webp",
+	chosen_duck:        "/badgess/ChosenDuckAchievementPRINT.webp",
+	solo_duckling:      "/badgess/SoloDuckAchievementPRINTGradient.webp",
 	// Team
-	team_creator:       "/badgess/QH3_Achievementbadge_FounderOftheFlock.png",
-	joined_team:        "/badgess/QH3_Achievementbadge_JoinThePond.png",
-	squad_2:            "/badgess/QH3_achievement_dynamicDUO.png",
-	squad_4:            "/badgess/QH3_QuadQuackers.png",
-	team_builder:       "/badgess/QH3_Achievementbadge_theduckfather.png",
+	team_creator:       "/badgess/QH3_Achievementbadge_FounderOftheFlock.webp",
+	joined_team:        "/badgess/QH3_Achievementbadge_JoinThePond.webp",
+	squad_2:            "/badgess/QH3_achievement_dynamicDUO.webp",
+	squad_4:            "/badgess/QH3_QuadQuackers.webp",
+	team_builder:       "/badgess/QH3_Achievementbadge_theduckfather.webp",
 	// Dev
-	github_connected:   "/badgess/QH3_achievement_RepoRanger.png",
-	project_submitted:  "/badgess/QH3_achievement_shipItQuacker.png",
-	commit_stormer:     "/badgess/QH3_achievement_commitStormer.png",
-	speed_runner:       "/badgess/QH3_Achievementbadge_TerminalVelocity.png",
+	github_connected:   "/badgess/QH3_achievement_RepoRanger.webp",
+	project_submitted:  "/badgess/QH3_achievement_shipItQuacker.webp",
+	commit_stormer:     "/badgess/QH3_achievement_commitStormer.webp",
+	speed_runner:       "/badgess/QH3_Achievementbadge_TerminalVelocity.webp",
 	// Engagement
-	quacker_clicker:    "/badgess/QH3_achievement_quackClicker.png",
-	speed_quacker:      "/badgess/QH3_Achievementbadge_SpeedQuack.png",
-	discord_joined:     "/badgess/QH3_achievement_intoTheFlock.png",
-	perfect_attendance: "/badgess/QH3_achievement_touchGrass.png",
+	quacker_clicker:    "/badgess/QH3_achievement_quackClicker.webp",
+	speed_quacker:      "/badgess/QH3_Achievementbadge_SpeedQuack.webp",
+	discord_joined:     "/badgess/QH3_achievement_intoTheFlock.webp",
+	perfect_attendance: "/badgess/QH3_achievement_touchGrass.webp",
 	// Special
-	first_blood:        "/badgess/QH3_Achievementbadge_FirstBlood.png",
-	century:            "/badgess/QH3_Achievementbadge_masterOfThePond.png",
-	achievement_hunter: "/badgess/QH3_achievement_AchievementHunter.png",
-	voice_of_the_pond:  "/badgess/VoiceOfThePond.png",
+	first_blood:        "/badgess/QH3_Achievementbadge_FirstBlood.webp",
+	century:            "/badgess/QH3_Achievementbadge_masterOfThePond.webp",
+	achievement_hunter: "/badgess/QH3_achievement_AchievementHunter.webp",
+	voice_of_the_pond:  "/badgess/VoiceOfThePond.webp",
 };
 
 
@@ -60,7 +60,7 @@ export const BADGE_MAP_WITH_DATA: AchievementData[] = [
 	{
 		key: "top_1",
 		name: "The Golden Duck",
-		badge_url: "/badgess/QH3_achievement_goldenDuck.png",
+		badge_url: "/badgess/QH3_achievement_goldenDuck.webp",
 		points: 80,
 		difficulty: "HARD",
 		description: "Your team placed 1st overall.",
@@ -68,7 +68,7 @@ export const BADGE_MAP_WITH_DATA: AchievementData[] = [
 	{
 		key: "top_2",
 		name: "Silver Duck",
-		badge_url: "/badgess/QH3_achievement_silverQuacker.png",
+		badge_url: "/badgess/QH3_achievement_silverQuacker.webp",
 		points: 50,
 		difficulty: "HARD",
 		description: "Your team placed 2nd overall.",
@@ -76,7 +76,7 @@ export const BADGE_MAP_WITH_DATA: AchievementData[] = [
 	{
 		key: "top_3",
 		name: "Bronze Beak",
-		badge_url: "/badgess/QH3_achievement_bronzeBeak.png",
+		badge_url: "/badgess/QH3_achievement_bronzeBeak.webp",
 		points: 30,
 		difficulty: "HARD",
 		description: "Your team placed 3rd overall.",
@@ -84,7 +84,7 @@ export const BADGE_MAP_WITH_DATA: AchievementData[] = [
 	{
 		key: "top_6",
 		name: "Quack Elite",
-		badge_url: "/badgess/QH3_achievement_eliteQuacker.png",
+		badge_url: "/badgess/QH3_achievement_eliteQuacker.webp",
 		points: 10,
 		difficulty: "MEDIUM",
 		description: "Your team placed in the top 6.",
@@ -92,7 +92,7 @@ export const BADGE_MAP_WITH_DATA: AchievementData[] = [
 	{
 		key: "lone_goose",
 		name: "The Lone Goose",
-		badge_url: "/badgess/QH3_Achievementbadge_TheLoneGoose.png",
+		badge_url: "/badgess/QH3_Achievementbadge_TheLoneGoose.webp",
 		points: 100,
 		difficulty: "HARD",
 		description: "Solo hacker placing in the top 6.",
@@ -100,7 +100,7 @@ export const BADGE_MAP_WITH_DATA: AchievementData[] = [
 	{
 		key: "track_winner",
 		name: "Master of the Pond",
-		badge_url: "/badgess/QH3_achievement_masterOfThePond.png",
+		badge_url: "/badgess/QH3_achievement_masterOfThePond.webp",
 		points: 75,
 		difficulty: "HARD",
 		description: "Won a track.",
@@ -110,7 +110,7 @@ export const BADGE_MAP_WITH_DATA: AchievementData[] = [
 	{
 		key: "team_creator",
 		name: "Founder of the Flock",
-		badge_url: "/badgess/QH3_Achievementbadge_FounderOftheFlock.png",
+		badge_url: "/badgess/QH3_Achievementbadge_FounderOftheFlock.webp",
 		points: 15,
 		difficulty: "EASY",
 		description: "Created a team.",
@@ -118,7 +118,7 @@ export const BADGE_MAP_WITH_DATA: AchievementData[] = [
 	{
 		key: "joined_team",
 		name: "Join the Pond",
-		badge_url: "/badgess/QH3_Achievementbadge_JoinThePond.png",
+		badge_url: "/badgess/QH3_Achievementbadge_JoinThePond.webp",
 		points: 10,
 		difficulty: "EASY",
 		description: "Joined a team.",
@@ -126,7 +126,7 @@ export const BADGE_MAP_WITH_DATA: AchievementData[] = [
 	{
 		key: "solo_duckling",
 		name: "Solo Duckling",
-		badge_url: "/badgess/SoloDuckAchievementPRINTGradient.png",
+		badge_url: "/badgess/SoloDuckAchievementPRINTGradient.webp",
 		points: 40,
 		difficulty: "MEDIUM",
 		description: "Competed as a team of one.",
@@ -134,7 +134,7 @@ export const BADGE_MAP_WITH_DATA: AchievementData[] = [
 	{
 		key: "squad_2",
 		name: "Dynamic Duo",
-		badge_url: "/badgess/QH3_achievement_dynamicDUO.png",
+		badge_url: "/badgess/QH3_achievement_dynamicDUO.webp",
 		points: 5,
 		difficulty: "EASY",
 		description: "Be in a team of 2.",
@@ -142,7 +142,7 @@ export const BADGE_MAP_WITH_DATA: AchievementData[] = [
 	{
 		key: "squad_4",
 		name: "Quad Quackers",
-		badge_url: "/badgess/QH3_QuadQuackers.png",
+		badge_url: "/badgess/QH3_QuadQuackers.webp",
 		points: 20,
 		difficulty: "EASY",
 		description: "Be in a team of four.",
@@ -150,7 +150,7 @@ export const BADGE_MAP_WITH_DATA: AchievementData[] = [
 	{
 		key: "team_builder",
 		name: "The Duck Father",
-		badge_url: "/badgess/QH3_Achievementbadge_theduckfather.png",
+		badge_url: "/badgess/QH3_Achievementbadge_theduckfather.webp",
 		points: 25,
 		difficulty: "HARD",
 		description: "Had 4 members join the team you started.",
@@ -160,7 +160,7 @@ export const BADGE_MAP_WITH_DATA: AchievementData[] = [
 	{
 		key: "commit_stormer",
 		name: "Commit Stormer",
-		badge_url: "/badgess/QH3_achievement_commitStormer.png",
+		badge_url: "/badgess/QH3_achievement_commitStormer.webp",
 		points: 30,
 		difficulty: "HARD",
 		description: "Most commits by your team during the event.",
@@ -168,7 +168,7 @@ export const BADGE_MAP_WITH_DATA: AchievementData[] = [
 	{
 		key: "github_connected",
 		name: "Repo Ranger",
-		badge_url: "/badgess/QH3_achievement_RepoRanger.png",
+		badge_url: "/badgess/QH3_achievement_RepoRanger.webp",
 		points: 15,
 		difficulty: "EASY",
 		description: "Connected Repo Stats and selected a GitHub repository for your team.",
@@ -176,7 +176,7 @@ export const BADGE_MAP_WITH_DATA: AchievementData[] = [
 	{
 		key: "project_submitted",
 		name: "Ship it Quicker!",
-		badge_url: "/badgess/QH3_achievement_shipItQuacker.png",
+		badge_url: "/badgess/QH3_achievement_shipItQuacker.webp",
 		points: 30,
 		difficulty: "EASY",
 		description: "Submitted your project.",
@@ -184,7 +184,7 @@ export const BADGE_MAP_WITH_DATA: AchievementData[] = [
 	{
 		key: "speed_runner",
 		name: "Terminal Velocity",
-		badge_url: "/badgess/QH3_Achievementbadge_TerminalVelocity.png",
+		badge_url: "/badgess/QH3_Achievementbadge_TerminalVelocity.webp",
 		points: 50,
 		difficulty: "HARD",
 		description: "Submit your project within the last 2 minutes before the deadline.",
@@ -194,7 +194,7 @@ export const BADGE_MAP_WITH_DATA: AchievementData[] = [
 	{
 		key: "discord_joined",
 		name: "Into the Flock",
-		badge_url: "/badgess/QH3_achievement_intoTheFlock.png",
+		badge_url: "/badgess/QH3_achievement_intoTheFlock.webp",
 		points: 10,
 		difficulty: "EASY",
 		description: "Joined the QuackHacks Discord server.",
@@ -202,7 +202,7 @@ export const BADGE_MAP_WITH_DATA: AchievementData[] = [
 	{
 		key: "quacker_clicker",
 		name: "Quick Clicker",
-		badge_url: "/badgess/QH3_achievement_quackClicker.png",
+		badge_url: "/badgess/QH3_achievement_quackClicker.webp",
 		points: 30,
 		difficulty: "MEDIUM",
 		description: "Have the most clicks on the duck at one time.",
@@ -210,7 +210,7 @@ export const BADGE_MAP_WITH_DATA: AchievementData[] = [
 	{
 		key: "speed_quacker",
 		name: "Speed Quack",
-		badge_url: "/badgess/QH3_Achievementbadge_SpeedQuack.png",
+		badge_url: "/badgess/QH3_Achievementbadge_SpeedQuack.webp",
 		points: 30,
 		difficulty: "MEDIUM",
 		description: "Created a team within 10 minutes of check-in.",
@@ -218,7 +218,7 @@ export const BADGE_MAP_WITH_DATA: AchievementData[] = [
 	{
 		key: "perfect_attendance",
 		name: "Touch Grass",
-		badge_url: "/badgess/QH3_achievement_touchGrass.png",
+		badge_url: "/badgess/QH3_achievement_touchGrass.webp",
 		points: 40,
 		difficulty: "HARD",
 		description: "Leave the building and return after being checked in for 8+ hours.",
@@ -226,7 +226,7 @@ export const BADGE_MAP_WITH_DATA: AchievementData[] = [
 	{
 		key: "voice_of_the_pond",
 		name: "Voice of the Pond",
-		badge_url: "/badgess/VoiceOfThePond.png",
+		badge_url: "/badgess/VoiceOfThePond.webp",
 		points: 10,
 		difficulty: "EASY",
 		description: "Provide feedback about the event.",
@@ -236,7 +236,7 @@ export const BADGE_MAP_WITH_DATA: AchievementData[] = [
 	{
 		key: "first_blood",
 		name: "First Blood",
-		badge_url: "/badgess/QH3_Achievementbadge_FirstBlood.png",
+		badge_url: "/badgess/QH3_Achievementbadge_FirstBlood.webp",
 		points: 50,
 		difficulty: "HARD",
 		description: "Be the first to earn any achievement.",
@@ -244,7 +244,7 @@ export const BADGE_MAP_WITH_DATA: AchievementData[] = [
 	{
 		key: "century",
 		name: "Century",
-		badge_url: "/badgess/QH3_Achievementbadge_masterOfThePond.png",
+		badge_url: "/badgess/QH3_Achievementbadge_masterOfThePond.webp",
 		points: 30,
 		difficulty: "MEDIUM",
 		description: "Reach 100 total points.",
@@ -252,7 +252,7 @@ export const BADGE_MAP_WITH_DATA: AchievementData[] = [
 	{
 		key: "achievement_hunter",
 		name: "Achievement Hunter",
-		badge_url: "/badgess/QH3_achievement_AchievementHunter.png",
+		badge_url: "/badgess/QH3_achievement_AchievementHunter.webp",
 		points: 25,
 		difficulty: "MEDIUM",
 		description: "Earn 5 or more achievements.",
@@ -260,7 +260,7 @@ export const BADGE_MAP_WITH_DATA: AchievementData[] = [
 	{
 		key: "chosen_duck",
 		name: "The Chosen Duck",
-		badge_url: "/badgess/ChosenDuckAchievementPRINT.png",
+		badge_url: "/badgess/ChosenDuckAchievementPRINT.webp",
 		points: 100,
 		difficulty: "HARD",
 		description: "Randomly selected as a special participant.",

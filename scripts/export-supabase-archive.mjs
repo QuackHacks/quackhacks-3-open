@@ -1,6 +1,9 @@
 #!/usr/bin/env node
-import { mkdir, readFile, writeFile } from "node:fs/promises";
+import { execFile } from "node:child_process";
+import { mkdir, mkdtemp, readFile, rm, writeFile } from "node:fs/promises";
 import path from "node:path";
+import { fileURLToPath } from "node:url";
+import { promisify } from "node:util";
 
 const ROOT = process.cwd();
 const DATA_DIR = path.join(ROOT, "data");
@@ -14,33 +17,49 @@ const args = new Set(process.argv.slice(2));
 const WRITE = args.has("--write");
 const DRY_RUN = args.has("--dry-run") || !WRITE;
 const DOWNLOAD_IMAGES = !args.has("--no-download-images");
+const execFileAsync = promisify(execFile);
+const MAGICK_BIN = process.env.MAGICK_BIN ?? "magick";
+const WEBP_QUALITY = "20";
 
 const BADGE_MAP = {
-	top_1: "/badgess/QH3_achievement_goldenDuck.png",
-	top_2: "/badgess/QH3_achievement_silverQuacker.png",
-	top_3: "/badgess/QH3_achievement_bronzeBeak.png",
-	top_6: "/badgess/QH3_achievement_eliteQuacker.png",
-	lone_goose: "/badgess/QH3_Achievementbadge_TheLoneGoose.png",
-	track_winner: "/badgess/QH3_achievement_masterOfThePond.png",
-	chosen_duck: "/badgess/ChosenDuckAchievementPRINT.png",
-	solo_duckling: "/badgess/SoloDuckAchievementPRINTGradient.png",
-	team_creator: "/badgess/QH3_Achievementbadge_FounderOftheFlock.png",
-	joined_team: "/badgess/QH3_Achievementbadge_JoinThePond.png",
-	squad_2: "/badgess/QH3_achievement_dynamicDUO.png",
-	squad_4: "/badgess/QH3_QuadQuackers.png",
-	team_builder: "/badgess/QH3_Achievementbadge_theduckfather.png",
-	github_connected: "/badgess/QH3_achievement_RepoRanger.png",
-	project_submitted: "/badgess/QH3_achievement_shipItQuacker.png",
-	commit_stormer: "/badgess/QH3_achievement_commitStormer.png",
-	speed_runner: "/badgess/QH3_Achievementbadge_TerminalVelocity.png",
-	quacker_clicker: "/badgess/QH3_achievement_quackClicker.png",
-	speed_quacker: "/badgess/QH3_Achievementbadge_SpeedQuack.png",
-	discord_joined: "/badgess/QH3_achievement_intoTheFlock.png",
-	perfect_attendance: "/badgess/QH3_achievement_touchGrass.png",
-	first_blood: "/badgess/QH3_Achievementbadge_FirstBlood.png",
-	century: "/badgess/QH3_Achievementbadge_masterOfThePond.png",
-	achievement_hunter: "/badgess/QH3_achievement_AchievementHunter.png",
-	voice_of_the_pond: "/badgess/VoiceOfThePond.png",
+	top_1: "/badgess/QH3_achievement_goldenDuck.webp",
+	top_2: "/badgess/QH3_achievement_silverQuacker.webp",
+	top_3: "/badgess/QH3_achievement_bronzeBeak.webp",
+	top_6: "/badgess/QH3_achievement_eliteQuacker.webp",
+	lone_goose: "/badgess/QH3_Achievementbadge_TheLoneGoose.webp",
+	track_winner: "/badgess/QH3_achievement_masterOfThePond.webp",
+	chosen_duck: "/badgess/ChosenDuckAchievementPRINT.webp",
+	solo_duckling: "/badgess/SoloDuckAchievementPRINTGradient.webp",
+	team_creator: "/badgess/QH3_Achievementbadge_FounderOftheFlock.webp",
+	joined_team: "/badgess/QH3_Achievementbadge_JoinThePond.webp",
+	squad_2: "/badgess/QH3_achievement_dynamicDUO.webp",
+	squad_4: "/badgess/QH3_QuadQuackers.webp",
+	team_builder: "/badgess/QH3_Achievementbadge_theduckfather.webp",
+	github_connected: "/badgess/QH3_achievement_RepoRanger.webp",
+	project_submitted: "/badgess/QH3_achievement_shipItQuacker.webp",
+	commit_stormer: "/badgess/QH3_achievement_commitStormer.webp",
+	speed_runner: "/badgess/QH3_Achievementbadge_TerminalVelocity.webp",
+	quacker_clicker: "/badgess/QH3_achievement_quackClicker.webp",
+	speed_quacker: "/badgess/QH3_Achievementbadge_SpeedQuack.webp",
+	discord_joined: "/badgess/QH3_achievement_intoTheFlock.webp",
+	perfect_attendance: "/badgess/QH3_achievement_touchGrass.webp",
+	first_blood: "/badgess/QH3_Achievementbadge_FirstBlood.webp",
+	century: "/badgess/QH3_Achievementbadge_masterOfThePond.webp",
+	achievement_hunter: "/badgess/QH3_achievement_AchievementHunter.webp",
+	voice_of_the_pond: "/badgess/VoiceOfThePond.webp",
+};
+
+const MLH_TRACK_ALIASES = {
+	digitalocean: "digitalocean",
+	elevenlabs: "elevenlabs",
+	geminiapi: "gemini_api",
+	gemini_api: "gemini_api",
+	snowflakeapi: "snowflake_api",
+	snowflake_api: "snowflake_api",
+	solana: "solana",
+	techdomains: "tech_domains",
+	tech_domains: "tech_domains",
+	backboard: "backboard",
 };
 
 function parseEnv(text) {
@@ -78,6 +97,14 @@ function normalizeDifficulty(value) {
 	const text = String(value ?? "Easy").toUpperCase();
 	if (text === "MEDIUM" || text === "HARD") return text;
 	return "EASY";
+}
+
+export function normalizeMlhTrack(value) {
+	const key = String(value ?? "")
+		.trim()
+		.toLowerCase()
+		.replace(/[^a-z0-9_]+/g, "");
+	return MLH_TRACK_ALIASES[key] ?? value;
 }
 
 function slugify(value, fallback = "item") {
@@ -184,17 +211,24 @@ class SupabaseRest {
 	}
 }
 
-function imageExtension(url, contentType) {
-	const content = String(contentType ?? "").toLowerCase();
-	if (content.includes("webp")) return "webp";
-	if (content.includes("png")) return "png";
-	if (content.includes("gif")) return "gif";
-	if (content.includes("jpeg") || content.includes("jpg")) return "jpg";
+async function writeCompressedWebp(bytes, outputFile) {
+	const outputDir = path.dirname(outputFile);
+	const tempDir = await mkdtemp(path.join(outputDir, ".tmp-"));
+	const inputFile = path.join(tempDir, "source-image");
 	try {
-		const ext = path.extname(new URL(url).pathname).replace(".", "").toLowerCase();
-		if (["jpg", "jpeg", "png", "webp", "gif"].includes(ext)) return ext === "jpeg" ? "jpg" : ext;
-	} catch {}
-	return "jpg";
+		await writeFile(inputFile, bytes);
+		await execFileAsync(MAGICK_BIN, [
+			inputFile,
+			"-strip",
+			"-quality",
+			WEBP_QUALITY,
+			"-define",
+			"webp:method=6",
+			outputFile,
+		]);
+	} finally {
+		await rm(tempDir, { recursive: true, force: true });
+	}
 }
 
 async function downloadProjectImage(url, projectSlug, index) {
@@ -203,11 +237,10 @@ async function downloadProjectImage(url, projectSlug, index) {
 		const res = await fetch(url);
 		if (!res.ok) throw new Error(`HTTP ${res.status}`);
 		const bytes = Buffer.from(await res.arrayBuffer());
-		const ext = imageExtension(url, res.headers.get("content-type"));
 		const dir = path.join(PUBLIC_ARCHIVE_DIR, "projects", projectSlug);
 		await mkdir(dir, { recursive: true });
-		const filename = `image-${String(index + 1).padStart(2, "0")}.${ext}`;
-		await writeFile(path.join(dir, filename), bytes);
+		const filename = `image-${String(index + 1).padStart(2, "0")}.webp`;
+		await writeCompressedWebp(bytes, path.join(dir, filename));
 		return `/archive/projects/${projectSlug}/${filename}`;
 	} catch (error) {
 		console.warn(`WARN image download failed for ${projectSlug}: ${url} (${error.message})`);
@@ -422,7 +455,9 @@ async function main() {
 			team_name: team?.team_name ?? null,
 			image_urls,
 			qh_track: submission.qh_track ?? null,
-			mlh_tracks: Array.isArray(submission.mlh_tracks) ? submission.mlh_tracks : [],
+			mlh_tracks: Array.isArray(submission.mlh_tracks)
+				? [...new Set(submission.mlh_tracks.map(normalizeMlhTrack))]
+				: [],
 			prize_won: submission.prize_won ?? null,
 			members,
 		});
@@ -464,7 +499,9 @@ async function main() {
 	console.log(JSON.stringify(summary, null, 2));
 }
 
-main().catch((error) => {
-	console.error(error instanceof Error ? error.message : error);
-	process.exit(1);
-});
+if (process.argv[1] && fileURLToPath(import.meta.url) === path.resolve(process.argv[1])) {
+	main().catch((error) => {
+		console.error(error instanceof Error ? error.message : error);
+		process.exit(1);
+	});
+}

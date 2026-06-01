@@ -1,1 +1,2906 @@
-[]
+[
+  {
+    "id": "3d-graphing-calculator",
+    "name": "3D graphing calculator",
+    "tagline": "I was able to generate point clouds of explicit z defined surfaces and some implicit centered quadric surfaces in a static website using js/webgl.",
+    "tech_stack": "js, webgl, css, html",
+    "description": "will revisit",
+    "video_url": "https://youtube",
+    "submission_url": "https://caarrp.github.io/may2026/",
+    "github_url": "https://github.com/caarrp/may2026",
+    "team_name": "caarrp",
+    "image_urls": [
+      "/archive/projects/3d-graphing-calculator/image-01.webp"
+    ],
+    "qh_track": null,
+    "mlh_tracks": [],
+    "prize_won": null,
+    "members": [
+      {
+        "id": "participant-071",
+        "name": "Carmen  Park",
+        "university": "University of Oregon",
+        "major": "computer-science",
+        "level_of_study": "undergraduate-3-plus"
+      }
+    ]
+  },
+  {
+    "id": "agent-studio",
+    "name": "Agent Studio",
+    "tagline": "Cursor of music editing",
+    "tech_stack": "Python, Typescript, Docker, DIgitalOcean, Base44",
+    "description": "Professional music editing software is too complicated to use. For a small digital creator there is huge barrier to entry. Agent Studio solves this problem by giving state of the art LLMs ability to call these tools. This lets you describe what u want to the AI and it can push the buttons and turn the knobs for you. \n\nI wanted to lower the barrier for people to access music production. AI enhances everyone’s abilities, but in the creative industry, tech hasn’t given as much attention to accessibility. My goal is to make it easier for others to express themselves and take the first step toward facilitating music production for everyone, not just those with years of technical training.\n\nStack: Next.js + TypeScript + Vercel AI SDK / FastAPI + Python + librosa + FFmpeg + Demucs + Whisper+ Base44\n\nHackathon tracks\nOne project, five sponsors, each with a distinct and non-overlapping role.\n\nBase44 — overall track (front end)\nBase44's no-code builder generates the user-facing app — the chat interface, track list, and audio players. \n\nGemini — tool-calling brain\nGoogle's Gemini is the LLM that interprets natural-language requests and decides which audio tools to run with which arguments\n\nBackboard — persistent memory\nBackboard provides chat memory that survives across sessions — it remembers the user's tracks, prior edits, and preferences (\"make it like last time\"). \n\nDigitalOcean — audio backend host\nWhat: DigitalOcean hosts the FastAPI backend that runs the real audio tools — FFmpeg transforms, Demucs stem separation, and librosa analysis.\n\nSnowflake — sound memory & retrieval\nWhat: Snowflake stores each track/chop's audio feature vectors (MFCC, chroma, RMS, onsets — already computed in audio_analysis.py) plus metadata, and retrieves or classifies sounds by how they actually sound.",
+    "video_url": "https://vimeo.com/1197157299?share=copy&fl=sv&fe=ci",
+    "submission_url": "http://agentsstudio.tech",
+    "github_url": "https://github.com/imraghavojha/agent-studio",
+    "team_name": "Duke of Dukingham",
+    "image_urls": [
+      "/archive/projects/agent-studio/image-01.webp",
+      "/archive/projects/agent-studio/image-02.webp",
+      "/archive/projects/agent-studio/image-03.webp",
+      "/archive/projects/agent-studio/image-04.webp",
+      "/archive/projects/agent-studio/image-05.webp"
+    ],
+    "qh_track": "Base44",
+    "mlh_tracks": [
+      "gemini_api",
+      "digitalocean",
+      "backboard",
+      "tech_domains",
+      "snowflake_api"
+    ],
+    "prize_won": null,
+    "members": [
+      {
+        "id": "participant-278",
+        "name": "Raghav Ojha",
+        "university": "Other",
+        "major": "computer-science",
+        "level_of_study": "undergraduate-3-plus"
+      }
+    ]
+  },
+  {
+    "id": "agentoffice",
+    "name": "AgentOffice",
+    "tagline": "Your office. Your agents. Your workflow.",
+    "tech_stack": "Next.js, Python, Gemini, DigitalOcean",
+    "description": "AgentOffice is a visual multi-agent workspace where you build an AI “office” by adding agents to a roster — that order is your workflow. Run research pipelines (search → analyze → summarize → cite) or a SaaS developer pipeline (plan → code → QA → deploy) in a 3D environment, with agents that review each other and retry when quality fails.\n\nWhat is AgentOffice?\nAgentOffice lets anyone run a team of specialized AI agents without wiring up n8n, LangChain graphs, or custom automation. You add agents (or ask ai to add) in the order you want them to work, type a query, and watch them collaborate in a 3D office UI. Each agent passes its output to the next; when an agent rejects work (e.g. weak sources or bad code), the pipeline loops back and retries with feedback — like a real team.\n\nProblem: \nMost AI tools are single chatbots or complex automation builders. Students, researchers, and founders often need multi-step workflows (research with citations, or idea → code → review) but don’t want to learn workflow tools or manage multiple APIs.\n\nSolution:\nAgentOffice treats your roster as the workflow: drag agents into order, optionally use Suggest workflow (Gemini recommends agents), then Run. Two offices ship today:\n\nResearch Office — Searcher finds sources → Analyzer validates quality → Summarizer writes the summary → Sender formats APA 7 / MLA citations. If sources are weak, Analyzer sends the run back to Searcher.\n\nSaaS Developer Office — Planner turns an idea into a build plan → Executor (OpenAI) generates real project files → QA reviews and can send work back to Executor → results appear in a code preview, with zip export, chat-based edits, and optional one-click Vercel deploy.\n\nKey features: \n1. 3D visual office with activity log and agent animation\n2. Roster-driven orchestration (no manual workflow JSON)\n3. AI-suggested agent workflows\n4. Intervention / retry logic between agents\n5. Streaming developer runs with live progress\n6. Library for past runs (PDFs for research)",
+    "video_url": "https://youtu.be/5yyuq4PYJGg",
+    "submission_url": "http://64.23.241.244/",
+    "github_url": "https://github.com/amanshaman11/AgentOffice.git",
+    "team_name": "AgentOffice",
+    "image_urls": [
+      "/archive/projects/agentoffice/image-01.webp",
+      "/archive/projects/agentoffice/image-02.webp",
+      "/archive/projects/agentoffice/image-03.webp",
+      "/archive/projects/agentoffice/image-04.webp",
+      "/archive/projects/agentoffice/image-05.webp"
+    ],
+    "qh_track": "Google",
+    "mlh_tracks": [
+      "gemini_api",
+      "digitalocean"
+    ],
+    "prize_won": null,
+    "members": [
+      {
+        "id": "participant-028",
+        "name": "Aman Nurmukhanbetov",
+        "university": "Oregon State University",
+        "major": "computer-science",
+        "level_of_study": "undergraduate-2-year"
+      },
+      {
+        "id": "participant-293",
+        "name": "Ruslan Kim",
+        "university": "Oregon State University",
+        "major": "computer-science",
+        "level_of_study": "undergraduate-2-year"
+      },
+      {
+        "id": "participant-042",
+        "name": "Arhan Us",
+        "university": "Oregon State University",
+        "major": "computer-science",
+        "level_of_study": "undergraduate-3-plus"
+      }
+    ]
+  },
+  {
+    "id": "alphaturing",
+    "name": "AlphaTuring",
+    "tagline": "\"AlphaTuring: an autonomous search and rescue robot that finds survivors, alerts responders, and keeps victims calm until help arrives.\"",
+    "tech_stack": "Gemini, ElevenLabs, Base44, Backboard",
+    "description": "AlphaTuring is an autonomous search and rescue robot built to help first responders find and communicate with survivors in disaster scenarios like earthquakes and building collapses. It navigates dangerous environments that are too small or unstable for humans using a tank tread chassis, while a live camera feed analyzed by Google Gemini scans for survivors in real time.\nWhen AlphaTuring finds someone, it sends an immediate location ping to a command center dashboard, dropping a pin on a live map so responders know exactly where to go. While help is on the way, the robot stays with the survivor and talks to them using ElevenLabs text-to-speech, offering reassurance and first aid guidance. Responders can also type messages from the dashboard and have AlphaTuring speak them out loud on site.\nThe robot runs on a Raspberry Pi 4 for the AI and communication stack, with an Arduino Mega 2560 handling motor control and sensors. It is fully battery powered and ready to deploy the moment disaster strikes.\nAlphaTuring gets eyes, intelligence, and a human voice to survivors faster than any rescue team can, buying the critical time that saves lives.",
+    "video_url": "https://drive.google.com/file/d/1LwFxbiJc-V8bT_eiQ3DQyM5ryfCtAFKU/view?usp=drivesdk",
+    "submission_url": null,
+    "github_url": "https://github.com/Stinky808/AlphaTuring",
+    "team_name": "Alphaturing",
+    "image_urls": [
+      "/archive/projects/alphaturing/image-01.webp",
+      "/archive/projects/alphaturing/image-02.webp",
+      "/archive/projects/alphaturing/image-03.webp",
+      "/archive/projects/alphaturing/image-04.webp",
+      "/archive/projects/alphaturing/image-05.webp"
+    ],
+    "qh_track": "Base44",
+    "mlh_tracks": [
+      "elevenlabs",
+      "gemini_api",
+      "backboard"
+    ],
+    "prize_won": null,
+    "members": [
+      {
+        "id": "participant-103",
+        "name": "Edward Kuoha, IV",
+        "university": "University of Hawaii at Manoa",
+        "major": "Mechanical Engineering",
+        "level_of_study": "undergraduate-3-plus"
+      },
+      {
+        "id": "participant-039",
+        "name": "Anthony Duenez Ramirez",
+        "university": "Other",
+        "major": "computer-science",
+        "level_of_study": "undergraduate-2-year"
+      },
+      {
+        "id": "participant-170",
+        "name": "Jerry Zhou",
+        "university": "Purdue University",
+        "major": "computer-science",
+        "level_of_study": "undergraduate-3-plus"
+      },
+      {
+        "id": "participant-161",
+        "name": "Jason Do",
+        "university": "Other",
+        "major": "other",
+        "level_of_study": "undergraduate-3-plus"
+      }
+    ]
+  },
+  {
+    "id": "better-than-bots",
+    "name": "Better Than Bots",
+    "tagline": "Are you better than a robot?",
+    "tech_stack": "Unity, ML Agents",
+    "description": "Duck-3 is a Unity 6 game where a player competes head-to-head against trained ML-Agents models across three mini-games:\n\n1. Pendulum: Balance an inverted pendulum by sliding a cart. The ML agent dynamically tunes PID controller gains (Kp/Ki/Kd) each step based on the rod's angle and velocity.\n2. Lunar Landing: Guide a rocket to land upright. The agent does the same adaptive PID gain scheduling, but for rotational stabilization during a free-fall descent.\n3. Projectile Catch: Position a bucket to catch a launched ball before it fires. The agent uses observations of the prepared launch angle and power to pre-aim; the player uses a UI slider.\n\nEach game runs for a configurable timer (default 30 seconds), managed by a persistent GameFlowController on the EventSystem that sequences the scenes automatically. Scores for both player and agent accumulate in a persistent GameScoreManager, and at the end, a Stats Menu shows a side-by-side comparison table of continuous reward scores for Pendulum and Lunar Landing, catch ratio (e.g., 2/3) for Projectile Catch.",
+    "video_url": "https://youtu.be/7_WGxqUvpJ8",
+    "submission_url": "https://chris-rgl.github.io/Duck-3/",
+    "github_url": "https://github.com/Chris-RGL/Duck-3",
+    "team_name": "Duck^3",
+    "image_urls": [
+      "/archive/projects/better-than-bots/image-01.webp",
+      "/archive/projects/better-than-bots/image-02.webp",
+      "/archive/projects/better-than-bots/image-03.webp",
+      "/archive/projects/better-than-bots/image-04.webp",
+      "/archive/projects/better-than-bots/image-05.webp",
+      "/archive/projects/better-than-bots/image-06.webp"
+    ],
+    "qh_track": "Pipeworks",
+    "mlh_tracks": [],
+    "prize_won": null,
+    "members": [
+      {
+        "id": "participant-076",
+        "name": "Chris Gallinger-Long",
+        "university": "University of Oregon",
+        "major": "computer-science",
+        "level_of_study": "not-student"
+      },
+      {
+        "id": "participant-035",
+        "name": "Angel Rivera",
+        "university": "University of Oregon",
+        "major": "computer-science",
+        "level_of_study": "undergraduate-3-plus"
+      }
+    ]
+  },
+  {
+    "id": "borealis",
+    "name": "Borealis",
+    "tagline": "A living weather map for building risk analysis",
+    "tech_stack": "Python, PyTorch, Vite, React, type-script, MLX, Cesium",
+    "description": "Borealis is an interactive 3D globe (CesiumJS) where you drop a building anywhere just by typing plain English, then run grounded climate-hazard visualizations against it. You land on a vivid global weather field draped over a real imagery + terrain globe.\nType something like \"a coastal hospital in Miami\" and a local Llama model parses your intent, the geocoder resolves the spot, RL fine-tunes the spot, and a detailed, type-matched 3D building appears clamped to the terrain with a cinematic fly-to. From there you can:\n\nRun a flood view: bathtub inundation over real Cesium World Terrain elevation.\nRun a tornado view: a particle funnel whose intensity and likelihood come from real NOAA SPC climatology (it honestly shows no funnel where risk is negligible).\nToggle live storms: real, timestamped feeds: active NHC tropical cyclones, NWS tornado warning/watch polygons, and a live Open-Meteo wind-flow layer.\nOpen a risk dossier: a side panel composing renewable-resource potential, hazard exposure, and a AI-synthesized Gemini insurance/summary briefing.\n\nEvery lens runs the same pipeline: a SuitabilityModel that turns climatology into a domain score. Energy ships first (solar yield, wind power density); agriculture proves the extensibility, then pipelines show expected insurace and environmental hazards.\n\nBuilt with FastAPI + Python on the backend, Vite/React/TypeScript + CesiumJS on the front, a local MLX model (using DFlash) for language and briefings, and real data from NASA POWER, NOAA, NHC, NWS, and Open-Meteo.",
+    "video_url": "https://youtu.be/wnE4o7qAh1s",
+    "submission_url": null,
+    "github_url": "https://github.com/dbhargav-uw/Borealis",
+    "team_name": "The Bigger they are the harder they fall",
+    "image_urls": [
+      "/archive/projects/borealis/image-01.webp"
+    ],
+    "qh_track": "Google",
+    "mlh_tracks": [],
+    "prize_won": null,
+    "members": [
+      {
+        "id": "participant-010",
+        "name": "Adithya Giri",
+        "university": "University of California, Berkeley",
+        "major": "computer-science",
+        "level_of_study": "undergraduate-3-plus"
+      },
+      {
+        "id": "participant-094",
+        "name": "Dhruv Bhargava",
+        "university": "University of Washington",
+        "major": "computer-science",
+        "level_of_study": "undergraduate-3-plus"
+      },
+      {
+        "id": "participant-288",
+        "name": "Rishabh Bhargava Bhargava",
+        "university": "The Ohio State University",
+        "major": "computer-science",
+        "level_of_study": "undergraduate-3-plus"
+      }
+    ]
+  },
+  {
+    "id": "campusreach",
+    "name": "CampusReach",
+    "tagline": "On-Campus Marketing. Transformed.",
+    "tech_stack": "Base44",
+    "description": "CampusReach is a platform that connects brands with campus organizations and student ambassadors to run sponsored marketing campaigns from offer to impact report in one place. Brands discover relevant clubs and ambassadors through AI-powered matching, send sponsorship offers, and manage active campaigns through a clear status pipeline: pending, accepted, in progress, completed. Clubs and ambassadors receive offers, execute campaigns through a shared workspace, track deliverables, submit expenses, and upload proof of completion. The result is a single system that replaces the scattered mix of spreadsheets, DMs, and email that campus marketing typically runs on, giving every party visibility into where a campaign stands and what it delivered.",
+    "video_url": "https://youtu.be/1a7i-UOiSH4",
+    "submission_url": "https://campus-reach-connect.base44.app",
+    "github_url": "https://campus-reach-connect.base44.app",
+    "team_name": "Lucas + Jared",
+    "image_urls": [
+      "/archive/projects/campusreach/image-01.webp"
+    ],
+    "qh_track": "Base44",
+    "mlh_tracks": [],
+    "prize_won": null,
+    "members": [
+      {
+        "id": "participant-215",
+        "name": "Lucas Meskel",
+        "university": "University of Oregon",
+        "major": "business",
+        "level_of_study": "undergraduate-3-plus"
+      },
+      {
+        "id": "participant-160",
+        "name": "Jared Vaughn",
+        "university": "University of Oregon",
+        "major": "business",
+        "level_of_study": "undergraduate-3-plus"
+      }
+    ]
+  },
+  {
+    "id": "carcosa",
+    "name": "Carcosa",
+    "tagline": "The King in Yellow Beckons",
+    "tech_stack": "Unity, C#, Blender",
+    "description": "Carcosa is an occult-themed, horde-survival, isometric 2.5D video game, inspired by games like Hades and Risk of Rain 2. The game consists of three playable characters: the Assassin, the Inquisitor, and the Countess. The player spawns at the Lost Ruins, where they fight two enemies: the ghost and the skeleton. The gameplay is arena-style, with each round starting when enemies spawn across the map and ending when the player kills all attackers. Each round, the number of enemies increases by 1.5 times. The goal of the game: live as long as you can! Title pages, 3D character models and designs, music, and level textures were all hand-made by our team.",
+    "video_url": "https://www.youtube.com/watch?v=xip_NP04mzA",
+    "submission_url": null,
+    "github_url": "https://github.com/katespencer7/GoodTeamQH3",
+    "team_name": "Good Team",
+    "image_urls": [
+      "/archive/projects/carcosa/image-01.webp",
+      "/archive/projects/carcosa/image-02.webp"
+    ],
+    "qh_track": "Pipeworks",
+    "mlh_tracks": [],
+    "prize_won": null,
+    "members": [
+      {
+        "id": "participant-193",
+        "name": "Kate Spencer",
+        "university": "University of Oregon",
+        "major": "computer-science",
+        "level_of_study": "undergraduate-3-plus"
+      },
+      {
+        "id": "participant-112",
+        "name": "Esmé Nadeau",
+        "university": "University of Oregon",
+        "major": "computer-science",
+        "level_of_study": "undergraduate-3-plus"
+      },
+      {
+        "id": "participant-218",
+        "name": "Luis Guzman-Cornejo",
+        "university": "University of Oregon",
+        "major": "computer-science",
+        "level_of_study": "undergraduate-3-plus"
+      },
+      {
+        "id": "participant-289",
+        "name": "Robert Mimms",
+        "university": "University of Oregon",
+        "major": "computer-science",
+        "level_of_study": "undergraduate-3-plus"
+      }
+    ]
+  },
+  {
+    "id": "chain-agent",
+    "name": "Chain Agent",
+    "tagline": "An AI agent that tracks shopify orders, reasons how much is needed to restock and sends emails out to suppliers.",
+    "tech_stack": "Next.js, React, TypeScript, NextAuth, Tailwind CSS, FastAPI, Google Gemini, Shopify Admin API, Snowflake API, ElevenLabs",
+    "description": "It is an AI agent that tracks shopify orders that reasons how much is needed to restock and sends emails out to suppliers. It sends out customized voice alerts for when the stock gets low, based on the output of the reasoning model.",
+    "video_url": "https://drive.google.com/file/d/1C6OIDD3F2YG21lzunXgF79pJ9oXJSqRS/view?usp=sharing",
+    "submission_url": null,
+    "github_url": "https://github.com/anvovn/quackhacks3/tree/main",
+    "team_name": "Lunar",
+    "image_urls": [
+      "/archive/projects/chain-agent/image-01.webp",
+      "/archive/projects/chain-agent/image-02.webp",
+      "/archive/projects/chain-agent/image-03.webp",
+      "/archive/projects/chain-agent/image-04.webp",
+      "/archive/projects/chain-agent/image-05.webp"
+    ],
+    "qh_track": "Google",
+    "mlh_tracks": [
+      "gemini_api",
+      "snowflake_api",
+      "elevenlabs"
+    ],
+    "prize_won": null,
+    "members": [
+      {
+        "id": "participant-029",
+        "name": "An Vo",
+        "university": "University of Oregon",
+        "major": "computer-science",
+        "level_of_study": "undergraduate-3-plus"
+      },
+      {
+        "id": "participant-078",
+        "name": "Chris Nguyen",
+        "university": "University of Oregon",
+        "major": "business",
+        "level_of_study": "undergraduate-3-plus"
+      },
+      {
+        "id": "participant-153",
+        "name": "Jae Grunwald",
+        "university": "Oregon State University",
+        "major": "computer-science",
+        "level_of_study": "undergraduate-3-plus"
+      },
+      {
+        "id": "participant-346",
+        "name": "Tyler Payne",
+        "university": "University of Oregon",
+        "major": "computer-science",
+        "level_of_study": "undergraduate-3-plus"
+      }
+    ]
+  },
+  {
+    "id": "code-dragon",
+    "name": "Code Dragon",
+    "tagline": "Survive the interview. Slay the dragon.",
+    "tech_stack": "Next.js, HTML, CSS, Google Gemini API, Eleven labs api, Vercel, .tech, Education, Google AI Studio, Résumé Analysis, AI Answer Grading, youtube",
+    "description": "Code Dragon is a turn-based RPG where you fight a dragon by answering tech interview questions. Pick a class — Mage (front-end), Fighter (back-end), or Thief (security) — and correct answers deal damage while wrong ones let the dragon strike back.\nIn AI Mode, Google Gemini generates fresh questions for your class, grades your typed answers, and has the dragon talk back after each one. Upload your résumé PDF and it grills you on your own projects. Classic Mode runs fully offline on a fixed question bank — no setup needed.\nThe goal was interview prep that actually feels worth doing — boss-fight stakes make you care about getting it right.",
+    "video_url": "https://youtu.be/jAWHiCzmZsE",
+    "submission_url": "https://code-dragon.tech/",
+    "github_url": "https://github.com/rahulskann/-Code-dragon",
+    "team_name": "Zoomies",
+    "image_urls": [
+      "/archive/projects/code-dragon/image-01.webp",
+      "/archive/projects/code-dragon/image-02.webp",
+      "/archive/projects/code-dragon/image-03.webp"
+    ],
+    "qh_track": "Google",
+    "mlh_tracks": [
+      "gemini_api",
+      "elevenlabs",
+      "tech_domains"
+    ],
+    "prize_won": null,
+    "members": [
+      {
+        "id": "participant-152",
+        "name": "Jadine Delfin-Watanabe",
+        "university": "University of Oregon",
+        "major": "other",
+        "level_of_study": "undergraduate-3-plus"
+      },
+      {
+        "id": "participant-372",
+        "name": "Zahra Alsulaimawi",
+        "university": "Oregon State University",
+        "major": "computer-science",
+        "level_of_study": "undergraduate-3-plus"
+      },
+      {
+        "id": "participant-298",
+        "name": "Sam Garcia Lopez",
+        "university": "Oregon State University",
+        "major": "computer-science",
+        "level_of_study": "undergraduate-3-plus"
+      },
+      {
+        "id": "participant-279",
+        "name": "Rahul S Kannan",
+        "university": "Oregon State University",
+        "major": "computer-science",
+        "level_of_study": "undergraduate-3-plus"
+      }
+    ]
+  },
+  {
+    "id": "crisisroute",
+    "name": "CrisisRoute",
+    "tagline": "Everyone can be a hero. AI handles the coordination.",
+    "tech_stack": "Gemini 2.0 Flash, Google ADK,, FastAPI, python, React 19, Firebase, Firestore, Google Maps, Cloud Run, Twilio",
+    "description": "I got the idea watching a hurricane disaster movie — help was everywhere, but coordination was chaos. What if everyone willing to act could be a hero? CrisisRoute is that platform: a Gemini ADK agent triages requests, matches volunteers, assigns missions, routes around danger zones, and sends multilingual briefings in under 60 seconds. Coordinators run a live command center; volunteers get missions in their language with turn-by-turn maps. Civic 311 and Good Deeds keep the same network active between crises. Built with Gemini 2.0 Flash, FastAPI, React, Firebase, Google Maps, FCM, and Twilio.",
+    "video_url": "https://www.dropbox.com/scl/fo/u3grw3spaouou8v38dqe8/ABjTAuV137xWMa3tZv8O6kg?rlkey=p22svhrio3rjwx8po92sblkb0&st=eeaxdwnh&dl=0",
+    "submission_url": "https://crisisroute.web.app/",
+    "github_url": "https://github.com/vitalkyungu/CrisisRoute",
+    "team_name": "Vital devhub",
+    "image_urls": [
+      "/archive/projects/crisisroute/image-01.webp",
+      "/archive/projects/crisisroute/image-02.webp"
+    ],
+    "qh_track": "Google",
+    "mlh_tracks": [
+      "gemini_api"
+    ],
+    "prize_won": null,
+    "members": [
+      {
+        "id": "participant-355",
+        "name": "vital kyungu",
+        "university": "Other",
+        "major": "information-systems",
+        "level_of_study": "graduate"
+      }
+    ]
+  },
+  {
+    "id": "crux",
+    "name": "Crux",
+    "tagline": "Most AI agrees with you. Crux argues back.",
+    "tech_stack": "Next.js, TypeScript, Tailwind CSS, Vercel, Groq, Llama 3.3 70B, Whisper, Anthropic Claude",
+    "description": "Crux is a priority-ranking AI agent that argues with you.\nMost AI to-do tools sort your list and hand it back. Crux does something different: it ranks your priorities, surfaces the one decision that gates everything else, breaks tasks into actionable steps, and defends its reasoning when you push back.\nWhat it does:\n\nThree ways in, one reasoning path. Type a list, speak it (transcribed with Whisper), or photograph a whiteboard (vision OCR). Everything funnels into the same ranking engine.\nRanking with reasoning. Every item gets a position and a specific justification — not just an order.\nAn adversarial debate loop. Push back on the ranking and Crux weighs your argument. If it holds up, Crux concedes and the list visibly reorders (animated). If it doesn't, Crux holds its position and tells you why. It's a sparring partner, not a yes-machine. Capped at 3 rounds.\nThree tones — Coach, Consultant, Debater. The voice and framing change; the underlying priority logic stays consistent.\nPer-item synthesis breakdown. Click any item and Crux returns ordered sub-steps with time estimates, a clear starting point, and only the dependencies that genuinely exist.\n\nThe hard part: the model kept fabricating structure to satisfy vague prompt rules — inventing task dependencies and authority hierarchies that weren't real. I fixed it with a two-part dependency test written into the prompts: a step only depends on another if it consumes that step's output AND literally cannot begin until it's done. Otherwise, the items are independent and Crux says so.\nBuilt with: Next.js, TypeScript, Tailwind, Vercel. Groq Llama 3.3 70B for ranking, debate, and breakdown. Groq Whisper for voice, Claude vision for photo OCR. No database, no auth — browser localStorage only. Built solo in 24 hours at QuackHacks 3. Live at usecrux.tech.",
+    "video_url": "https://youtu.be/GY8ccphQZ7k",
+    "submission_url": "https://usecrux.tech",
+    "github_url": "https://github.com/wickerzachary27-lab/crux",
+    "team_name": "Zack Hacks",
+    "image_urls": [
+      "/archive/projects/crux/image-01.webp"
+    ],
+    "qh_track": null,
+    "mlh_tracks": [
+      "tech_domains"
+    ],
+    "prize_won": null,
+    "members": [
+      {
+        "id": "participant-371",
+        "name": "Zack Wicker",
+        "university": "University of Oregon",
+        "major": "business",
+        "level_of_study": "undergraduate-3-plus"
+      }
+    ]
+  },
+  {
+    "id": "curate",
+    "name": "Curate",
+    "tagline": "A streaming service manager that automatically signs up and cancels services based on what shows you watch.",
+    "tech_stack": "React, Typescript, Javascript, HTML, Tailwind CSS, Framer Motion, MLH .tech Hosting, MongoDB, Render, JustWatch API, Google Suite, Gemini API",
+    "description": "People subscribe to too many streaming services, often paying for platforms they barely use. It is hard to know which services are worth keeping because content is scattered across many providers. Curate lets users sign up,  browse movies and shows, build a ranked watchlist, track their current streaming subscriptions, and get recommendations for which 1–5 services to keep each month (based on what they chose). The app estimates monthly savings, explains what content is covered, then, based on what services are and aren't needed, a Gemini agent either signs the user up for a given subscription or cancels their membership. The goal is to reduce wasted subscription spending while still covering the content users actually want to watch. \n\nOur website contains about 2,000 movies and TV shows with streaming availability data, posters, and service coverage across major platforms like Netflix, Hulu, Disney+, Max, Peacock, Prime Video, and Paramount+. Curate also supports account creation, login, password reset, watchlist ranking, subscription tracking, billing details, and special cases like free ongoing access through “Infinite Membership” (like if a parent is paying for the service). This allows the recommendation system to account for what users already pay for, what they can access for free, and which services are actually worth keeping for the month.",
+    "video_url": "https://www.youtube.com/watch?v=MBP9znZ1aY4",
+    "submission_url": "https://www.curateit.tech",
+    "github_url": "https://github.com/kellensnider/Curate",
+    "team_name": "Back to Back to Back",
+    "image_urls": [],
+    "qh_track": "Google",
+    "mlh_tracks": [
+      "gemini_api",
+      "tech_domains"
+    ],
+    "prize_won": null,
+    "members": [
+      {
+        "id": "participant-079",
+        "name": "Chris Warner",
+        "university": "University of Oregon",
+        "major": "computer-science",
+        "level_of_study": "undergraduate-3-plus"
+      },
+      {
+        "id": "participant-194",
+        "name": "Kellen Snider",
+        "university": "University of Oregon",
+        "major": "computer-science",
+        "level_of_study": "undergraduate-3-plus"
+      },
+      {
+        "id": "participant-206",
+        "name": "Lake Hackett",
+        "university": "University of Oregon",
+        "major": "business",
+        "level_of_study": "undergraduate-3-plus"
+      }
+    ]
+  },
+  {
+    "id": "deepsign",
+    "name": "DeepSign",
+    "tagline": "An accessible app for AR glasses which translates voice to ASL(American Sign Language)",
+    "tech_stack": "MediaPipe(Goolge), ElevenLabs, JavaScripts, Deepgram Nova-3, Python, typescript",
+    "description": "DeepSign is a real-time communication bridge built for the Deaf and mute community. The idea came from a simple observation sign language interpreters cost over a hundred dollars an hour and aren't always available. A Deaf person sitting in a meeting, visiting a doctor, or just having a conversation with a stranger is constantly dependent on someone else being there to translate. We wanted to remove that dependency entirely.\n\nThe app runs in two directions seemlessly, the first direction is voice to sign. When someone nearby speaks, DeepSign picks up their audio through the microphone, sends it to Deepgram for real-time transcription, then a signing stick figure appears on screen performing each word in ASL overlaid on a live camera feed like an AR display. It looks like looking through smart glasses.\n\nThe second direction is sign to voice. This is the reverse for someone who is mute and communicates through signing. The camera watches their hands, MediaPipe extracts the skeletal landmarks of each hand pose in real time, and a machine learning model trained on the WLASL dataset identifies which ASL word is being signed. Those words are buffered into a sentence, the Claude API converts the raw sign sequence into natural grammatical English, and ElevenLabs speaks it aloud through the speaker. The mute person signs and the hearing person hears a natural voice.",
+    "video_url": "https://www.youtube.com/watch?v=azPbh8qYNrY",
+    "submission_url": "https://deepsign-production.up.railway.app/",
+    "github_url": "https://github.com/EElumba/DeepSign-/tree/main",
+    "team_name": "Collab",
+    "image_urls": [
+      "/archive/projects/deepsign/image-01.webp",
+      "/archive/projects/deepsign/image-02.webp",
+      "/archive/projects/deepsign/image-03.webp",
+      "/archive/projects/deepsign/image-04.webp",
+      "/archive/projects/deepsign/image-05.webp",
+      "/archive/projects/deepsign/image-06.webp"
+    ],
+    "qh_track": null,
+    "mlh_tracks": [],
+    "prize_won": null,
+    "members": [
+      {
+        "id": "participant-127",
+        "name": "Freddie Ford",
+        "university": "University of Oregon",
+        "major": "business",
+        "level_of_study": "undergraduate-2-year"
+      },
+      {
+        "id": "participant-108",
+        "name": "Enoch Elumba",
+        "university": "University of Oregon",
+        "major": "computer-science",
+        "level_of_study": "undergraduate-3-plus"
+      },
+      {
+        "id": "participant-026",
+        "name": "Alexandr Iapara",
+        "university": "University of Oregon",
+        "major": "computer-science",
+        "level_of_study": "not-student"
+      }
+    ]
+  },
+  {
+    "id": "dizzero",
+    "name": "Dizzero",
+    "tagline": "Stop guessing. Start knowing what causes Dizziness.",
+    "tech_stack": "Base44, Google sheets, Google drive, Google vids",
+    "description": "75 year old patient comes into the clinic. Doctor checks the vitals and labs, but he says everything looks fine and there is no problem. He would still want the elderly to go to 2 other doctors and it a span of 3 months. After seeing all the doctors, dizziness continues but all the doctors say there's nothing wrong and patient eventually ends up in ER. \n\nDid you know out of 70 million people enrolled in medicare, 1/4 adults fall each year? And roughly 30 billion annual medicare dollars are attributed to fall related injuries. Each fall costs $26,000-62,000 per person, so you could imagine how fast that would build up. And still, 48% of falls are recurring and medication-related dizziness is frequently overlooked since healthcare design is set up to be reactive and not preventative. \n\nSo, Dizzero helps elderly patients identify which medications cause dizziness and learn safer alternative medication to reduce fall risk through reading or AI counselor if they can't read due to vision impairment or illiteracy.",
+    "video_url": "https://drive.google.com/drive/folders/1ejEgjr_r-x7yjlV5QMmy1HDtqjekUcUU?usp=sharing",
+    "submission_url": "https://drive.google.com/drive/folders/1ejEgjr_r-x7yjlV5QMmy1HDtqjekUcUU?usp=sharing",
+    "github_url": "https://dizzero-ldkim.base44.app/",
+    "team_name": "Duck Dev",
+    "image_urls": [
+      "/archive/projects/dizzero/image-01.webp",
+      "/archive/projects/dizzero/image-02.webp",
+      "/archive/projects/dizzero/image-03.webp",
+      "/archive/projects/dizzero/image-04.webp"
+    ],
+    "qh_track": "Base44",
+    "mlh_tracks": [],
+    "prize_won": null,
+    "members": [
+      {
+        "id": "participant-213",
+        "name": "London Doyoung Kim",
+        "university": "Other",
+        "major": "health-science",
+        "level_of_study": "code-school"
+      }
+    ]
+  },
+  {
+    "id": "ducksfly",
+    "name": "DucksFly",
+    "tagline": "Soar like a duck. Race against your friends. Exercise and have fun.",
+    "tech_stack": "React.js, Node.js, Colyseus, Mediapipe, Fly.io, ElevenLabs, Vite, Vercel",
+    "description": "Who doesn't love flying? Who hasn't dreamed of flying as a kid? Well, DucksFly and so can you! For this special QuackHacks game, become a duck, soar through the sky, and race against your friends.\n\nOur advanced body tracking tech lets you control a duck with your body. Flap your arms to go higher and faster. Relax to dive down. Steer side to side by leaning. Fly over a forest and soar through the mountain. Fly through rings to speed up, but be careful, if you crash.... Your friends might just pass you. Our game is fully deployed so you can race with up to 8 friends!",
+    "video_url": "https://youtu.be/8Nqn-PMALug",
+    "submission_url": "https://ducks-fly.vercel.app/",
+    "github_url": "https://github.com/tran3066/DucksFly",
+    "team_name": "MediaHype Team",
+    "image_urls": [
+      "/archive/projects/ducksfly/image-01.webp",
+      "/archive/projects/ducksfly/image-02.webp",
+      "/archive/projects/ducksfly/image-03.webp",
+      "/archive/projects/ducksfly/image-04.webp",
+      "/archive/projects/ducksfly/image-05.webp"
+    ],
+    "qh_track": "Pipeworks",
+    "mlh_tracks": [
+      "elevenlabs"
+    ],
+    "prize_won": null,
+    "members": [
+      {
+        "id": "participant-009",
+        "name": "Adilbek Bazarkulov",
+        "university": "Oregon State University",
+        "major": "computer-science",
+        "level_of_study": "graduate"
+      },
+      {
+        "id": "participant-162",
+        "name": "Jason Tran",
+        "university": "Other",
+        "major": "computer-science",
+        "level_of_study": "undergraduate-3-plus"
+      },
+      {
+        "id": "participant-122",
+        "name": "Fedya Semenov",
+        "university": "Other",
+        "major": "mathematics-statistics",
+        "level_of_study": "undergraduate-3-plus"
+      },
+      {
+        "id": "participant-037",
+        "name": "Anna Tymoshenko",
+        "university": "Pacific University",
+        "major": "computer-science",
+        "level_of_study": "undergraduate-3-plus"
+      }
+    ]
+  },
+  {
+    "id": "er-overwatch",
+    "name": "ER Overwatch",
+    "tagline": "No one waits unnoticed. Computer Vision Surveillance for Safer, Smarter ERs.",
+    "tech_stack": "Next.js, React, TypeScript, Vite, Tailwind CSS, FastAPI, Python, MediaPipe, LiveKit, Gemini API, REST API, WebSockets, Computer Vision, Rapid PPG, Machine Learning",
+    "description": "Emergency departments nationwide are facing a crisis: patients who need urgent hospitalization are increasingly forced to wait hours in crowded ERs before help becomes available. Prolonged waits are linked to higher patient risk, even a doubling of mortality rates for those waiting over 12 hours. With active wide-angle surveillance, ER Overwatch bridges the critical data gap between overcrowded waiting rooms and overwhelmed medical staff.\n\n- On the client (patient) side, our web app enables checked-in patients to view their ER data and wait time. The system offers optional remote heart rate monitoring (rPPG) using the patient’s camera that is sent back to the nurse's dashboard for live monitoring. An integrated AI chatbot answers health questions and offers reassurance while they wait. The chatbot also relays important updates to the nurse dashboard, ensuring staff are aware of any changes in patient condition. \n\n- On the nurse side, a unified dashboard displays all patients in the waiting area, with low-latency WebRTC live video feeds that can detect falls or sudden changes in condition via computer vision, biometric data (when rPPG is available), AI-generated triage recommendations, and real-time updates from the AI chatbot. Nurses receive instant alerts for critical events, such as a detected fall, abnormal vitals, or new symptoms reported via chat. Rapid intervention is enabled even before a patient is formally admitted. The dashboard provides transparent, anonymized wait metrics, reducing patient anxiety and protecting hospitals from catastrophic unmonitored events.\n\nER-OVERWATCH empowers healthcare providers to deliver timely, equitable care—even amid unprecedented system strain. As ER boarding threatens patient safety and the resilience of our health system, our platform offers a scalable, data-driven approach to improving outcomes and rebuilding trust in emergency care.",
+    "video_url": "https://youtu.be/7biBbQWCngY",
+    "submission_url": "https://eroverwatch.tech",
+    "github_url": "https://github.com/Jonjlim/Quack3-AJAE",
+    "team_name": "AJAE team",
+    "image_urls": [
+      "/archive/projects/er-overwatch/image-01.webp",
+      "/archive/projects/er-overwatch/image-02.webp",
+      "/archive/projects/er-overwatch/image-03.webp",
+      "/archive/projects/er-overwatch/image-04.webp",
+      "/archive/projects/er-overwatch/image-05.webp",
+      "/archive/projects/er-overwatch/image-06.webp"
+    ],
+    "qh_track": "Google",
+    "mlh_tracks": [
+      "gemini_api",
+      "tech_domains"
+    ],
+    "prize_won": null,
+    "members": [
+      {
+        "id": "participant-027",
+        "name": "Ally Chen",
+        "university": "Oregon State University",
+        "major": "computer-science",
+        "level_of_study": "undergraduate-3-plus"
+      },
+      {
+        "id": "participant-104",
+        "name": "Ekansh Arora",
+        "university": "Oregon State University",
+        "major": "computer-science",
+        "level_of_study": "undergraduate-3-plus"
+      },
+      {
+        "id": "participant-175",
+        "name": "Jonathon Lim",
+        "university": "Purdue University",
+        "major": "computer-science",
+        "level_of_study": "undergraduate-3-plus"
+      },
+      {
+        "id": "participant-021",
+        "name": "Alan Nguyen",
+        "university": "Oregon State University",
+        "major": "computer-science",
+        "level_of_study": "undergraduate-3-plus"
+      }
+    ]
+  },
+  {
+    "id": "farmos",
+    "name": "FarmOS",
+    "tagline": "3D farm with AI analysis and action for weeds, pests, and soil.",
+    "tech_stack": "React, Three.js, Python, FastAPI, Google Cloud, Firebase, Google Agent Dev Kit, Google Cloud Run",
+    "description": "FarmOS is a precision agriculture platform that gives farmers AI-powered, real-time visibility into crop health, weed threats, and soil conditions — rendered inside a photorealistic 3D reconstruction of their actual farm.\n\nWe went in person to real farms to capture on-site data. Using 3D Gaussian Splatting, we simulate drone flight paths through the 3D environment, extract frames, and feed them into a multi-stage Gemini pipeline: first to detect soil regions, then to identify weeds and anomalies within those regions. By combining saved 3D drone coordinates with the pixel locations Gemini flags, we place problem markers at exact real-world positions inside the 3D viewer — letting farmers (and AI agents) digitally traverse their fields before ever stepping outside.\n\nThe dashboard overlays a live HUD on the 3D farm: detected weed species with treatment dispatch, pest and sprinkler alerts, ambient conditions, and a soil health summary. A dedicated Soil Dashboard visualizes 40 IoT sensors on an interactive heatmap across 5 layers (moisture, nitrogen, phosphorus, potassium, pH) using IDW interpolation. An AI report endpoint pulls live Firebase data and generates a full farm health report with per-category scores via Gemini 2.5 Flash.\n\nThree Google ADK agents handle natural language workflows: a Research Agent with live Google Search, an Operations Agent for inventory and equipment queries, and a Robot Agent for autonomous weed and spray commands.\n\nStack: React, TypeScript, Three.js, Gaussian Splatting (WebGL), FastAPI, Firebase Firestore, Google Gemini 3.0 Flash, Google ADK.",
+    "video_url": "https://youtu.be/iMVs2644T-A?si=c361mRwvtqvqu1Mp",
+    "submission_url": null,
+    "github_url": "https://github.com/learningtocodekg/farm/",
+    "team_name": "Destiny 3",
+    "image_urls": [
+      "/archive/projects/farmos/image-01.webp",
+      "/archive/projects/farmos/image-02.webp"
+    ],
+    "qh_track": "Google",
+    "mlh_tracks": [
+      "gemini_api"
+    ],
+    "prize_won": null,
+    "members": [
+      {
+        "id": "participant-077",
+        "name": "Chris Ho",
+        "university": "Oregon State University",
+        "major": "computer-science",
+        "level_of_study": "undergraduate-3-plus"
+      },
+      {
+        "id": "participant-347",
+        "name": "Tyler Quach",
+        "university": "Oregon State University",
+        "major": "computer-science",
+        "level_of_study": "undergraduate-3-plus"
+      },
+      {
+        "id": "participant-067",
+        "name": "Bryce Estacio",
+        "university": "University of North Carolina at Chapel Hill",
+        "major": "computer-science",
+        "level_of_study": "undergraduate-3-plus"
+      },
+      {
+        "id": "participant-192",
+        "name": "Kanish Gupta",
+        "university": "University of Maryland, College Park",
+        "major": "computer-science",
+        "level_of_study": "undergraduate-3-plus"
+      }
+    ]
+  },
+  {
+    "id": "fastpost",
+    "name": "FastPost",
+    "tagline": "Your 24/7 AI Influencer that posts content for you while you sleep",
+    "tech_stack": "Node.js, vite.js, railway, gemini, postiz, postgress, express.js",
+    "description": "FastPost is an all-in-one platform that allows users to create, manage, and automate a portfolio of AI-generated digital influencers. From a simple sentence prompt, the platform designs a complete creator persona, including their visual identity and niche, and automatically generates on-brand images and captions. By integrating with your social channels, Fastpost enables these digital creators to post fresh content 24/7 and grow your audience without the need for constant human oversight.",
+    "video_url": "https://youtu.be/nL39T5aseGQ",
+    "submission_url": "https://getfastpost.com/",
+    "github_url": "https://github.com/lucaslbennett/QuackHacks",
+    "team_name": "DuckClaw",
+    "image_urls": [
+      "/archive/projects/fastpost/image-01.webp",
+      "/archive/projects/fastpost/image-02.webp"
+    ],
+    "qh_track": "Google",
+    "mlh_tracks": [
+      "gemini_api"
+    ],
+    "prize_won": null,
+    "members": [
+      {
+        "id": "participant-115",
+        "name": "Ethan Westerdahl",
+        "university": "University of Oregon",
+        "major": "business",
+        "level_of_study": "undergraduate-3-plus"
+      },
+      {
+        "id": "participant-053",
+        "name": "Basim Ibsies",
+        "university": "University of Oregon",
+        "major": "business",
+        "level_of_study": "undergraduate-2-year"
+      },
+      {
+        "id": "participant-214",
+        "name": "Lucas Bennett",
+        "university": "University of Oregon",
+        "major": "computer-science",
+        "level_of_study": "secondary"
+      },
+      {
+        "id": "participant-013",
+        "name": "Adrian Partain",
+        "university": "University of Oregon",
+        "major": "computer-science",
+        "level_of_study": "undergraduate-3-plus"
+      }
+    ]
+  },
+  {
+    "id": "fault-tolerant-ledger",
+    "name": "Fault Tolerant Ledger",
+    "tagline": "A replicated distributed ledger with leader election, adaptive consistency, anti-entropy repair, and failure recovery under network faults.",
+    "tech_stack": "C, Linux, TCP, POSIX Sockets, Pthreads, Flask, Python, React, Vite, Tailwind CSS",
+    "description": "Fault Tolerant Ledger is a fault-tolerant distributed ledger built from scratch in C that demonstrates core distributed systems concepts under real-world failure scenarios. The system replicates state across multiple nodes, supports leader election and automatic failover, and provides strong, quorum, and eventual consistency models. A custom TCP-based RPC framework enables communication between nodes and clients, while anti-entropy repair mechanisms maintain consistency after failures and recovery.\n\nA key innovation of the project is adaptive consistency. Rather than operating under a fixed consistency model, the system dynamically escalates between eventual, quorum, and strong consistency in response to replication failures, network partitions, and conflicting writes. The project also includes configurable failure injection, benchmarking tools, and a live monitoring dashboard that visualizes cluster state, leader changes, replication status, and ledger health in real time.",
+    "video_url": "https://www.youtube.com/watch?v=nzCvqPBKp9c",
+    "submission_url": null,
+    "github_url": "https://github.com/AndrewChan8/cluster",
+    "team_name": "Andrew Chan",
+    "image_urls": [
+      "/archive/projects/fault-tolerant-ledger/image-01.webp"
+    ],
+    "qh_track": null,
+    "mlh_tracks": [],
+    "prize_won": null,
+    "members": [
+      {
+        "id": "participant-031",
+        "name": "Andrew Chan",
+        "university": "University of Oregon",
+        "major": "computer-science",
+        "level_of_study": "graduate"
+      }
+    ]
+  },
+  {
+    "id": "find-it",
+    "name": "Find It",
+    "tagline": "Object Detection tool to help with Blind Assistance",
+    "tech_stack": "ElevenLabs, react native, Gemini API's, Adobe Suite, Xcode, ExpoGo",
+    "description": "Image detection app for the blind to use when shopping. The app allows user can enter a list verbally or a care taker, friend, family member can upload/type a list of items for them to find. The upload feature works by having the user connect with whoever they choose. Once they are connected then the user and their connections have a shared list which they can remotely add to. Once the detection starts by swiping up on the Home Screen, the detector starts looking for items on the list and notifies the user of their location. Then if the user prompts by saying \"find it\"/\"find\" the camera will then enter a new detection mode where it will ping the user at a controlled speed and will speed up once the object is centered to where they are facing. It will also prompt turn left or right depending on they objects location in Frame.",
+    "video_url": "https://youtu.be/marzjoc075k",
+    "submission_url": null,
+    "github_url": "https://github.com/zbrunner/QuackHacks",
+    "team_name": "Delt Dunces",
+    "image_urls": [
+      "/archive/projects/find-it/image-01.webp"
+    ],
+    "qh_track": "Google",
+    "mlh_tracks": [
+      "gemini_api",
+      "elevenlabs"
+    ],
+    "prize_won": null,
+    "members": [
+      {
+        "id": "participant-370",
+        "name": "Zachary Brunner",
+        "university": "University of Oregon",
+        "major": "computer-science",
+        "level_of_study": "undergraduate-3-plus"
+      },
+      {
+        "id": "participant-339",
+        "name": "Timothy Mullen",
+        "university": "University of Oregon",
+        "major": "other",
+        "level_of_study": "undergraduate-3-plus"
+      },
+      {
+        "id": "participant-177",
+        "name": "josh gould",
+        "university": "University of Oregon",
+        "major": "computer-science",
+        "level_of_study": "undergraduate-3-plus"
+      },
+      {
+        "id": "participant-196",
+        "name": "Kian Collins",
+        "university": "University of Oregon",
+        "major": "other",
+        "level_of_study": "undergraduate-3-plus"
+      }
+    ]
+  },
+  {
+    "id": "firstinline",
+    "name": "FirstInLine",
+    "tagline": "The older sibling who went to college and figured things out so that you don't have to.",
+    "tech_stack": "React, Tailwind, Vite, JavaScript, Express, Gemini, DigitalOcean, Snowflake, Node",
+    "description": "There are many unspoken difficulties that come with being a first-gen student. This mentor addresses those difficulties. FirstInLine teaches the user anything they need to know about college or life that they might not have been taught earlier. FirstInLine aims to make the user feel welcomed and heard in their journey. The AI provides real-world data that was found through web-research and confirmation. As well as providing any resources that will help the user's journey. FirstInLine is the solution that many first-gen students look for when first entering higher education. Its the older sibling that all first-gen students deserve.",
+    "video_url": "https://youtu.be/eKbPA-_-a_M",
+    "submission_url": "https://firstinline-puit2.ondigitalocean.app/",
+    "github_url": "https://github.com/Antonio-Robless/Quackhacks",
+    "team_name": "Horchata",
+    "image_urls": [
+      "/archive/projects/firstinline/image-01.webp",
+      "/archive/projects/firstinline/image-02.webp",
+      "/archive/projects/firstinline/image-03.webp"
+    ],
+    "qh_track": "Google",
+    "mlh_tracks": [
+      "gemini_api",
+      "snowflake_api",
+      "digitalocean"
+    ],
+    "prize_won": null,
+    "members": [
+      {
+        "id": "participant-040",
+        "name": "Antonio Robles",
+        "university": "University of Oregon",
+        "major": "computer-science",
+        "level_of_study": "undergraduate-3-plus"
+      }
+    ]
+  },
+  {
+    "id": "fixfirst",
+    "name": "FixFirst",
+    "tagline": "Fix what matters first.",
+    "tech_stack": "Next.js, React, TypeScript, Tailwind CSS, Node.js, Leaflet, CARTO, Vercel, GitHub, Open311, Socrata, Geolocation API, Web Speech API, Gemini API, Google Maps, ElevenLabs, Snowflake, backboard, DigitalOcean, PostCSS",
+    "description": "FixFirst is a civic repair intelligence platform that helps cities, campuses, and communities determine what infrastructure issues should be fixed first.\n\nToday, cities already have ways for residents to report problems such as potholes, broken streetlights, blocked wheelchair ramps, damaged sidewalks, overflowing trash, unsafe crossings, and other public-space hazards. The problem is not collecting reports. The problem is deciding which issues are the most urgent once hundreds or thousands of reports begin to pile up.\n\nFixFirst solves this problem by turning reports into repair priorities.\n\nUsers can submit reports with photos, voice notes, text descriptions, and location data. The platform analyzes each report, categorizes the issue, identifies accessibility concerns, generates structured summaries, and helps prioritize repairs based on severity, accessibility impact, duplicate reports, route disruption, community verification, and time unresolved.\n\nThe platform features an interactive map with city and campus views, community verification tools, facilities dashboards, repair priority scoring, 311 call script generation, facilities-ready report generation, solved report tracking, proof-of-fix verification, leaderboards, achievements, rewards, and civic team collaboration.\n\nFixFirst also introduces concepts such as Accessibility Debt Scores, Repair ROI scoring, Route Disruption analysis, Duplicate Cluster Intelligence, and Proof of Fix verification to help organizations better understand infrastructure challenges and measure repair impact over time.\n\nFor city officials and facilities teams, FixFirst transforms a large volume of disconnected complaints into a ranked action queue with recommended departments, service-level recommendations, verification confidence scores, and generated reports that can be acted on immediately.\n\nFor community members, FixFirst creates a transparent reporting experience where users can verify issues, track repairs, earn civic impact poi",
+    "video_url": "https://youtube.com/shorts/mTPucaC6D60?si=kI5ivbM4jI8CsTna",
+    "submission_url": "https://shantam-404-not-found-g1f4dwsdq-salem-s-projects2.vercel.app",
+    "github_url": "https://github.com/crsalem100/Shantam-404-not-found-",
+    "team_name": "The Original Shantam",
+    "image_urls": [],
+    "qh_track": "Google",
+    "mlh_tracks": [
+      "elevenlabs",
+      "backboard"
+    ],
+    "prize_won": null,
+    "members": [
+      {
+        "id": "participant-297",
+        "name": "Salem Alfassam",
+        "university": "University of Oregon",
+        "major": "business",
+        "level_of_study": "undergraduate-3-plus"
+      }
+    ]
+  },
+  {
+    "id": "flowstate",
+    "name": "Flowstate",
+    "tagline": "Flowstate is an all in one todo app that keeps off distracting apps and focused throughout the day.",
+    "tech_stack": "React Native, Typescript, Expo, Convex, Clerk, Claude code, EAS",
+    "description": "This project is a todo App that is supposed to help people stay organized and focused and what they need to do. I have ADHD and struggle with this so I wanted to create an app that could help me and other people with this. It lets you create tasks with high medium or low priority and you can mark it as important like normal todo apps too. It also has a focus mode that you can turn on and off with instructions of how to connect it to apples shortcuts on ios. It also tells you how to use automations on the shortcuts app to redirect distracting apps to this todo app so you see what to-dos you still have. It has an option in the tasks for a pomodoro timer that lets you write down thoughts for later so you can stay focused. It also has a calender that lists all of your tasks on the days they are due. Finally it also has an eisenhower matrix that sorts the tasks by urgent and important, urgent and not important, not urgent and important, and not urgent and not important.",
+    "video_url": "https://www.youtube.com/watch?v=nZwQ_EHZ3YA",
+    "submission_url": null,
+    "github_url": "https://github.com/Enriquevit/Flowstate",
+    "team_name": "Flowstate",
+    "image_urls": [
+      "/archive/projects/flowstate/image-01.webp",
+      "/archive/projects/flowstate/image-02.webp",
+      "/archive/projects/flowstate/image-03.webp",
+      "/archive/projects/flowstate/image-04.webp",
+      "/archive/projects/flowstate/image-05.webp",
+      "/archive/projects/flowstate/image-06.webp"
+    ],
+    "qh_track": null,
+    "mlh_tracks": [],
+    "prize_won": null,
+    "members": [
+      {
+        "id": "participant-110",
+        "name": "Enrique Viton",
+        "university": "University of Oregon",
+        "major": "computer-science",
+        "level_of_study": "undergraduate-3-plus"
+      }
+    ]
+  },
+  {
+    "id": "focusn-t",
+    "name": "Focusn-t",
+    "tagline": "Focusn't is a social productivity platform that transforms focused work into world-building. Users grow and customize miniature planets by completing",
+    "tech_stack": "Next.js, React, TypeScript, MediaPipe, TensorFlow.js, Firebase, Firestore, Firebase Auth, WebRTC, Tailwind CSS, Framer Motion, Three.js, React Three Fiber, Gemini API",
+    "description": "Focusn't is a social productivity platform that transforms focused work into world-building. Users grow and customize miniature planets by completing focus sessions, while computer vision verifies attention in real time to prevent cheating. Join focus rooms with friends, build solar systems together, maintain streaks, and stay accountable through AI-powered focus tracking.",
+    "video_url": "https://youtu.be/kChhc5QruQA",
+    "submission_url": "https://github.com/bekzat-uraimov/Focusn-t",
+    "github_url": "https://github.com/bekzat-uraimov/Focusn-t",
+    "team_name": "furious4",
+    "image_urls": [
+      "/archive/projects/focusn-t/image-01.webp",
+      "/archive/projects/focusn-t/image-02.webp",
+      "/archive/projects/focusn-t/image-03.webp",
+      "/archive/projects/focusn-t/image-04.webp",
+      "/archive/projects/focusn-t/image-05.webp",
+      "/archive/projects/focusn-t/image-06.webp"
+    ],
+    "qh_track": "Google",
+    "mlh_tracks": [
+      "digitalocean",
+      "elevenlabs",
+      "gemini_api"
+    ],
+    "prize_won": null,
+    "members": [
+      {
+        "id": "participant-019",
+        "name": "Akan Abdireshov",
+        "university": "Other",
+        "major": "computer-science",
+        "level_of_study": "undergraduate-2-year"
+      },
+      {
+        "id": "participant-056",
+        "name": "Bekzat Uraimov",
+        "university": "Bellevue College, Washington",
+        "major": "computer-science",
+        "level_of_study": "undergraduate-2-year"
+      },
+      {
+        "id": "participant-375",
+        "name": "Zhan Erali",
+        "university": "Other",
+        "major": "computer-science",
+        "level_of_study": "undergraduate-2-year"
+      },
+      {
+        "id": "participant-263",
+        "name": "Nurbek Bekmuratov",
+        "university": "Other",
+        "major": "computer-science",
+        "level_of_study": "undergraduate-2-year"
+      }
+    ]
+  },
+  {
+    "id": "folia",
+    "name": "Folia",
+    "tagline": "Bring it to life",
+    "tech_stack": "Base44, 21st.dev, Claude, spline, Java Script",
+    "description": "Folia is a modular, no-drill living wall. A sculpted wooden board mounts to any smooth wall with recessed suction cups — no screws, no marks — and magnetic cylindrical planters snap on and rotate to stay level at any angle. The idea started from a simple frustration: renters can't drill, small spaces have no floor room, and the wall planters that exist either wreck the wall or look like hardware. So every choice respects both the wall and the room — magnets make positioning effortless, magnetic wooden plugs fill empty slots so it always looks like one clean piece, and an unscrewable drip base keeps watering mess-free. It comes as Ivy (vertical) and Nest (horizontal), and you can add, move, and rearrange plants as freely as objects on a shelf. The goal was something genuinely modular that never looks modular — a single, considered piece whether it holds one plant or six.",
+    "video_url": "https://youtu.be/ymb2q9zgDLw",
+    "submission_url": "https://folia-qh.base44.app",
+    "github_url": "https://github.com/joelorfam-stack/QuackHacks/blob/main/README.md",
+    "team_name": "Lorance Studios",
+    "image_urls": [
+      "/archive/projects/folia/image-01.webp",
+      "/archive/projects/folia/image-02.webp",
+      "/archive/projects/folia/image-03.webp",
+      "/archive/projects/folia/image-04.webp",
+      "/archive/projects/folia/image-05.webp"
+    ],
+    "qh_track": "Base44",
+    "mlh_tracks": [],
+    "prize_won": null,
+    "members": [
+      {
+        "id": "participant-173",
+        "name": "Joe Lorance",
+        "university": "University of Oregon",
+        "major": "business",
+        "level_of_study": "undergraduate-3-plus"
+      }
+    ]
+  },
+  {
+    "id": "ghostnet",
+    "name": "GhostNet",
+    "tagline": "Through-wall fall detection and heart-monitoring for elderly care using WiFi signals from $9 chips.",
+    "tech_stack": "ESP32 S3, Snowflake, FastAPI, PyTorch, NumPy, Three.js, Twilio",
+    "description": "Falls are the leading cause of injury-related death in adults over 65, and the risk is highest for those living alone, where no can help them up. Existing solutions force a choice between cameras or compliance (wearables that elderly people simply don't wear). \n\nA 2022 Carnegie Mellon paper showed WiFi radio waves, absorbed differently by human bodies, could reconstruct human pose but they used industrial antenna arrays costing thousands. We asked: what if you could do this with a $9 chip?\n\nGhostNet turns two ESP32-S3 boards into an invisible, always-on safety net. By reading WiFi Channel State Information how radio signals change as a person moves through a room. It detects position, identifies falls in real time, and monitors heart rate in real time. \n\nWhen a fall is detected and the person doesn't get back up within a grace period, GhostNet automatically calls their caregiver via Twilio. No camera. No wearable. Every event streams into Snowflake for historical analysis and longitudinal health tracking.\n\nNo public CSI dataset matched our hardware. So we made one. Each team member fell, lay down, and sat 50 times each, across all three actions generating 6,032 labeled CSI samples directly from our ESP32-S3 chips in real conditions. Every sample streamed into Snowflake via Snowpipe as it was collected. We then trained a CNN fall detector on that data using Snowpark ML. The model learned to distinguish a real fall from a slow lie-down using WiFi signals. No camera supervision, no wearable ground truth. \n\nFor heart rate, a teammate collected his own CSI breathing and pulse data and used it to normalize a public dataset to our hardware, extracting heart rate from raw WiFi signal fluctuations with no wearable required.\n\nWhat's next: expanding to 4-6 nodes for full house coverage and Snowflake Cortex for detecting declining mobility weeks before a fall ever happens.",
+    "video_url": "https://youtu.be/GSPy-rk8NPo",
+    "submission_url": null,
+    "github_url": "https://github.com/RealDniel/ghostnet",
+    "team_name": "GhostNet",
+    "image_urls": [
+      "/archive/projects/ghostnet/image-01.webp",
+      "/archive/projects/ghostnet/image-02.webp",
+      "/archive/projects/ghostnet/image-03.webp",
+      "/archive/projects/ghostnet/image-04.webp"
+    ],
+    "qh_track": "Base44",
+    "mlh_tracks": [
+      "snowflake_api"
+    ],
+    "prize_won": null,
+    "members": [
+      {
+        "id": "participant-089",
+        "name": "Daniel Martin",
+        "university": "Oregon State University",
+        "major": "computer-science",
+        "level_of_study": "undergraduate-3-plus"
+      },
+      {
+        "id": "participant-377",
+        "name": "Zheng H. Chen",
+        "university": "Oregon State University",
+        "major": "computer-science",
+        "level_of_study": "undergraduate-2-year"
+      },
+      {
+        "id": "participant-098",
+        "name": "Donovan Thach",
+        "university": "Oregon State University",
+        "major": "computer-science",
+        "level_of_study": "undergraduate-2-year"
+      }
+    ]
+  },
+  {
+    "id": "golfsim",
+    "name": "GolfSim",
+    "tagline": "Practice your putting anywhere with this realistic putting simulator. Use your phone to track ball speed and putter angle.",
+    "tech_stack": "Godot, Python",
+    "description": "An iPhone camera tracks ball speed, ball angle, and putter angle to replicate a realistic golf shot in-game. First, a Python calibration script teaches the camera to recognize the ball and putter by color. A second Python script then live-tracks ball and putter during play. In Godot, the user lines up a shot by choosing a target ball and putter angle, then tries to replicate it while controlling speed through their real putting stroke. The live-tracker measures the actual ball speed, ball angle, and putter angle, and Godot's physics engine, with real friction and gravity, renders the resulting shot.",
+    "video_url": "https://youtube.com/shorts/NhrSef9uU5U?si=V0mhK9DIvwQlgNrE",
+    "submission_url": "https://youtu.be/Qsk0tsoZjr8",
+    "github_url": "https://github.com/zanderrjohnson-CS/QuackHacks26.git",
+    "team_name": "SoloDolo",
+    "image_urls": [
+      "/archive/projects/golfsim/image-01.webp",
+      "/archive/projects/golfsim/image-02.webp",
+      "/archive/projects/golfsim/image-03.webp"
+    ],
+    "qh_track": "Pipeworks",
+    "mlh_tracks": [],
+    "prize_won": null,
+    "members": [
+      {
+        "id": "participant-374",
+        "name": "Zander Johnson",
+        "university": "University of Oregon",
+        "major": "computer-science",
+        "level_of_study": "undergraduate-3-plus"
+      }
+    ]
+  },
+  {
+    "id": "kernel-factory",
+    "name": "Kernel Factory",
+    "tagline": "1",
+    "tech_stack": "JAX",
+    "description": "1",
+    "video_url": "http://youtube.com",
+    "submission_url": "https://myan17.github.io/QuackHacks/#demo",
+    "github_url": "https://github.com/Myan17/QuackHacks",
+    "team_name": "Castle Danger",
+    "image_urls": [],
+    "qh_track": null,
+    "mlh_tracks": [],
+    "prize_won": null,
+    "members": [
+      {
+        "id": "participant-249",
+        "name": "Myan Gupta",
+        "university": "University of Minnesota",
+        "major": "computer-science",
+        "level_of_study": "undergraduate-3-plus"
+      },
+      {
+        "id": "participant-008",
+        "name": "Abhishek Adile",
+        "university": "Other",
+        "major": "computer-science",
+        "level_of_study": "graduate"
+      }
+    ]
+  },
+  {
+    "id": "knockiq",
+    "name": "KnockIQ",
+    "tagline": "Stop Logging, Start Closing.",
+    "tech_stack": "Base44",
+    "description": "Generative AI allows reps to verbally log customer interactions, which are automatically converted into structured customer profiles. The app extracts key interaction data, generates performance KPIs, and provides AI-driven insights to help reps improve their effectiveness on the doors. Unlike most existing door-to-door software, which focuses on enterprise management, this platform is designed with the individual rep in mind.",
+    "video_url": "https://www.youtube.com/shorts/vN2ProB_RVs",
+    "submission_url": "https://knock-iq-pro.base44.app/",
+    "github_url": "https://github.com/hullandrew05-gif/Easy-Capital",
+    "team_name": "Easy Capital",
+    "image_urls": [],
+    "qh_track": "Base44",
+    "mlh_tracks": [],
+    "prize_won": null,
+    "members": [
+      {
+        "id": "participant-259",
+        "name": "Nick Sakys",
+        "university": "University of Oregon",
+        "major": "business",
+        "level_of_study": "undergraduate-3-plus"
+      },
+      {
+        "id": "participant-032",
+        "name": "Andrew Hull",
+        "university": "University of Oregon",
+        "major": "Finance",
+        "level_of_study": "undergraduate-3-plus"
+      },
+      {
+        "id": "participant-105",
+        "name": "Eli Priestley",
+        "university": "University of Oregon",
+        "major": "business",
+        "level_of_study": "undergraduate-2-year"
+      }
+    ]
+  },
+  {
+    "id": "landingpad",
+    "name": "LandingPad",
+    "tagline": "AI guide helping immigrants navigate life in a new country — in any language",
+    "tech_stack": "Gemini API, Google Maps API, Places API, Gmail API, Google Cloud Run, Node.js, Express, JavaScript, Google Calender, OAuth2",
+    "description": "LandingPad is an AI-powered guide that helps immigrants and newcomers navigate life in a new country. When someone arrives somewhere new, they face an overwhelming number of challenges; finding healthcare, enrolling kids in school, understanding legal status, finding food assistance, all in a language they may not speak.\n\nLandingPad solves this with a map-first interface that shows nearby resources by category (healthcare, housing, food, work, legal, school) using Google Maps and Places API. Users can click any resource pin to see photos, phone numbers, hours, and get directions. The AI chat responds in whatever language the user types, recommending real places with real addresses. It even drops gold pins on the map automatically when it mentions a location.\n\nThe app also includes a multilingual email composer powered by Gemini that drafts and sends real emails via Gmail OAuth, a planner that syncs with Google Calendar, and a full UI that translates dynamically into any language using AI. Built on Google Cloud Run with Gemini API, Google Maps, Places API, Gmail API, and Google Calendar.",
+    "video_url": "https://youtu.be/NxjeA5czf9U",
+    "submission_url": "https://landingpad-425865427791.us-west1.run.app/",
+    "github_url": "https://github.com/mostafa-elshenawy-2006/LandingPad",
+    "team_name": "LandingPad",
+    "image_urls": [
+      "/archive/projects/landingpad/image-01.webp",
+      "/archive/projects/landingpad/image-02.webp"
+    ],
+    "qh_track": "Google",
+    "mlh_tracks": [
+      "gemini_api",
+      "tech_domains"
+    ],
+    "prize_won": null,
+    "members": [
+      {
+        "id": "participant-246",
+        "name": "Mostafa Elshenawy",
+        "university": "Oregon State University",
+        "major": "other-engineering",
+        "level_of_study": "undergraduate-3-plus"
+      }
+    ]
+  },
+  {
+    "id": "mallard-management",
+    "name": "Mallard Management",
+    "tagline": "Advanded risk and portfolio management to the average Joe",
+    "tech_stack": "Python, React.js",
+    "description": "Mallard Management is a full-stack portfolio optimization platform built by Ethan Reinhart, Kimball Weeks, Ben Tell, and Gilbert Knight. It brings institutional-grade quantitative risk and portfolio management techniques to individual investors through a user-friendly interface.\nWhat it does: Users input their investment preferences, risk tolerance, and asset universe, and the platform constructs statistically optimized portfolios tailored to those inputs. Under the hood, a Python-based quantitative engine runs the optimization logic, with a JavaScript/TypeScript frontend serving the client experience and a dedicated backend handling data and API orchestration.\nTech stack: Python (48.9%) powers the core quant engine, JavaScript (35%) and TypeScript (14.7%) drive the frontend and backend services, with shell scripts for cross-platform dev/deploy support.\nArchitecture: Modular monorepo organized into engine (optimization logic), backend (API/data layer), client (frontend UI), deploy, docs, and scripts.",
+    "video_url": "https://www.youtube.com/watch?v=bq2ClFFKPag&feature=youtu.be",
+    "submission_url": "http://mallardmanagement.tech",
+    "github_url": "https://github.com/ereinha3/mallard-management",
+    "team_name": "Mallard Management",
+    "image_urls": [],
+    "qh_track": "Google",
+    "mlh_tracks": [
+      "gemini_api",
+      "elevenlabs",
+      "tech_domains"
+    ],
+    "prize_won": null,
+    "members": [
+      {
+        "id": "participant-114",
+        "name": "Ethan Reinhart",
+        "university": "University of Oregon",
+        "major": "computer-science",
+        "level_of_study": "graduate"
+      },
+      {
+        "id": "participant-059",
+        "name": "Ben Tell",
+        "university": "University of Oregon",
+        "major": "computer-science",
+        "level_of_study": "undergraduate-3-plus"
+      },
+      {
+        "id": "participant-198",
+        "name": "Kimball Weeks",
+        "university": "University of Oregon",
+        "major": "mathematics-statistics",
+        "level_of_study": "undergraduate-3-plus"
+      },
+      {
+        "id": "participant-131",
+        "name": "Gilbert Knight",
+        "university": "University of Oregon",
+        "major": "mathematics-statistics",
+        "level_of_study": "undergraduate-3-plus"
+      }
+    ]
+  },
+  {
+    "id": "mango-mac-agent",
+    "name": "Mango_Mac_agent",
+    "tagline": "Run your whole Mac by voice, in 90+ languages.",
+    "tech_stack": "swift, swiftui, appkit, accessibility-api, gemini, claude, elevenlabs, websockets, avfoundation, silero-vad, onnx",
+    "description": "Mango: the voice that runs your Mac\n\nPeople with accessibility needs have a hard time using a laptop. Every task on a computer assumes two working hands on a keyboard and trackpad. We have AI now, with models that can see a screen and act on it, so using a computer shouldn't still be gated by whether you can physically work a trackpad. I couldn't find anyone who had built that bridge, so I built Mango.\n\nWhat it does\n\nMango is a native macOS voice assistant that runs your Mac for you. You talk to it like a person and it launches apps, snaps windows, scrolls, clicks buttons, fills in fields, toggles system settings, searches the web, and reads pages back to you. All of it hands-free, voice in and voice out.\n\n\"Snap this window left and turn on dark mode.\" \"Scroll to the bottom and click the download button.\" \"What's my battery?\" You say what you want, and Mango does the clicking and typing.\n\nHow I built it\n\nIt's one voice loop.\n\nIt hears you with ElevenLabs Scribe. Your speech streams over a WebSocket to ElevenLabs' realtime speech-to-text, and on-device voice-activity detection handles when you start and stop talking. The transcript shows up almost as fast as you speak.\n\nIt reads your screen with Gemini. This is the part I'm most proud of. Instead of sending a screenshot, Mango walks the macOS accessibility tree, the structured list of every on-screen element with its role and position, and passes that to Gemini as text. Gemini reasons over the actual structure of the screen, not raw pixels, which is faster, more reliable, and more private than vision.\n\nIt decides with structured actions. Gemini replies with a JSON action like \"click element 42\" or \"set this field's value.\" A dispatcher runs that through the macOS accessibility APIs and presses the real button or sets the real value. It drives each app the way the app expects instead of faking mouse clicks.\n\nIt talks back with ElevenLabs TTS.",
+    "video_url": "https://vimeo.com/1197155384?share=copy&fl=sv&fe=ci#t=0",
+    "submission_url": null,
+    "github_url": "https://github.com/bam-project/Mango_Mac_agent",
+    "team_name": "Mango",
+    "image_urls": [
+      "/archive/projects/mango-mac-agent/image-01.webp"
+    ],
+    "qh_track": "Google",
+    "mlh_tracks": [
+      "gemini_api",
+      "elevenlabs"
+    ],
+    "prize_won": null,
+    "members": [
+      {
+        "id": "participant-191",
+        "name": "Kalab Kahsay",
+        "university": "Other",
+        "major": "computer-science",
+        "level_of_study": "undergraduate-3-plus"
+      }
+    ]
+  },
+  {
+    "id": "mark-lviii",
+    "name": "Mark LVIII",
+    "tagline": "Engineering at the speed of imagination. Mark LVIII helps turn your ideas into 3D Blender objects.",
+    "tech_stack": "Google ADK, Gemini Live API, Blender, Firebase, Python",
+    "description": "## Inspiration\n\nIn Spider-Man: Far From Home, Peter Parker designs his new suit by seamlessly interacting with holographic displays and an AI assistant. This sparked a question for us: in today's era of rapid AI advancement, can we build a tool that empowers students and designers to quickly prototype, modify, and simulate objects using that same kind of AI-driven power? That vision led to the creation of Mark LVIII.\n\n## What it does\n\nMark LVIII bridges the Gemini CLI with Blender via MCP to create a rapid, hands-free 3D prototyping workshop. Its core features include:\n\n* **Voice-to-CAD:** Speak directly to the AI to conceptualize and generate complex 3D objects on the fly.\n\n* **Gesture Control:** Replace the traditional mouse and keyboard with real-time hand-tracking to grab, manipulate, and assemble parts naturally.\n\n* **Procedural Generation:** Say \"Build a rocket,\" and Mark LVIII breaks it down into a modular Build Spec, executing the code in Blender while keeping every individual part fully editable.\n\n* **Live Modifications:** Instantly spawn primitives (\"Add a red cube\") through live Python execution inside the Blender environment.\n\n* **Smart Inspection:** Query the system for structural data—like transforms or bounding boxes—or command the camera to \"frame this\" specific part for a closer look.\n\n* **Reference-Driven Design:** Instruct the agent to scrape the web for reference images and automatically translate those visual concepts into a 3D workspace.\n\nUnder the hood it's three processes: a **cloud-style agent server** (Gemini Live + Google ADK), a **local macOS client** (mic, webcam, cursor overlay), and **Blender** running a custom addon. They talk over two clean seams: a WebSocket between server and client, and a JSON-over-TCP socket between the client and Blender.\n\n## How I built it\n\nUnder the hood, the architecture consists of three core processes: a cloud-based agent server (Gemini Live + Google ADK), a local macOS client (handling the mi",
+    "video_url": "https://youtu.be/J2dFhyEaxb0?si=J7QzPS4ducz8Prs9",
+    "submission_url": null,
+    "github_url": "https://github.com/hrhuynguyen/Mark-LXXXV/tree/Branch-2",
+    "team_name": "Mark LXXXV",
+    "image_urls": [
+      "/archive/projects/mark-lviii/image-01.webp",
+      "/archive/projects/mark-lviii/image-02.webp",
+      "/archive/projects/mark-lviii/image-03.webp"
+    ],
+    "qh_track": "Google",
+    "mlh_tracks": [
+      "gemini_api",
+      "snowflake_api"
+    ],
+    "prize_won": null,
+    "members": [
+      {
+        "id": "participant-141",
+        "name": "Huy Nguyen",
+        "university": "Rice University",
+        "major": "computer-science",
+        "level_of_study": "graduate"
+      },
+      {
+        "id": "participant-331",
+        "name": "Tâm Đỗ Thành",
+        "university": "University of Houston",
+        "major": "computer-science",
+        "level_of_study": "undergraduate-3-plus"
+      }
+    ]
+  },
+  {
+    "id": "medledger",
+    "name": "MedLedger",
+    "tagline": "The Universal Medical Data Provider",
+    "tech_stack": "Solana, Flask, Vite, MongoDB",
+    "description": "MedLedger is the next-generation medical records tool. Today, patients arriving at a doctor's office have to fill out their entire medical history by hand, a process that's time-consuming and rarely accurate. MedLedger fixes this by letting patients share their records directly with their provider through a simple QR scan. In seconds, a doctor sees the patient's conditions, current medications, and allergies, giving them the information they need to treat patients confidently, even in an emergency.",
+    "video_url": "https://youtu.be/DPP54cIF4Xw",
+    "submission_url": "https://medledger-five.vercel.app/",
+    "github_url": "https://github.com/connorlowerynorth/Medledger",
+    "team_name": "Blockheads",
+    "image_urls": [
+      "/archive/projects/medledger/image-01.webp",
+      "/archive/projects/medledger/image-02.webp",
+      "/archive/projects/medledger/image-03.webp",
+      "/archive/projects/medledger/image-04.webp",
+      "/archive/projects/medledger/image-05.webp"
+    ],
+    "qh_track": "MongoDB",
+    "mlh_tracks": [
+      "solana"
+    ],
+    "prize_won": null,
+    "members": [
+      {
+        "id": "participant-146",
+        "name": "Jack Bernstein-Sheehan",
+        "university": "University of Oregon",
+        "major": "computer-science",
+        "level_of_study": "undergraduate-3-plus"
+      },
+      {
+        "id": "participant-084",
+        "name": "Connor Lowery-North",
+        "university": null,
+        "major": null,
+        "level_of_study": null
+      },
+      {
+        "id": "participant-052",
+        "name": "Bardia Ahmadi Dafchahi",
+        "university": "University of Oregon",
+        "major": "computer-science",
+        "level_of_study": "undergraduate-3-plus"
+      },
+      {
+        "id": "participant-123",
+        "name": "Finian Kierstead",
+        "university": "University of Oregon",
+        "major": "computer-science",
+        "level_of_study": "undergraduate-3-plus"
+      }
+    ]
+  },
+  {
+    "id": "mic-drop",
+    "name": "Mic Drop",
+    "tagline": "PvP karaoke and dance battles with solana on the line",
+    "tech_stack": "TypeScript, JavaScript, Python, Rust, Solana, Vercel, Render, ElevenLabs, Google Gemini, Gemini API, Snowflake, Phantom, Cloudflare",
+    "description": "Mic Drop is a PvP karaoke battle where two players sing the same song and the higher score wins the other person's solana. One player hosts on a laptop and the other joins by scanning a QR code on their phone. Both ante up SOL into an Anchor escrow program before the game starts. They take turns singing into the laptop mic, then the backend scores each take on lyrics timing (80%) and pitch accuracy (20%), and the user with the higher score gets the pot.\n\nThe whole match is run by a live AI game show host powered by Gemini Live and ElevenLabs. It greets the room, asks each player if they're ready, starts turns by calling tools, then counts down the reveal on its own voice. ElevenLabs voices the host in a custom game show persona and generates all the custom sound effects. The backend runs pitch detection and speech to text for lyrics timing. The backend recomputes everything from the raw audio and sends the match results to Snowflake and feed a live leaderboard.\n\nWe also implemented a \"dance mode\". It uses your laptop webcam and MediaPipe Pose to track your body in real time, showing a ghost skeleton of the choreography on screen so you know exactly what moves to hit. You're scored on how closely your joint angles match the reference frame by frame where the overall higher accuracy wins the pot.",
+    "video_url": "https://youtu.be/7YSPHhpdHCk",
+    "submission_url": "https://micdrop-five.vercel.app/",
+    "github_url": "https://github.com/jhatch3/mic-drop",
+    "team_name": "yerp! ocky way",
+    "image_urls": [
+      "/archive/projects/mic-drop/image-01.webp",
+      "/archive/projects/mic-drop/image-02.webp",
+      "/archive/projects/mic-drop/image-03.webp",
+      "/archive/projects/mic-drop/image-04.webp",
+      "/archive/projects/mic-drop/image-05.webp"
+    ],
+    "qh_track": "Google",
+    "mlh_tracks": [
+      "gemini_api",
+      "snowflake_api",
+      "elevenlabs",
+      "solana"
+    ],
+    "prize_won": null,
+    "members": [
+      {
+        "id": "participant-100",
+        "name": "Drew Manley",
+        "university": "University of Oregon",
+        "major": "computer-science",
+        "level_of_study": "undergraduate-3-plus"
+      },
+      {
+        "id": "participant-183",
+        "name": "Justin hatch",
+        "university": "University of Oregon",
+        "major": "computer-science",
+        "level_of_study": "undergraduate-3-plus"
+      },
+      {
+        "id": "participant-349",
+        "name": "Val Levy",
+        "university": "University of Oregon",
+        "major": "computer-science",
+        "level_of_study": "undergraduate-3-plus"
+      },
+      {
+        "id": "participant-124",
+        "name": "Finn Fujimura",
+        "university": "University of Oregon",
+        "major": "computer-science",
+        "level_of_study": "undergraduate-3-plus"
+      }
+    ]
+  },
+  {
+    "id": "myguard",
+    "name": "MyGuard",
+    "tagline": "AI drowning detection for areas without lifeguards or for lifeguard assistance",
+    "tech_stack": "React.js, Gemini, MediaPipe Lite, TypeScript",
+    "description": "MyGuard is a web app for monitoring pool footage. You point it at a webcam or upload a video, start monitoring, and it detects people in each frame using MediaPipe’s EfficientDet Lite 0 object detector (person class only), running in the browser.\n\nEach detected person gets tracked across frames. A TypeScript risk engine assigns a 0–100 score based on things like how still they are, detection confidence, whether they were lost from view while alone, and posture-ish heuristics from the bounding box. You can optionally draw safe and monitor zones on the video; safe zones never alert, monitor zones use stricter rules.\n\nWhen someone’s score stays above a threshold (~65) for a short window (~400ms), the app triggers an alert (sound + a red panel on the left). It also snapshots the last ~10 seconds of detection data—boxes and risk scores, not the video file itself—for replay afterward.\n\nAfter an alert, a small Node server calls the Gemini API with structured context (risk breakdown, timeline events, replay stats) and returns a short text summary. That shows up in the incident replay section below the video, not in the alert panel. The timeline on the right logs system events, risk spikes, and AI text.\n\nStack: React + TypeScript + Vite + Tailwind on the front end; MediaPipe for detection; a custom risk/tracking layer in TS; Gemini via a local API proxy so the key stays off the client.\n\nPose detection (pose_landmarker_lite) exists in the codebase but isn’t hooked up to the main flow—the live path is bounding-box detection only.",
+    "video_url": "https://www.youtube.com/watch?v=5n9IRrJZ0Ug",
+    "submission_url": null,
+    "github_url": "https://github.com/Angadslr/quackhacks.git",
+    "team_name": "Team Chud",
+    "image_urls": [
+      "/archive/projects/myguard/image-01.webp",
+      "/archive/projects/myguard/image-02.webp"
+    ],
+    "qh_track": "Google",
+    "mlh_tracks": [
+      "gemini_api",
+      "digitalocean",
+      "tech_domains"
+    ],
+    "prize_won": null,
+    "members": [
+      {
+        "id": "participant-034",
+        "name": "Angad Srivastava",
+        "university": "Oregon State University",
+        "major": "computer-science",
+        "level_of_study": "undergraduate-3-plus"
+      },
+      {
+        "id": "participant-044",
+        "name": "Aryan Arya",
+        "university": "Oregon State University",
+        "major": "computer-science",
+        "level_of_study": "undergraduate-2-year"
+      },
+      {
+        "id": "participant-174",
+        "name": "Johnny Tran",
+        "university": "Oregon State University",
+        "major": "computer-science",
+        "level_of_study": "undergraduate-3-plus"
+      },
+      {
+        "id": "participant-139",
+        "name": "Hayden Truong",
+        "university": "Oregon State University",
+        "major": "computer-science",
+        "level_of_study": "undergraduate-3-plus"
+      }
+    ]
+  },
+  {
+    "id": "nestcrow",
+    "name": "Nestcrow",
+    "tagline": "Where your security deposit and rental agreement lives safely.",
+    "tech_stack": "Next.js, Gemini, Solana, Rust, TypeScript, JavaScript, Docker",
+    "description": "Nestcrow replaces the traditional landlord-holds-deposit model with a smart-contract escrow that neither the landlord, the tenant, nor the developers can override unilaterally. At move-out, Google Gemini compares move-in and move-out photos and produces an itemized damage estimate — strictly advisory — to inform negotiation. If the parties cannot agree, a structured dispute and arbitration system resolves the outcome on-chain.",
+    "video_url": "https://youtu.be/S_RzwRJLreQ",
+    "submission_url": "https://nestcrow.tech",
+    "github_url": "https://github.com/kevinle3212/DepositGuard",
+    "team_name": "quack quack",
+    "image_urls": [],
+    "qh_track": "Google",
+    "mlh_tracks": [
+      "gemini_api",
+      "solana",
+      "tech_domains",
+      "elevenlabs"
+    ],
+    "prize_won": null,
+    "members": [
+      {
+        "id": "participant-061",
+        "name": "Blake Staats",
+        "university": "University of Oregon",
+        "major": "business",
+        "level_of_study": "undergraduate-3-plus"
+      },
+      {
+        "id": "participant-195",
+        "name": "Kevin Le",
+        "university": "University of Oregon",
+        "major": "computer-science",
+        "level_of_study": "undergraduate-3-plus"
+      },
+      {
+        "id": "participant-227",
+        "name": "Matthew Stone",
+        "university": "University of Oregon",
+        "major": "computer-science",
+        "level_of_study": "graduate"
+      }
+    ]
+  },
+  {
+    "id": "oculusmd",
+    "name": "oculusMD",
+    "tagline": "Your AI copilot that monitors medication routines and guides proper consumption on the patient’s behalf.",
+    "tech_stack": "React Native, MongoDB, Typescript, Python, ElevenLabs, Solana, Gemini, FastAPI",
+    "description": "oculusMD is an AI-powered medication safety assistant designed to protect patients after they leave the hospital — the moment when medication errors are most common and most dangerous.\n\nEvery year, millions of patients are discharged with complex multi-drug regimens and dense paperwork they struggle to understand. oculusMD bridges that gap by putting a real-time clinical safety layer directly on the patient's phone.\n\nHow it works:\n\nPoint the camera at any medication bottle or pill packet. oculusMD uses Google Gemini 2.5 Flash to instantly identify the drug from the label, then runs it through a safety engine backed by a structured drug interaction database in MongoDB. In seconds, the app checks three things:\n\nContraindications — Is this medication dangerous given the patient's medical history? (e.g., a decongestant for a patient with severe hypertension)\nDrug-drug interactions — Do any of the medications being taken together create a dangerous or lethal combination? (e.g., Warfarin + Metronidazole, a combination that can cause fatal bleeding)\nToo-soon re-dosing — Has this medication already been taken recently? The app tracks every confirmed dose and blocks an accidental double-dose before it happens.\nEvery scan result is logged to the Solana blockchain, creating a tamper-proof audit trail that patients and caregivers can share with their care team.\n\nFor discharge documents:\n\nPatients also struggle to understand the dense medical language in discharge paperwork. oculusMD lets patients photograph their discharge documents — even multi-page packets — and uses Gemini to extract and translate the instructions into plain English. The summary is read aloud in a natural voice via ElevenLabs TTS. Patients can also ask follow-up questions in plain language (\"What medications do I take at home?\", \"Can I drink alcohol?\") and get spoken, grounded answers pulled directly from their own documents.\n\nTech stack: React Native (Expo), FastAPI, MongoDB, Google Gemini 2.5 Flash, Eleven",
+    "video_url": "https://youtu.be/MVjm0RxKNP0?feature=shared",
+    "submission_url": null,
+    "github_url": "https://github.com/tuanhoang0117/QuackHacks-3-2026",
+    "team_name": "Tuan and Evan",
+    "image_urls": [
+      "/archive/projects/oculusmd/image-01.webp",
+      "/archive/projects/oculusmd/image-02.webp",
+      "/archive/projects/oculusmd/image-03.webp",
+      "/archive/projects/oculusmd/image-04.webp"
+    ],
+    "qh_track": "Google",
+    "mlh_tracks": [
+      "gemini_api",
+      "elevenlabs",
+      "solana"
+    ],
+    "prize_won": null,
+    "members": [
+      {
+        "id": "participant-117",
+        "name": "Evan lee",
+        "university": "Folsom Lake College",
+        "major": "computer-science",
+        "level_of_study": "undergraduate-2-year"
+      },
+      {
+        "id": "participant-345",
+        "name": "Tuan Hoang",
+        "university": "California Polytechnic State University, San Luis Obispo",
+        "major": "computer-science",
+        "level_of_study": "undergraduate-3-plus"
+      }
+    ]
+  },
+  {
+    "id": "oncoscope",
+    "name": "Oncoscope",
+    "tagline": "A Copilot for Pathologist",
+    "tech_stack": "Antigravity, Python, FastAPI, Javascript, Firebase, Google Could Run, React, Gemini, Cloud Functions, Cloud Storage, Could Build, Pytorch, Vite, ElevenLab",
+    "description": "We have a project on cancer detection in whole slide images. This is not simple cancer classification; it is tumor detection and localization at very high resolution. Each whole slide image can be around 1 GB, so even loading the image in a browser is difficult. We built the system so pathologists can smoothly view, zoom, review, and verify AI-highlighted regions.\n\nWe have three main goals:\n- Reduce missed cancers.\n- Make the AI’s evidence visible and verifiable.\n- Keep the pathologist in control.\n\nAccording to People Beating Cancer, roughly 11% of cancer patients are misdiagnosed, meaning for every 1,000 people, around 110 may experience a cancer misdiagnosis in their lifetime. Our goal is not to replace the pathologist, but to support them by highlighting suspicious regions that may otherwise be missed during review.\n\nOur main target is to reduce false negative by making every AI result reviewable, editable, and explainable.\n\n## Training a model\n\nEach hospital can have different staining protocols, scanners, tissue preparation methods, and image quality.\n\n- We used a large foundation model because it already understands many visual patterns.\n- Instead of training a full model from scratch, we trained a classifier on top of foundation-model embeddings.\n- This lets us adapt the system to tumor detection while keeping training fast.\n- We used an NVIDIA H200 GPU and optimized the workflow to finish training in around 10 minutes.\n- The long-term idea is that this can be customized for different cancer types and different hospital data.\n\n## Building the viewer\n\n### Creating Tiles\n\nInitially, each WSI was around 1.1 GB, which cannot be loaded directly in the browser.\n\n- We converted the WSI into Deep Zoom Image tiles.\n- The slide is split into many small image tiles at different zoom levels.\n- The browser only loads the tiles needed for the current view.\n- This makes zooming and panning smooth, even for very large slides.\n- We used Goo",
+    "video_url": "https://www.loom.com/share/fb5f338d3276464c972632a8c40c2755",
+    "submission_url": "https://oncoscope.tech",
+    "github_url": "https://github.com/nepal80m/oncoscope",
+    "team_name": "Ducktectors",
+    "image_urls": [
+      "/archive/projects/oncoscope/image-01.webp",
+      "/archive/projects/oncoscope/image-02.webp",
+      "/archive/projects/oncoscope/image-03.webp",
+      "/archive/projects/oncoscope/image-04.webp",
+      "/archive/projects/oncoscope/image-05.webp",
+      "/archive/projects/oncoscope/image-06.webp"
+    ],
+    "qh_track": "Google",
+    "mlh_tracks": [
+      "gemini_api",
+      "elevenlabs",
+      "tech_domains"
+    ],
+    "prize_won": null,
+    "members": [
+      {
+        "id": "participant-359",
+        "name": "Wiggle coin",
+        "university": "University of Oregon",
+        "major": "computer-science",
+        "level_of_study": "undergraduate-3-plus"
+      },
+      {
+        "id": "participant-272",
+        "name": "Prasaya Acharya",
+        "university": "University of Oregon",
+        "major": "computer-science",
+        "level_of_study": "graduate"
+      },
+      {
+        "id": "participant-045",
+        "name": "Asim Nepal",
+        "university": "University of Oregon",
+        "major": "computer-science",
+        "level_of_study": "graduate"
+      },
+      {
+        "id": "participant-036",
+        "name": "Anish Dulal",
+        "university": "University of Oregon",
+        "major": "computer-science",
+        "level_of_study": "graduate"
+      }
+    ]
+  },
+  {
+    "id": "p-r-s-i-m",
+    "name": "P.R.S.I.M",
+    "tagline": "Easy-to-use, webased, AI powered 3D scene construction tool.",
+    "tech_stack": "Three.js, HTML, Javascript, Typescript, Fastify, Zod validation, Vite",
+    "description": "PRISM: Physics-aware Room Import, Segmentation, and Manipulation is a browser-based 3D scene editor for importing GLB room/object scans, separating scene geometry into editable objects, and assigning semantic labels, materials, and physics properties with AI assistance. It combines manual editor controls with an agentic Gemini-powered chat interface that can move objects, adjust materials, toggle gravity/collisions, generate backgrounds, add Meshy assets, and export scene/physics data.\n\nUse cases include turning SceneGen or scanned GLB rooms into interactive physics-ready scenes, rapidly preparing demo environments for games or simulations, testing how imported objects behave under gravity/collision rules, and using natural language to edit complex scenes without manually selecting every property. It is especially useful for workflows where raw 3D imports need to become structured, labeled, editable, and simulation-aware assets.",
+    "video_url": "https://www.youtube.com/watch?v=fIc9asyMjZg",
+    "submission_url": null,
+    "github_url": "https://github.com/chengenli9/QuackHacks2026",
+    "team_name": "PilotDevs",
+    "image_urls": [
+      "/archive/projects/p-r-s-i-m/image-01.webp"
+    ],
+    "qh_track": "Google",
+    "mlh_tracks": [
+      "gemini_api"
+    ],
+    "prize_won": null,
+    "members": [
+      {
+        "id": "participant-178",
+        "name": "Joshua Krasnogorov",
+        "university": "Other",
+        "major": "computer-science",
+        "level_of_study": "undergraduate-3-plus"
+      },
+      {
+        "id": "participant-075",
+        "name": "Chengen Li",
+        "university": "Other",
+        "major": "computer-science",
+        "level_of_study": "undergraduate-3-plus"
+      },
+      {
+        "id": "participant-341",
+        "name": "Trenton Pham",
+        "university": "Other",
+        "major": "computer-science",
+        "level_of_study": "undergraduate-3-plus"
+      }
+    ]
+  },
+  {
+    "id": "portflo",
+    "name": "PortFlo",
+    "tagline": "Supply chain risk, mapped in real time.",
+    "tech_stack": "React, Vite, Tailwind, Python",
+    "description": "PortFlo is a supply-chain intelligence dashboard that maps global risks across critical materials, trade routes, ports, suppliers, and chokepoints. \n\nIt combines public data sources with Gemini-powered briefings to help users spot disruptions, understand what is at risk, and monitor fragile parts of global trade in real time.",
+    "video_url": "https://youtu.be/k_9iKrgSvpY",
+    "submission_url": null,
+    "github_url": "https://github.com/AravSarma/PortFlo-quackhack-2026",
+    "team_name": "Low Taper Fade",
+    "image_urls": [
+      "/archive/projects/portflo/image-01.webp",
+      "/archive/projects/portflo/image-02.webp"
+    ],
+    "qh_track": "Base44",
+    "mlh_tracks": [
+      "gemini_api"
+    ],
+    "prize_won": null,
+    "members": [
+      {
+        "id": "participant-327",
+        "name": "Steven Sanchez",
+        "university": "University of Oregon",
+        "major": "Data Science",
+        "level_of_study": "undergraduate-3-plus"
+      },
+      {
+        "id": "participant-348",
+        "name": "ulys cd",
+        "university": "University of Oregon",
+        "major": "web-development",
+        "level_of_study": "undergraduate-3-plus"
+      },
+      {
+        "id": "participant-229",
+        "name": "Maximo Stowers-DeWolfe",
+        "university": "University of Oregon",
+        "major": "business",
+        "level_of_study": "undergraduate-3-plus"
+      },
+      {
+        "id": "participant-041",
+        "name": "Arav Sarma",
+        "university": "University of Oregon",
+        "major": "computer-science",
+        "level_of_study": "undergraduate-3-plus"
+      }
+    ]
+  },
+  {
+    "id": "poses-for-dummies",
+    "name": "Poses for Dummies",
+    "tagline": "A two-player, asymmetric rhythm-survival game where one player's body becomes the controller and the other plays the villain.",
+    "tech_stack": "TypeScript, ElevenLabs, React, Vite, Hono, WebSockets, Cloudflare, MediaPipe, p5.js, p2.js, ml5.js, PNPM, Wrangler",
+    "description": "The premise: A Poser stands in front of a webcam and must contort their body to fit through \"holes\" (pose-shaped cutouts in walls) that scale up toward them on the beat, Hole-in-the-Wall style. A second player, the Saboteur, draws those poses in real time by dragging the joints of an on-screen ragdoll (or rolls random ones if they'd rather just be cruel). The Saboteur also has access to power-ups which further thwart the Poser's efforts. The Athlete has 3 lives and must survive a ~2-minute music track of ~30 walls. Then the players swap devices and roles; the highest accumulated score wins.\n\nHow it works: MediaPipe captures the Athlete's skeleton from the webcam, then the game throws away raw pixel distances and computes only the rotational angles between joints. Those angles drive a single fixed-size on-screen dummy, so every player, regardless of height or build, is rendered as the exact same character with zero calibration. Scoring is the percent match between the Athlete's pose and the Saboteur's hole.",
+    "video_url": "https://youtu.be/YFmhCacJdOo",
+    "submission_url": "https://quackhacks3.seufert.workers.dev/",
+    "github_url": "https://github.com/mileshs/quackhacks3",
+    "team_name": "Defenestrator",
+    "image_urls": [
+      "/archive/projects/poses-for-dummies/image-01.webp",
+      "/archive/projects/poses-for-dummies/image-02.webp",
+      "/archive/projects/poses-for-dummies/image-03.webp",
+      "/archive/projects/poses-for-dummies/image-04.webp",
+      "/archive/projects/poses-for-dummies/image-05.webp",
+      "/archive/projects/poses-for-dummies/image-06.webp"
+    ],
+    "qh_track": "Pipeworks",
+    "mlh_tracks": [
+      "elevenlabs"
+    ],
+    "prize_won": null,
+    "members": [
+      {
+        "id": "participant-220",
+        "name": "Lukas Seufert",
+        "university": "Oregon State University",
+        "major": "computer-science",
+        "level_of_study": "undergraduate-3-plus"
+      },
+      {
+        "id": "participant-237",
+        "name": "Miles Hamilton-Sommer",
+        "university": "Other",
+        "major": "computer-science",
+        "level_of_study": "undergraduate-2-year"
+      },
+      {
+        "id": "participant-072",
+        "name": "Carson Secrest",
+        "university": "Oregon State University",
+        "major": "computer-science",
+        "level_of_study": "undergraduate-3-plus"
+      },
+      {
+        "id": "participant-020",
+        "name": "Aki X",
+        "university": "The University of British Columbia",
+        "major": "computer-science",
+        "level_of_study": "undergraduate-2-year"
+      }
+    ]
+  },
+  {
+    "id": "prism",
+    "name": "Prism",
+    "tagline": "\"Understand your health. In your language.\"",
+    "tech_stack": "next.js, typescript, tailwind-css, google-gemini, elevenlabs, vercel, cursor",
+    "description": "Every day, millions of people receive lab reports filled with medical terminology they don't understand. Faced with unfamiliar biomarkers, abbreviations, and reference ranges, many patients are left confused, anxious, or unable to take meaningful action.\n\nPrism transforms complex lab reports into clear, personalized health insights.\n\nUsers simply upload a lab report PDF or image, and Prism's AI-powered medical intelligence pipeline takes over. Six specialized agents built on Google Gemini 2.5 Flash work together to extract clinical data, identify potential health risks, explain findings in plain language, generate personalized recommendations, translate results into 100+ languages, and provide transparent explanations for every flagged value.\n\nBeyond text summaries, Prism includes an interactive body map that visualizes affected organ systems, multilingual voice narration powered by ElevenLabs, downloadable doctor-ready reports, and explainable AI features that help users understand not just what was flagged, but why.\n\nPrivacy is built into the foundation. Prism stores no medical records, uses no database, and deletes all data when the session ends.\n\nBy making medical information understandable, accessible, multilingual, and trustworthy, Prism helps bridge the gap between clinical data and patient understanding, empowering individuals, families, and communities to make more informed health decisions.",
+    "video_url": "https://youtu.be/TcjKq35iTG0",
+    "submission_url": "https://prism-sigma-five.vercel.app/",
+    "github_url": "https://github.com/ramsaran28/Prism",
+    "team_name": "Bright Forge",
+    "image_urls": [
+      "/archive/projects/prism/image-01.webp",
+      "/archive/projects/prism/image-02.webp",
+      "/archive/projects/prism/image-03.webp",
+      "/archive/projects/prism/image-04.webp"
+    ],
+    "qh_track": "Google",
+    "mlh_tracks": [
+      "gemini_api",
+      "elevenlabs"
+    ],
+    "prize_won": null,
+    "members": [
+      {
+        "id": "participant-280",
+        "name": "ramsaran vk",
+        "university": "Oregon State University",
+        "major": "computer-science",
+        "level_of_study": "undergraduate-3-plus"
+      },
+      {
+        "id": "participant-163",
+        "name": "Jaya Sneha Sannidhi",
+        "university": "Oregon State University",
+        "major": "computer-science",
+        "level_of_study": "undergraduate-3-plus"
+      }
+    ]
+  },
+  {
+    "id": "prompt-it",
+    "name": "Prompt - IT",
+    "tagline": "Discover and share AI conversations",
+    "tech_stack": "Base44, Cluade",
+    "description": "Prompt IT is a search engine for AI conversations, reimagining the Google experience for a world where people increasingly turn to AI instead of traditional web search. Instead of indexing web pages, Prompt IT lets users publish their AI conversations (powered by Gemini) and makes them discoverable through a familiar Google-style interface, complete with knowledge panels, quick-fact cards, related topics, and Gemini-generated imagery. When someone searches a topic like \"dog\" or \"how much sugar is in a Red Bull,\" they get a rich results page built entirely from real AI conversations and generated content rather than scraped websites. Our goal is to capture and share the collective knowledge people are generating through AI, turning private prompts into a public, searchable resource that reflects what the world is actually asking AI.",
+    "video_url": "https://web.descript.com/c8e867d5-48a0-4854-8317-d1c823d16fdb",
+    "submission_url": "https://web.descript.com/c8e867d5-48a0-4854-8317-d1c823d16fdb",
+    "github_url": "https://web.descript.com/c8e867d5-48a0-4854-8317-d1c823d16fdb",
+    "team_name": "Charlie's Project",
+    "image_urls": [],
+    "qh_track": "Base44",
+    "mlh_tracks": [
+      "gemini_api"
+    ],
+    "prize_won": null,
+    "members": [
+      {
+        "id": "participant-074",
+        "name": "Charlie Sneed",
+        "university": "University of Oregon",
+        "major": "business",
+        "level_of_study": "undergraduate-3-plus"
+      }
+    ]
+  },
+  {
+    "id": "psychopunch",
+    "name": "PsychoPunch",
+    "tagline": "AI powered chaos engineering: We help engineers discover the chaos experiments they didn’t know they needed",
+    "tech_stack": "Javascript, Gemini API, Json, Express, NodeJS, Toxiproxy, Docker, WebSockets, React",
+    "description": "We built PsychoPunch, an autonomous chaos engineering platform that evolves traditional resilience testing into a proactive, hypothesis-driven operation. While traditional tools like Netflix's Chaos Monkey rely on random fault injection like killing containers at fixed intervals, PsychoPunch utilizes an agentic brain powered by the Gemini API to analyze codebases and predict specific failure modes. The platform operates on a continuous verification loop where the agent inspects source code, formulates technical hypotheses, and executes precise tests by programmatically manipulating Docker containers and configuring Toxiproxy instances to inject live network and resource faults. To manage the massive influx of experimental data, we implemented a persistent memory layer backed by a custom BM25 Retrieval-Augmented Generation algorithm, allowing the agent to efficiently query its own historical markdown post-mortems and apply past context to new investigations. Ultimately, PsychoPunch serves DevOps and site reliability engineers by automating the discovery of critical, hidden vulnerabilities like concurrent write data loss and synchronous bottlenecks that standard testing suites inevitably miss, paving the way for a true automated reliability engineer that patches production threats before they impact users.",
+    "video_url": "https://youtu.be/BuiBypVUoQk",
+    "submission_url": null,
+    "github_url": "https://github.com/mehulmuna/Quack26",
+    "team_name": "PsychoPunch",
+    "image_urls": [
+      "/archive/projects/psychopunch/image-01.webp",
+      "/archive/projects/psychopunch/image-02.webp",
+      "/archive/projects/psychopunch/image-03.webp"
+    ],
+    "qh_track": "Google",
+    "mlh_tracks": [
+      "gemini_api"
+    ],
+    "prize_won": null,
+    "members": [
+      {
+        "id": "participant-233",
+        "name": "Mehul Munankarmi",
+        "university": "Oregon State University",
+        "major": "computer-science",
+        "level_of_study": "undergraduate-3-plus"
+      },
+      {
+        "id": "participant-286",
+        "name": "Richard Ramirez",
+        "university": "Oregon State University",
+        "major": "computer-science",
+        "level_of_study": "undergraduate-3-plus"
+      },
+      {
+        "id": "participant-015",
+        "name": "Adwaith Renjith",
+        "university": "Oregon State University",
+        "major": "computer-science",
+        "level_of_study": "undergraduate-3-plus"
+      },
+      {
+        "id": "participant-012",
+        "name": "Adrian Alupoaei",
+        "university": null,
+        "major": null,
+        "level_of_study": null
+      }
+    ]
+  },
+  {
+    "id": "quack-health",
+    "name": "Quack Health",
+    "tagline": "Simplifying medical care",
+    "tech_stack": "Gemini, ElevenLabs, Node.js, Express, Twilio, Firebase, React, Tailwind",
+    "description": "QuackHealth is a voice-first health journaling app that helps patients track symptoms and communicate clearly with their doctors. Users speak naturally about how they feel, and an AI intake agent (powered by Gemini) asks follow-up questions — just like a nurse at check-in — to gather severity, duration, and triggers. Each conversation is spoken aloud using ElevenLabs text-to-speech, creating a hands-free experience. Symptoms are organized into a visual timeline with severity trend charts, pattern detection, and a one-tap doctor brief that summarizes everything into a printable clinical summary. A companion WhatsApp triage bot lets users in rural or low-connectivity areas access the same symptom logging and triage flow over messaging.\n\nQuackHealth meets you where you are. If all you have is a $10 phone, we triage over SMS. If you have a smartphone, we give you a voice journal that turns three weeks of symptoms into the best 15-minute appointment your doctor has ever had.",
+    "video_url": "https://youtu.be/h3oGMeNUaYo",
+    "submission_url": null,
+    "github_url": "https://github.com/harrynj2/quackingproject",
+    "team_name": "Seems GPTable",
+    "image_urls": [
+      "/archive/projects/quack-health/image-01.webp",
+      "/archive/projects/quack-health/image-02.webp",
+      "/archive/projects/quack-health/image-03.webp",
+      "/archive/projects/quack-health/image-04.webp",
+      "/archive/projects/quack-health/image-05.webp",
+      "/archive/projects/quack-health/image-06.webp"
+    ],
+    "qh_track": "Google",
+    "mlh_tracks": [
+      "gemini_api",
+      "elevenlabs"
+    ],
+    "prize_won": null,
+    "members": [
+      {
+        "id": "participant-136",
+        "name": "Harry Johnson",
+        "university": "University of Oregon",
+        "major": "computer-science",
+        "level_of_study": "undergraduate-3-plus"
+      },
+      {
+        "id": "participant-002",
+        "name": "Aaron Edelson",
+        "university": "University of Oregon",
+        "major": "computer-science",
+        "level_of_study": "undergraduate-3-plus"
+      }
+    ]
+  },
+  {
+    "id": "quacky",
+    "name": "Quacky",
+    "tagline": "Your friendly desktop duck",
+    "tech_stack": "python, swift, swiftui, fastapi, uvicorn, google-gemini, playwright, elevenlabs, chrome-devtools, pyautogui, applescript, gmail-api, google-calendar-api, google-docs-api, google-sheets-api, bigquery, google-cloud, oauth, appkit, speech-framework, avfoundation, vnc, html, css, javascript, web-audio-api",
+    "description": "🦆 Quacky - your friendly desktop duck\nQuacky is an AI sidekick that lives in your Mac's desktop, does the boring stuff - email, research, calendar - and quacks when it needs you. You stay in flow; the duck does the busywork.\n💡 Inspiration Most AI agents either live in a chat window you babysit, or hijack your screen - stealing your mouse and locking you out while they \"work.\" Neither feels like a teammate. We wanted an assistant that works alongside you, invisibly, and only taps your shoulder when it matters - like a helpful colleague at the next desk, except this one's a duck.\n🐤 What it does A mascot in your menu-bar notch. You type or speak a task and the duck waddles off:\n* ✉️ Sends email - after you OK it. Drafts in your voice; calendar-aware, so it declines on conflicts instead of \"let me check.\"\n* 🔎 Web research & summaries - point it at a topic or subreddit; it browses, reads, and returns a tidy summary.\n* 📅 Works your Google stack - Gmail, Calendar, Docs, Sheets.\n* 🎙️ Talks back with a natural ElevenLabs voice - only when it counts.\n* 🦆 Shows its status at a glance: snoozing, digging in, all-ears, ta-da.\n🏗️ How we built it Our proudest bit is the architecture: Quacky runs across two macOS profiles. Profile A (your session) hosts the orchestrator brain (FastAPI) and the SwiftUI notch app; Profile B is a private, headless session where the agent works - so it never touches your screen.\nThe brain is Google Gemini: it understands intent, plans multi-step tasks, drafts content, and routes each - direct Google APIs first, then headless browsing (Playwright + Chrome DevTools Protocol), then gated desktop control. We discovered macOS sends synthetic input to the foreground session, so a background agent can hijack yours - so we built a fail-closed gate that keeps the duck inside Profile B, and even stream its screen into the notch so you can watch it work.\n🚀 What's next: code-signed distribution, richer memory, and a few more quacks.",
+    "video_url": "https://youtu.be/FWobA1BN5PY",
+    "submission_url": null,
+    "github_url": "https://github.com/SarveshaKumarKS/Quackhacks-2026",
+    "team_name": "PortlandPulse",
+    "image_urls": [
+      "/archive/projects/quacky/image-01.webp",
+      "/archive/projects/quacky/image-02.webp",
+      "/archive/projects/quacky/image-03.webp"
+    ],
+    "qh_track": "Google",
+    "mlh_tracks": [
+      "gemini_api",
+      "elevenlabs"
+    ],
+    "prize_won": null,
+    "members": [
+      {
+        "id": "participant-303",
+        "name": "Sarvesha Kumar Kombaiah Seetha",
+        "university": "Other",
+        "major": "information-systems",
+        "level_of_study": "graduate"
+      },
+      {
+        "id": "participant-200",
+        "name": "Kishan Gupta",
+        "university": "Other",
+        "major": "information-systems",
+        "level_of_study": "graduate"
+      }
+    ]
+  },
+  {
+    "id": "safereturn",
+    "name": "SafeReturn",
+    "tagline": "SafeReturn is designed to give loved ones and responders a faster starting point when time matters.",
+    "tech_stack": "Base44",
+    "description": "50,000 search and rescue missions are launched across the United States. Too often, responders begin with incomplete information: where the person was heading, what route they planned to take, what supplies they had, when they were expected back, and who to contact. Not because the information did not matter, but because no one captured it before the trip.\n\nThis problem is personal to us. One member of our team survived a boating accident on the Columbia River. Three people did not, including an eight-year-old. That experience stayed with us because it showed how quickly a normal day outdoors can become an emergency, and how important clear information becomes when people are scared, time matters, and responders need answers fast.\n\nA pre-trip plan is supposed to solve that. It tells emergency contacts and responders where you are going, who you are with, what supplies you have, and when to start looking. The National Park Service recommends leaving a trip plan with someone you trust. But today, the current solution is usually a printable form buried on a government website. You print it, fill it out by hand, physically give it to someone, and rewrite it if plans change. Most people have never heard of it, and almost nobody uses it.\n\nSafeReturn digitizes the entire process. In under two minutes, adventurers can log their route, timeline, group members, gear, supplies, medical information, vehicle, and emergency contacts directly from their phone. When they finish, they share a single rescue-ready link with a trusted contact. If they do not return on time, that contact has the information police or search and rescue need immediately. No guesswork. No lost time.\nSafeReturn does not replace search and rescue. It gives them a head start. When time matters, “I think they went that way” is not enough.",
+    "video_url": "https://www.youtube.com/watch?v=y3s2Msep7gM",
+    "submission_url": "https://safereturn.tech/",
+    "github_url": "https://github.com/jrq765/safereturn",
+    "team_name": "Morse Code",
+    "image_urls": [
+      "/archive/projects/safereturn/image-01.webp"
+    ],
+    "qh_track": "Base44",
+    "mlh_tracks": [
+      "tech_domains"
+    ],
+    "prize_won": null,
+    "members": [
+      {
+        "id": "participant-181",
+        "name": "JR Quint",
+        "university": "University of Oregon",
+        "major": "business",
+        "level_of_study": "undergraduate-3-plus"
+      },
+      {
+        "id": "participant-306",
+        "name": "Sebastian Morse",
+        "university": null,
+        "major": null,
+        "level_of_study": null
+      },
+      {
+        "id": "participant-085",
+        "name": "Craig Chisholm",
+        "university": "University of Oregon",
+        "major": "other",
+        "level_of_study": "undergraduate-3-plus"
+      }
+    ]
+  },
+  {
+    "id": "safeshift",
+    "name": "safeShift",
+    "tagline": "Catch the hazard before it becomes an incident",
+    "tech_stack": "type script, java script, next.js, Tailwind CSS, Gemini 2.5 Flash api, Firestore, Firebase",
+    "description": "Most workplace accidents start as a near miss that nobody cares to write down. SafeShift catches those hazards two ways through cameras a workplace already has, and through workers reporting things themselves and routes every detection through a human before it counts as official. It deliberately watches the floor, not the workforce. it flags environmental hazards (spills, blocked exits) and refuses to spy on people,",
+    "video_url": "https://youtu.be/FyV4XWOWTQ8",
+    "submission_url": null,
+    "github_url": "https://github.com/alexpicon/safe-shift-quack-hacks.git",
+    "team_name": "Rain City Labs",
+    "image_urls": [
+      "/archive/projects/safeshift/image-01.webp",
+      "/archive/projects/safeshift/image-02.webp",
+      "/archive/projects/safeshift/image-03.webp",
+      "/archive/projects/safeshift/image-04.webp"
+    ],
+    "qh_track": "Google",
+    "mlh_tracks": [
+      "gemini_api",
+      "elevenlabs",
+      "digitalocean",
+      "solana",
+      "backboard"
+    ],
+    "prize_won": null,
+    "members": [
+      {
+        "id": "participant-024",
+        "name": "Alex Picon",
+        "university": "Seattle University",
+        "major": "Computer Science",
+        "level_of_study": null
+      },
+      {
+        "id": "participant-054",
+        "name": "Bawan Boparai",
+        "university": "Other",
+        "major": "computer-science",
+        "level_of_study": "undergraduate-3-plus"
+      },
+      {
+        "id": "participant-132",
+        "name": "Haddy Alnasser",
+        "university": "Oregon State University",
+        "major": "computer-science",
+        "level_of_study": "undergraduate-3-plus"
+      }
+    ]
+  },
+  {
+    "id": "salusvpn",
+    "name": "SalusVPN",
+    "tagline": "Chrome extension that lets users verify VPN infrastructure on-chain before connecting using a Pay-per-use system via USDC on Solana",
+    "tech_stack": "TypeScript, JavaScript, HTML, CSS, Rust",
+    "description": "SalusVPN is a verifiable VPN trust layer that helps users choose trusted internet infrastructure before connecting. Instead of blindly trusting a VPN provider's privacy claims, users browse a relay marketplace of independently operated nodes with transparent metrics—latency, per-minute pricing, trust scores, verification recency, and human-lane availability. Every node links to a real Solana devnet attestation hash that opens on Solana Explorer, making \"verified infrastructure\" a checkable claim.\n\nThe Next.js dashboard and Chrome extension work together as the primary experience. Users connect Phantom, MetaMask, or Solflare, get AI node recommendations from Google Gemini (Best Overall, Lowest Cost, Lowest Latency, Highest Trust, Streaming, General Browsing), and start wallet-signed sessions on their chosen relay. A floating HUD tracks live time, accrued cost, and latency; stopping a session queues payment instead of opening the wallet every time.\n\nPayments use Circle devnet USDC on Solana. Unpaid sessions accumulate in a pending queue and settle in one bundled SPL transfer—the backend sums each session's accrued cost, builds a single transaction, the user signs once, and every session in the batch is marked settled with the same on-chain signature. Preflight checks guide users to devnet SOL and USDC faucets.\n\nBuilt with Next.js 15, React 19, Gemini 2.0 Flash, and a Manifest V3 Chrome extension. Session routing is simulated for the hackathon prototype; trust verification, wallet auth, cost accrual, and batch settlement are functional end-to-end on Solana devnet.",
+    "video_url": "https://www.youtube.com/watch?v=rxC0m82hzMk",
+    "submission_url": null,
+    "github_url": "https://github.com/camcoleman/SalusVPN",
+    "team_name": "Schmear & Co.",
+    "image_urls": [
+      "/archive/projects/salusvpn/image-01.webp",
+      "/archive/projects/salusvpn/image-02.webp",
+      "/archive/projects/salusvpn/image-03.webp",
+      "/archive/projects/salusvpn/image-04.webp",
+      "/archive/projects/salusvpn/image-05.webp",
+      "/archive/projects/salusvpn/image-06.webp"
+    ],
+    "qh_track": "Google",
+    "mlh_tracks": [
+      "gemini_api",
+      "solana"
+    ],
+    "prize_won": null,
+    "members": [
+      {
+        "id": "participant-095",
+        "name": "Diego Carpenter",
+        "university": "University of Oregon",
+        "major": "business",
+        "level_of_study": "undergraduate-3-plus"
+      },
+      {
+        "id": "participant-070",
+        "name": "Cameron Coleman",
+        "university": "University of Oregon",
+        "major": "business",
+        "level_of_study": "undergraduate-3-plus"
+      },
+      {
+        "id": "participant-202",
+        "name": "Koa Castillo",
+        "university": "University of Oregon",
+        "major": "business",
+        "level_of_study": "undergraduate-3-plus"
+      },
+      {
+        "id": "participant-058",
+        "name": "Ben Gilmour",
+        "university": "University of Oregon",
+        "major": "business",
+        "level_of_study": "undergraduate-3-plus"
+      }
+    ]
+  },
+  {
+    "id": "secondmind",
+    "name": "SecondMind",
+    "tagline": "Your second memory to help keep track of life.",
+    "tech_stack": "Next.js, Flutter, Dart, TypeScript, Firebase, Gemini, ElevenLabs, Android, Tailwind CSS, Bluetooth LE",
+    "description": "SecondMind is an ambient ai memory assistant built directly onto even realities g1 smart glasses. Humans subconsciously forget up to eighty percent of what they hear in daily lectures and conversations, and traditional note taking requires an active distraction that pulls you right out of the moment. We built this project to act as a seamless extension of your own memory by running a background audio processing pipeline that captures structures and privately feeds context right into your field of view without interrupting real world interactions. The entire system comprises over sixty one thousand lines of core code spanning c dart kotlin and typescript to balance low level hardware execution with deep cloud intelligence.\n\nThe architecture completely decouples data synthesis into two distinct tracking pathways. When you wake the glasses with the phrase hey secondmind the system enters a completely silent tracking mode. This layer proxies raw audio streams from the foreground phone microphone through custom native c bindings for real time rnnoise reduction and voice activity detection. It then formats and streams text data as chunked packets over bluetooth low energy directly to the heads up display on the left and right arms of the glasses frame. When you need an active vocal sounding board instead waking the system with the phrase hey quacky triggers a conversational voice engine that streams natural low latency speech responses back to your ears using the elevenlabs api.\n\nWhen you sit down at your laptop the vercel hosted web command center provides full scale desktop memory synthesis. Because the mobile app constantly pushes data to a google firebase firestore synchronized memory store the web dashboard updates in real time. The intelligence layer leverages the gemini api to route tasks dynamically based on complexity. We use gemini three point one flash lite on mobile for sub second transcript parsing into typed models like notes and academic captures. On the we",
+    "video_url": "https://youtu.be/eWR9iKmcEg0",
+    "submission_url": "https://second-mind-beta.vercel.app/",
+    "github_url": "https://github.com/MrSmaugerson05/SecondMind",
+    "team_name": "Wyatt Heath",
+    "image_urls": [
+      "/archive/projects/secondmind/image-01.webp"
+    ],
+    "qh_track": "Google",
+    "mlh_tracks": [
+      "gemini_api",
+      "elevenlabs"
+    ],
+    "prize_won": null,
+    "members": [
+      {
+        "id": "participant-365",
+        "name": "Wyatt Heath",
+        "university": "Oregon State University",
+        "major": "other-engineering",
+        "level_of_study": "undergraduate-3-plus"
+      }
+    ]
+  },
+  {
+    "id": "shakedown",
+    "name": "Shakedown",
+    "tagline": "Something's shaking on shakedown street",
+    "tech_stack": "TypeScript, Rust",
+    "description": "Shakedown is an blockchain based ticketing platform that enables direct sales between music venues and fans. This is a response to increasing issues of ticketing fees, centralization, and scalping. The goal of this project is to take advantage of the benefits of blockchain, to put power back into those that keep live music alive. Use NFTs to their full potential, and give value to concert attendance. Music is decentralized, why isn't our ticketing infra?",
+    "video_url": "https://www.youtube.com/watch?v=BSG6oqCptSg",
+    "submission_url": null,
+    "github_url": "https://github.com/jeremymitaux/shakedown",
+    "team_name": "Shakedown",
+    "image_urls": [
+      "/archive/projects/shakedown/image-01.webp",
+      "/archive/projects/shakedown/image-02.webp"
+    ],
+    "qh_track": null,
+    "mlh_tracks": [
+      "solana"
+    ],
+    "prize_won": null,
+    "members": [
+      {
+        "id": "participant-169",
+        "name": "Jeremy Mitaux",
+        "university": "University of Oregon",
+        "major": "computer-science",
+        "level_of_study": "undergraduate-3-plus"
+      }
+    ]
+  },
+  {
+    "id": "signninja",
+    "name": "SignNinja",
+    "tagline": "Level up your Language",
+    "tech_stack": "OpenCV, Tensorflow, Pytorch, HTML, CSS, Javascript, Python, MediaPipe",
+    "description": "For almost every spoken language, there are comprehensive tools available for people to learn to speak the language. However, these tools are not easily available for American sign language. This is a major problem for people like me, as my father is going deaf, and my family needs an easy way to learn ASL. \n\n    Drawing inspiration from childhood games such as TypeRacer, our project is a game that prompts letters to the user, who must sign the letter back to  the camera in order to proceed. The player starts with 3 lives, after which the game ends. If a player does not make the correct sign in 10 seconds, a life is lost. This site is designed to build muscle memory in ASL for the user, while being a fun alternative to traditional learning methods. \n\n    We used the MediaPipe Holistic open source library to read and interpret 3d poses for the structure of the human body, face, and hands. While there are databases of pictures of ASL readily available online, we noticed that any program attempting to interpret ASL through these images would come up short, as ASL is a heavily movement based language. In order to circumvent this, we produced a neural network capable of interpreting common ASL letters and words by analyzing videos created by us, as individual videos can be spliced and analyzed in order to interpret a movement. To give a brief example, the words “good” and “bad” rely on the same arm and hand shape, but with a reversed movement. We also found that even with an extremely limited vocabulary, such as the alphabet, pictures could not alone suffice for letters such as “j” and “z”. \n\n    In the future, we plan to expand the available in-game dictionary to include words, and eventually sentences. While we had a program in place to interpret signed ASL words, translate to any spoken language, and speak it out loud, we ultimately decided that using our program as a learning assistant rather than a translator tool was more aligned with our vision.",
+    "video_url": "https://youtu.be/fqahvnESmps",
+    "submission_url": null,
+    "github_url": "https://github.com/2amuel/tassers-quackhacks-2026-submission",
+    "team_name": "TASSers",
+    "image_urls": [
+      "/archive/projects/signninja/image-01.webp",
+      "/archive/projects/signninja/image-02.webp",
+      "/archive/projects/signninja/image-03.webp",
+      "/archive/projects/signninja/image-04.webp",
+      "/archive/projects/signninja/image-05.webp"
+    ],
+    "qh_track": "Pipeworks",
+    "mlh_tracks": [],
+    "prize_won": null,
+    "members": [
+      {
+        "id": "participant-319",
+        "name": "Siddharth S Sundaram",
+        "university": "Oregon State University",
+        "major": "computer-science",
+        "level_of_study": "undergraduate-3-plus"
+      },
+      {
+        "id": "participant-006",
+        "name": "Aaryan Ilanchelian",
+        "university": "Oregon State University",
+        "major": "mathematics-statistics",
+        "level_of_study": "undergraduate-3-plus"
+      },
+      {
+        "id": "participant-299",
+        "name": "Sam Hatler",
+        "university": "University of Washington",
+        "major": "computer-science",
+        "level_of_study": "undergraduate-3-plus"
+      },
+      {
+        "id": "participant-343",
+        "name": "Tristan Brester",
+        "university": "Oregon State University",
+        "major": "other-engineering",
+        "level_of_study": "undergraduate-3-plus"
+      }
+    ]
+  },
+  {
+    "id": "slidequest",
+    "name": "SlideQuest",
+    "tagline": "SlideQuest turns your raw notes into a structured, AI-powered presentation storyboard, then lets you edit, branch, and refine every slide in a visual",
+    "tech_stack": "React, TypeScript, Vite, Tailwind CSS, Firebase Auth, Firebase Firestore, Gemini API, Gemini Developer API, Firebase Cloud Func",
+    "description": "SlideQuest is an AI-powered presentation tool built around a content-first approach. Instead of opening a blank slide and worrying about layout from the start, you just dump your raw thinking, notes, outlines, documents, and let the agent handle the rest. Gemini reads your content, extracts the narrative structure, and scaffolds a complete storyboard. You focus on what you want to say; SlideQuest figures out how to present it the best way.\nThe core insight is that presentations are argument components fed into slides, not just slides themselves. SlideQuest gives you two views that work together: a graph view for shaping your narrative, a tree of scenes where you can branch ideas, accept or discard AI-suggested next slides, and see how your argument flows end to end. And a slide editor for designing each scene, drag, resize, and style elements on a precision grid, with AI-generated layout candidates to choose from. The two views stay in sync through a shared data model, so your content and structure are always the same source of truth.",
+    "video_url": "https://www.youtube.com/watch?v=SqRWLU2PwNk&feature=youtu.be",
+    "submission_url": "https://github.com/pranav-cheraku/QuackHacks2026",
+    "github_url": "https://github.com/pranav-cheraku/QuackHacks2026",
+    "team_name": "Python Puppies",
+    "image_urls": [
+      "/archive/projects/slidequest/image-01.webp",
+      "/archive/projects/slidequest/image-02.webp",
+      "/archive/projects/slidequest/image-03.webp",
+      "/archive/projects/slidequest/image-04.webp",
+      "/archive/projects/slidequest/image-05.webp",
+      "/archive/projects/slidequest/image-06.webp"
+    ],
+    "qh_track": "Google",
+    "mlh_tracks": [
+      "gemini_api"
+    ],
+    "prize_won": null,
+    "members": [
+      {
+        "id": "participant-378",
+        "name": "Zuriahn Yun",
+        "university": "Other",
+        "major": "computer-science",
+        "level_of_study": "undergraduate-3-plus"
+      },
+      {
+        "id": "participant-167",
+        "name": "Jeffrey Guo",
+        "university": "Other",
+        "major": "computer-science",
+        "level_of_study": "undergraduate-3-plus"
+      },
+      {
+        "id": "participant-271",
+        "name": "Pranav Cheraku",
+        "university": "Other",
+        "major": "computer-science",
+        "level_of_study": "undergraduate-3-plus"
+      },
+      {
+        "id": "participant-145",
+        "name": "Israel Avendano",
+        "university": "Other",
+        "major": "computer-science",
+        "level_of_study": "undergraduate-3-plus"
+      }
+    ]
+  },
+  {
+    "id": "speakeasy",
+    "name": "SpeakEasy",
+    "tagline": "SpeakEasy is a browser-based speaking coach that listens while you rehearse and coaches you in real time.",
+    "tech_stack": "Google, Gemini, Vertex AI, Cloud Speech-to-Text, Cloud Run, Firebase, Firebase Auth, Firestore, Google GenAI SDK, React, TypeScript, Vite, Node.js, Docker, Pitchy",
+    "description": "SpeakEasy is a browser-based, real-time speech coach for rehearsing any talk—pitches, presentations, interviews, class projects—so you walk in confident. Most people learn how they really sound only after it's too late. SpeakEasy gives you that feedback while you can still use it.\n\nBefore you start, paste your material and describe your audience and setting. As you speak, SpeakEasy listens live and tracks what makes or breaks delivery: pace, volume, pitch variation, pauses and dead air, and filler words like \"um\" and \"uh.\" A calm on-screen nudge surfaces one fix at a time (slow down, project, add energy), so you're guided, never overwhelmed. Want your eyes off the screen? Turn on optional spoken cues that coach you out loud, hands-free.\n\nWhen you finish, SpeakEasy turns the session into a detailed report: real delivery metrics, a pace timeline across your whole talk, and a full transcript with your naturally emphasized words highlighted. Google's Gemini reads your actual material alongside how you delivered it to produce advice tuned to your specific audience, plus tone-content mismatch detection that flags moments where how you sounded didn't match what you said. Every session saves to your private history, so you can track progress over time.\n\nIt runs entirely in the browser with nothing to install, built on Google Cloud end to end: Gemini on Vertex AI for the report and tone analysis, Cloud Speech-to-Text for transcription, Firebase Authentication for Google sign-in, Cloud Firestore for per-user history, and Cloud Run behind Firebase Hosting for the API. AI keys stay server-side and never reach your browser.\n\nWhether you're prepping for a big moment or sharpening everyday communication, SpeakEasy gives you a private room to practice, honest real-time feedback, and an AI coach that understands not just how you speak, but what you're trying to say.",
+    "video_url": "https://www.youtube.com/watch?v=0yAegVxfsLY",
+    "submission_url": "https://uoo-quackathon26eug-8210.firebaseapp.com/",
+    "github_url": "https://github.com/NateDeMoro/QuackHacksWildcats",
+    "team_name": "Wildcats",
+    "image_urls": [
+      "/archive/projects/speakeasy/image-01.webp",
+      "/archive/projects/speakeasy/image-02.webp",
+      "/archive/projects/speakeasy/image-03.webp",
+      "/archive/projects/speakeasy/image-04.webp",
+      "/archive/projects/speakeasy/image-05.webp",
+      "/archive/projects/speakeasy/image-06.webp"
+    ],
+    "qh_track": "Google",
+    "mlh_tracks": [
+      "gemini_api"
+    ],
+    "prize_won": null,
+    "members": [
+      {
+        "id": "participant-255",
+        "name": "Nathaniel DeMoro",
+        "university": "University of Arizona",
+        "major": "mathematics-statistics",
+        "level_of_study": "undergraduate-3-plus"
+      },
+      {
+        "id": "participant-269",
+        "name": "Peyton Nagle",
+        "university": "University of Arizona",
+        "major": "software-engineering",
+        "level_of_study": "undergraduate-3-plus"
+      },
+      {
+        "id": "participant-093",
+        "name": "David Rincon Villanueva",
+        "university": "University of Arizona",
+        "major": "computer-science",
+        "level_of_study": "undergraduate-3-plus"
+      }
+    ]
+  },
+  {
+    "id": "steadypt",
+    "name": "SteadyPT",
+    "tagline": "SteadyPT is an AI physical-therapy coach that runs on nothing but a webcam.",
+    "tech_stack": "Python, FastAPI, React, Vite, Tailwind CS, WebSockets, MediaPipe, OpenCV, Gemini, BigQuery, ElevenLabs, FHIR, Web Speech API",
+    "description": "SteadyPT is an AI physical-therapy coach that runs on nothing but a webcam.\n\nThe problem: patients do 80%+ of their PT alone at home, where adherence and form fall apart, and clinicians get no objective data on what actually happened between visits, just \"yeah, I did my exercises.\" SteadyPT closes that loop.\n\nHow it works: MediaPipe pose tracking watches a patient do their prescribed exercise. But we didn't hard-code one movement like most \"AI fitness\" demos. Instead, a PT pastes their written exercise documentation or uploads a prescription PDF, and Gemini Flash compiles it once into a structured tracker spec: target joint, range of motion, tempo, and rep/set goals. A new exercise is supported in seconds, with no retraining and no LLM anywhere near the real-time loop.\n\nDuring a set, a fast, deterministic rule-based engine counts reps and coaches form, speaking cues aloud via ElevenLabs text-to-speech. A live web dashboard streams a skeleton overlay, a ticking rep counter, a depth gauge, and real-time form flags over a FastAPI WebSocket at 30 Hz. At the end of each set, Gemini reasons over the full rep-by-rep data and speaks a debrief plus a concrete next-set adjustment.\n\nThe patient drives the entire app hands-free by voice. A \"Hey coach\" wake word and Web Speech API let them start sets, ask questions, and move through check-in, live tracking, and debrief without ever touching the laptop, which matters when you're mid-squat across the room from the camera.\n\nEvery session is persisted to BigQuery for cross-session trends, and exported as a real FHIR Observation, an interoperable clinical record that drops straight into a clinician's workflow via a shareable handoff page.\n\nThe architecture is the differentiator: the LLM compiles the prescription up front and reasons between sets, while a deterministic engine handles every real-time frame. That keeps coaching fast and reliable while still being infinitely flexible. New exercise in seconds, objective range-of-motion an",
+    "video_url": "https://drive.google.com/file/d/1oo519u6h-QWXj6QcaBsBhcCAI9Im9dY-/view?usp=drive_link",
+    "submission_url": "https://steadypt-713924675865.us-central1.run.app",
+    "github_url": "https://github.com/JazveerK/quackhacks",
+    "team_name": "Waddle Waddle",
+    "image_urls": [
+      "/archive/projects/steadypt/image-01.webp",
+      "/archive/projects/steadypt/image-02.webp",
+      "/archive/projects/steadypt/image-03.webp"
+    ],
+    "qh_track": "Google",
+    "mlh_tracks": [
+      "gemini_api",
+      "elevenlabs"
+    ],
+    "prize_won": null,
+    "members": [
+      {
+        "id": "participant-166",
+        "name": "Jazveer Kaler",
+        "university": "University of Oregon",
+        "major": "social-science",
+        "level_of_study": "undergraduate-3-plus"
+      },
+      {
+        "id": "participant-154",
+        "name": "Jai Pandhoh",
+        "university": "University of Oregon",
+        "major": "other",
+        "level_of_study": "undergraduate-3-plus"
+      },
+      {
+        "id": "participant-258",
+        "name": "Nick Porter",
+        "university": "University of Oregon",
+        "major": "mathematics-statistics",
+        "level_of_study": "undergraduate-3-plus"
+      }
+    ]
+  },
+  {
+    "id": "suburbans",
+    "name": "Suburbans",
+    "tagline": "Cool",
+    "tech_stack": "Next.js",
+    "description": "Tbc",
+    "video_url": "https://mhl.com",
+    "submission_url": "https://www.lorem.com",
+    "github_url": "https://www.lorem.com",
+    "team_name": "Suburbans",
+    "image_urls": [],
+    "qh_track": "Base44",
+    "mlh_tracks": [
+      "digitalocean"
+    ],
+    "prize_won": null,
+    "members": [
+      {
+        "id": "participant-126",
+        "name": "Francisco Holdman",
+        "university": "University of California, Berkeley",
+        "major": "computer-science",
+        "level_of_study": "undergraduate-2-year"
+      }
+    ]
+  },
+  {
+    "id": "symbion",
+    "name": "Symbion",
+    "tagline": "Two limited robots, one dual-LLM brain. Not one perfect machine, but a team that covers each other's weaknesses and moves as one.",
+    "tech_stack": "Raspberry Pi 4B, PI 5, Python, FastAPI orchestrator, Flask robot agents, Anthropic Claude, Google Gemini, OpenCV, Expo, React Native",
+    "description": "Everyone is chasing the one perfect do-everything robot. We think that is the wrong bet. The\n    future of robotics is a team of cheap, limited robots that cover each other's weaknesses, run by\n    one brain that understands what each body can and cannot do, then composes them into something\n    bigger than either one alone.\n\n    Symbion is that idea, built and running. Two robots, one shared brain. Noma is a Hiwonder\n    MasterPi: a mecanum-wheeled base with a 5-DOF arm and gripper. Noma is the grabber. It drives to\n    objects, picks them up for search and rescue, and reacts when you greet it. Nyxie is a Freenove\n    hexapod. Nyxie is the communicator. It waves, moves its head when you speak to it, and uses a\n    buzzer to show it is happy.\n\n    The brain lives on a laptop orchestrator built with FastAPI, and it fronts both robots over a\n    shared network. What makes it interesting is that the brain is two LLMs, Claude and Gemini, and\n    you can switch between them live. You can literally watch one LLM drive one robot while the other\n    drives the other, or have them compete. Gemini handles natural language understanding and voice,\n    so you can hold a button in the app, speak a command, and the system transcribes it, understands\n    it, decides which robot is the right tool for the job, and acts. Vision runs through OpenCV so\n    Noma can find and approach an object.\n\n    Everything is controlled from a phone app we built in Expo and React Native. You see both robots,\n    their live status, the active LLM, and you can talk to them or trigger their behaviors directly.\n\n    The hard part was never the hardware. It was teaching one brain to reason about two very different\n    bodies with very real limits, low-cost servos, a base that sags under load, legs that fight\n    calibration, and still get them to cooperate as a single system. That is the whole point. Not one\n    expensive robot that does everything, but a team of robots.",
+    "video_url": "https://www.youtube.com/watch?v=Jj_WIXGqp1w",
+    "submission_url": null,
+    "github_url": "https://github.com/sudarshan-sridhar/Symbion",
+    "team_name": "Symbion",
+    "image_urls": [
+      "/archive/projects/symbion/image-01.webp",
+      "/archive/projects/symbion/image-02.webp",
+      "/archive/projects/symbion/image-03.webp"
+    ],
+    "qh_track": "Google",
+    "mlh_tracks": [
+      "gemini_api"
+    ],
+    "prize_won": null,
+    "members": [
+      {
+        "id": "participant-328",
+        "name": "Sudarshan Sridhar",
+        "university": "University of Michigan",
+        "major": "computer-science",
+        "level_of_study": "graduate"
+      },
+      {
+        "id": "participant-159",
+        "name": "Jana Hazimeh",
+        "university": "University of Michigan",
+        "major": "computer-science",
+        "level_of_study": "undergraduate-3-plus"
+      }
+    ]
+  },
+  {
+    "id": "tell",
+    "name": "Tell",
+    "tagline": "The AI that watches you work and tells you what your body is telling on you, before you crash, slouch, or zone out.",
+    "tech_stack": "react, vite, tailwind css, mediapipe, gemini, elevenlabs, javascript, webrtc, canvas, local storage",
+    "description": "Last finals week I fell asleep three times with my laptop still playing lecture videos. I'd wake up at 3am, lights on, headphones in, having missed everything. I wasn't choosing to ignore the warning signs. I just didn't notice them until I was already out.\n\nYour body starts giving clues long before that happens. You slouch. Your blinks get slower. Your eyes drift toward your phone every few minutes. Tell watches for those signals and says something out loud when it sees them.\n\nUsing a webcam, Tell tracks posture, fatigue, and attention in real time. When a signal stays past a personalized threshold, the coach speaks up. \"You're folding like a lawn chair, sit up.\" Once you correct it, Tell acknowledges it and moves on. It keeps running even when you're in another tab watching a lecture, taking notes, or working on an assignment.\n\nEvery session is saved to a weekly dashboard. You can see when your focus dropped, which days were the hardest, and how often you responded to nudges. Gemini reviews the week's data and writes a short summary of the patterns it finds.\n\nTell uses MediaPipe for on-device pose and face tracking, Gemini 2.5 Pro and Flash for observations and weekly insights, and ElevenLabs for voice feedback. Most processing happens directly in the browser. A single frame is sent to Gemini every few seconds, and a green flash shows exactly when that happens. No video is stored.\n\nTell doesn't try to guess how you feel. It watches real, observable behavior and points out what you might have missed.",
+    "video_url": "https://www.loom.com/share/c406e36bfaa341f180213571d0ae9e58",
+    "submission_url": null,
+    "github_url": "https://github.com/daniel-diyali/Tell",
+    "team_name": "Solo Leveling",
+    "image_urls": [
+      "/archive/projects/tell/image-01.webp",
+      "/archive/projects/tell/image-02.webp",
+      "/archive/projects/tell/image-03.webp",
+      "/archive/projects/tell/image-04.webp",
+      "/archive/projects/tell/image-05.webp"
+    ],
+    "qh_track": "Google",
+    "mlh_tracks": [
+      "gemini_api",
+      "elevenlabs"
+    ],
+    "prize_won": null,
+    "members": [
+      {
+        "id": "participant-088",
+        "name": "Daniel Diyali",
+        "university": "Other",
+        "major": "computer-science",
+        "level_of_study": "undergraduate-3-plus"
+      }
+    ]
+  },
+  {
+    "id": "the-athlete-hub",
+    "name": "The Athlete Hub",
+    "tagline": "Where athletes find opportunity and are given the resources they need to grow.",
+    "tech_stack": "next.js, base44, chatgpt, gemini",
+    "description": "The Athlete Hub is a networking and recruiting platform designed to help athletes showcase their talent, connect with coaches and recruiters, and discover new opportunities to compete at the next level. Whether you're a high school athlete, college player, transfer, walk-on, or former athlete looking for another chance, The Athlete Hub provides the tools and exposure needed to advance your athletic journey. The Athlete Hub also includes a new AI tool called Coach Lens to ensure steady growth and progress. \n\nCoachLens is an AI movement coach that helps people understand how they move, not just what they did. Most fitness apps track steps, calories, workouts, or heart rate, but they do not tell users whether their form, balance, control, or movement quality is improving. CoachLens closes that gap by letting anyone upload a short training video and receive clear AI-powered coaching. Users can upload videos of movements like squats, jump shots, baseball swings, football throws, sprint starts, posture checks, stretches, or gym exercises. The app analyzes the video with Gemini and turns it into a structured report with an overall movement score, sub-scores, strengths, focus areas, timestamped observations, and a simple next-session plan. The goal is to make coaching more accessible for everyday people, beginners, athletes, and anyone trying to improve safely.",
+    "video_url": "https://youtu.be/VK0XyIDBiX0",
+    "submission_url": "https://theathletehub.base44.app",
+    "github_url": "https://github.com/kilionp/the-walk-on-network",
+    "team_name": "2nd Chance Athletics",
+    "image_urls": [
+      "/archive/projects/the-athlete-hub/image-01.webp"
+    ],
+    "qh_track": "Base44",
+    "mlh_tracks": [
+      "gemini_api"
+    ],
+    "prize_won": null,
+    "members": [
+      {
+        "id": "participant-197",
+        "name": "Kilion Phaigh",
+        "university": "University of Oregon",
+        "major": "Sports Business & Finance",
+        "level_of_study": "undergraduate-2-year"
+      },
+      {
+        "id": "participant-262",
+        "name": "Norton and Me",
+        "university": "Oregon State University",
+        "major": "computer-science",
+        "level_of_study": "undergraduate-3-plus"
+      }
+    ]
+  },
+  {
+    "id": "the-missing-staple",
+    "name": "The Missing Staple",
+    "tagline": "A murder mystery game that creates AI generated questions that ensures each run through is never the same.",
+    "tech_stack": "HTML, CSS, JavaScript",
+    "description": "The Missing Staple is an interactive AI-powered detective game where users investigate the murder of longtime Staples employee, Larry. What appears as an average office supply store quickly becomes the scene of a workplace mystery when Larry is found dead, and every employee has a reason to be guilty.\n\nPlayers take on the role of an investigator tasked with uncovering the truth by listening to tapes on employees, gathering evidence, and piecing together the events leading up to the crime. Each suspect has their own unique personality, perspective, and information regarding Larry and the other employees. Instead of average scripted dialogue trees that other games have, our system uses AI-generated conversations and questions that allow players to ask their own questions and conduct investigations how they want to. \n\nIn order to solve the case, players will need to look for conflicting reports from our interviewees regarding what they could have seen. Evidence serves as the objective source of truth, which allows players to confirm claims made during the interviews and separate facts from rumors you might hear. Through careful analysis and questioning, players must figure out who committed the murder.\n\nThis project combines both the elements of classic detective games and modern conversational AI, which makes a unique mystery solving experience where no two investigations feel the same.",
+    "video_url": "https://youtu.be/z31Gpjy4Edc",
+    "submission_url": "https://quackhacks2026.onrender.com/",
+    "github_url": "https://github.com/Ashayumi/QuackHacks2026",
+    "team_name": "Tetoris",
+    "image_urls": [
+      "/archive/projects/the-missing-staple/image-01.webp",
+      "/archive/projects/the-missing-staple/image-02.webp",
+      "/archive/projects/the-missing-staple/image-03.webp",
+      "/archive/projects/the-missing-staple/image-04.webp",
+      "/archive/projects/the-missing-staple/image-05.webp",
+      "/archive/projects/the-missing-staple/image-06.webp"
+    ],
+    "qh_track": "Pipeworks",
+    "mlh_tracks": [
+      "gemini_api",
+      "snowflake_api",
+      "elevenlabs",
+      "digitalocean",
+      "solana",
+      "tech_domains",
+      "backboard"
+    ],
+    "prize_won": null,
+    "members": [
+      {
+        "id": "participant-055",
+        "name": "Beatriz Arevalo Leal",
+        "university": "Oregon Institute of Technology",
+        "major": "embedded systems engineering",
+        "level_of_study": "undergraduate-3-plus"
+      },
+      {
+        "id": "participant-366",
+        "name": "Yael Roque",
+        "university": "Oregon Institute of Technology",
+        "major": "Embedded Systems Engineering Technology",
+        "level_of_study": "undergraduate-3-plus"
+      },
+      {
+        "id": "participant-149",
+        "name": "Jacob Hurst",
+        "university": "Oregon State University",
+        "major": "computer-science",
+        "level_of_study": "undergraduate-2-year"
+      }
+    ]
+  },
+  {
+    "id": "tilescale",
+    "name": "Tilescale",
+    "tagline": "Summon your workflow with a single hotkey.",
+    "tech_stack": "Electron, JavaScript, React, HTML, CSS",
+    "description": "As a student and developer, I'm constantly switching between classes, work, and my personal projects. Each of these contexts requires their own specific workflow, and it's hard to get into the flow of things when I'm constantly searching for the right tabs. Which is why I built Tilescale, to stop managing windows and start doing work.\n\nTilescale is a workspace layer that lives on top of your desktop. You summon it with a hotkey, use the tool you need, and hide it away with the same hotkey. Inside the workspace are \"tiles\". A tile can be any web-application or a terminal emulator, so you have a lot of flexibility in the tools you store in Tilescale. You can configure multiple profiles to hold different tiles, and you can easily switch between these profiles depending on the work you're doing. With session persistence, Tilescale remembers your entire workspace, even if you quit the application.",
+    "video_url": "https://youtu.be/btalNRd9ot8",
+    "submission_url": null,
+    "github_url": "https://github.com/just1nlee/tilescale",
+    "team_name": "tilescale",
+    "image_urls": [
+      "/archive/projects/tilescale/image-01.webp",
+      "/archive/projects/tilescale/image-02.webp",
+      "/archive/projects/tilescale/image-03.webp",
+      "/archive/projects/tilescale/image-04.webp"
+    ],
+    "qh_track": "Pipeworks",
+    "mlh_tracks": [],
+    "prize_won": null,
+    "members": [
+      {
+        "id": "participant-184",
+        "name": "Justin Lee",
+        "university": null,
+        "major": null,
+        "level_of_study": null
+      }
+    ]
+  },
+  {
+    "id": "touchpoint",
+    "name": "TouchPoint",
+    "tagline": "Feel the internet",
+    "tech_stack": "Python, Google Antigravity, Gemini",
+    "description": "The device is made to solve the problem for people who are new to braille. It maps internet content to grade 1 braille which can be felt physically. The project utilizes a raspberry pi board which sends a vibration signal to 6 motors, 3 on each hand. This maps fully on to grade 1 braille allowing the user feel and learn braille in a regenerative way.",
+    "video_url": "https://youtu.be/Pg9wEbOyQJY?si=bmuu2ckTcrSjsEFf",
+    "submission_url": "https://github.com/Jakhangir18/Quackhack3.0",
+    "github_url": "https://github.com/Jakhangir18/Quackhack3.0",
+    "team_name": "TouchPoint",
+    "image_urls": [
+      "/archive/projects/touchpoint/image-01.webp"
+    ],
+    "qh_track": "Google",
+    "mlh_tracks": [
+      "gemini_api"
+    ],
+    "prize_won": null,
+    "members": [
+      {
+        "id": "participant-156",
+        "name": "Jakhangir Tynshimov",
+        "university": "Oregon State University",
+        "major": "computer-science",
+        "level_of_study": "undergraduate-2-year"
+      },
+      {
+        "id": "participant-222",
+        "name": "Marcus Tin",
+        "university": "Oregon State University",
+        "major": "computer-science",
+        "level_of_study": "graduate"
+      },
+      {
+        "id": "participant-363",
+        "name": "William Tu",
+        "university": "Oregon State University",
+        "major": "computer-science",
+        "level_of_study": "undergraduate-3-plus"
+      }
+    ]
+  },
+  {
+    "id": "vista-nova",
+    "name": "Vista Nova",
+    "tagline": "Independence you can hear",
+    "tech_stack": "Google Gemini, Claude, Eleven Labs, Google AI Studio, Python, Java Script, HTML",
+    "description": "Our project is designed to help the visually impaired navigate daily life and make them more independent. It does this by taking a picture and passing it to Google Gemini then creating a description for an Eleven labs ai agent to read out loud to the user. We designed this as a program for desktop as well as an mobile app.",
+    "video_url": "https://youtube.com/shorts/m71DZ5eEKH0?si=7OP_37my9hAuiUEj",
+    "submission_url": null,
+    "github_url": "https://github.com/haaswill72-afk/QuackHacks",
+    "team_name": "Dream Team Ducks",
+    "image_urls": [],
+    "qh_track": "Google",
+    "mlh_tracks": [
+      "gemini_api",
+      "elevenlabs"
+    ],
+    "prize_won": null,
+    "members": [
+      {
+        "id": "participant-362",
+        "name": "William Haas",
+        "university": "University of Oregon",
+        "major": "computer-science",
+        "level_of_study": "undergraduate-3-plus"
+      },
+      {
+        "id": "participant-364",
+        "name": "Winnie Zhen",
+        "university": "University of Oregon",
+        "major": "business",
+        "level_of_study": "undergraduate-3-plus"
+      },
+      {
+        "id": "participant-172",
+        "name": "JJ Meza",
+        "university": "University of Oregon",
+        "major": "business",
+        "level_of_study": "undergraduate-2-year"
+      }
+    ]
+  },
+  {
+    "id": "waddl",
+    "name": "Waddl",
+    "tagline": "The social media walking app",
+    "tech_stack": "Next.js, React, Firebase, Google Maps API",
+    "description": "It's an app where it will pin a random location within a user set distance and then you can walk there take a photo and share it with your friends, or share the pin with your friends and walk to the location together and take a picture together. You can also see other peoples images and friend them through their profiles. You can see your old routes associated with each image. For demo's sake the final app would look a little different because you would only get one route per day (so it would replace the Find New Destination button with the Share button)",
+    "video_url": "https://canva.link/jzw6nw9bofh5g2c",
+    "submission_url": null,
+    "github_url": "https://github.com/EthanLWel/LeagueOfPuddles",
+    "team_name": "League of Puddles",
+    "image_urls": [],
+    "qh_track": "Google",
+    "mlh_tracks": [],
+    "prize_won": null,
+    "members": [
+      {
+        "id": "participant-185",
+        "name": "Justin Metz",
+        "university": "University of Oregon",
+        "major": "computer-science",
+        "level_of_study": "undergraduate-2-year"
+      },
+      {
+        "id": "participant-305",
+        "name": "Scarlett Rhinehart",
+        "university": "University of Oregon",
+        "major": "computer-science",
+        "level_of_study": "undergraduate-3-plus"
+      },
+      {
+        "id": "participant-274",
+        "name": "Quack Welburn",
+        "university": "University of Oregon",
+        "major": "Computer-Science/Math",
+        "level_of_study": "undergraduate-3-plus"
+      }
+    ]
+  },
+  {
+    "id": "walkiepuppie",
+    "name": "WalkiePuppie",
+    "tagline": "An AI-powered Augmented Reality puppy that motivates healthy habits through companionship, memory, and activity insights.",
+    "tech_stack": "Unity, Next.js, Typescript, Mongodo, Snowflake, Cortex-ai, DigitalOcean, GradientAI, ARkit, Pinata, Metaplex, Solana, Solana-Devnet, IPFS",
+    "description": "Walkie Puppie is an AI-powered AR puppy companion that motivates users to stay active through walking. Built as an iOS application using Unity, AR Foundation, ARKit, Swift, and Xcode, users can place a virtual puppy in augmented reality, track walks, chat with an AI companion, receive personalized fitness insights, and create blockchain-backed photo memories.\n\nMongoDB Atlas stores user profiles, NFT records, photo gallery data, metadata references, and explorer links. Its flexible document model allowed us to rapidly build and iterate on user-facing features.\n\nSnowflake powers both analytics and AI insights. Every walk session is stored using Snowflake SQL, including distance, duration, mood, timestamps, and activity history. We use Snowflake Cortex AI to analyze this data and generate personalized insights. Users can ask questions such as “How did I do this week?” or “What patterns do you see in my walks?” and receive AI-generated feedback based on their actual walking history.\n\nBackboard provides persistent memory for the puppy. Instead of acting like a standard chatbot, the puppy remembers previous conversations, user preferences, and activity habits, creating a more engaging and personalized companion experience.\n\nDigitalOcean Gradient AI powers the conversational intelligence of Walkie Puppie. Using Mistral 3 14B, the puppy generates responses, incorporates memory context from Backboard, and provides personalized encouragement based on user activity.\n\nFor photo authenticity, Walkie Puppie uses Solana Devnet, Metaplex, Pinata, and IPFS. Users do not need a crypto wallet. Photos are uploaded to IPFS, metadata is generated, and NFTs are minted by a project-owned Solana wallet. The NFT is stored in the platform wallet and linked to the user account, creating a completely walletless experience while preserving blockchain verifiability.",
+    "video_url": "https://youtu.be/Plg-kfZDFTE",
+    "submission_url": "https://www.walkiepuppie.tech",
+    "github_url": "https://github.com/hlee18lee46/quackhacks",
+    "team_name": "GoWild",
+    "image_urls": [],
+    "qh_track": "MongoDB",
+    "mlh_tracks": [
+      "snowflake_api",
+      "digitalocean",
+      "solana",
+      "backboard",
+      "tech_domains"
+    ],
+    "prize_won": null,
+    "members": [
+      {
+        "id": "participant-133",
+        "name": "Han Lee",
+        "university": "Georgia Institute of Technology",
+        "major": "computer-science",
+        "level_of_study": "graduate"
+      }
+    ]
+  },
+  {
+    "id": "wander-lore",
+    "name": "Wander Lore",
+    "tagline": "Real-world multiplayer RPG where you capture historical landmarks, battle for territory, and mint discoveries as NFTs on Solana.",
+    "tech_stack": "Next.js, TypeScript, CesiumJS, Google Gemini, Snowflake Cortex, Solana, Three.js, Tailwind CSS, ElevenLabs, DigitalOcean, Arweave, GSAP, React, Metaplex",
+    "description": "Inspiration\nMy teammate and I are truly passionate about traveling—we even traveled from Atlanta to Eugene for this hackathon! However, busy schedules and tight budgets mean not everyone can explore the globe. WanderLore makes world travel accessible to anyone. When we travel, our favorite part is talking to locals to genuinely understand their culture. Bringing together my focus on computer engineering and intuitive UI/UX design, we built an immersive platform where you speak directly with historical characters. We also wanted to recreate the rewarding joy of collecting physical souvenirs, like passport stamps or MLH stickers.\n\nWhat it does\nWanderLore is a global, multiplayer historical RPG built directly on the actual planet. Players search for any Earth landmark and instantly fly there in photorealistic 3D. Upon arrival, you encounter an AI-generated historical figure caught in a specific crisis. Every landmark is contestable territory. Once you solve the local's problem through natural dialogue, you capture that location. This lights up the country on the globe, showing your travel footprint to every other player in real time.\n\nHow we built it\n3D Travel: We used Google Photorealistic 3D Tiles via CesiumJS for the flight experience. The Google Maps Geocoding and Elevation APIs ensure the camera lands perfectly at the right altitude.\n\nAI Locals: Google Gemini 2.5 Flash processes search queries to build the era, setting, and crisis. Snowflake Cortex (llama3-8b) generates the NPC. We integrated Weather and Time Zone APIs so the character knows and reacts to live local conditions!\n\nFootprints: Backboard securely syncs the multiplayer territory state across all sessions in real time.\n\nDigital Souvenirs: Discoveries mint as unique NFTs on the Solana Devnet, storing metadata permanently on Arweave.\n\nFrontend: Voice narration uses ElevenLabs TTS. The frontend is built in Next.js 16 with GSAP animations, deployed on DigitalOcean.",
+    "video_url": "https://youtu.be/5nQgTmNHLts",
+    "submission_url": "http://whoistheslavemeorclaude.tech/",
+    "github_url": "https://github.com/Phyvlik/wanderlor",
+    "team_name": "Peking Duck",
+    "image_urls": [
+      "/archive/projects/wander-lore/image-01.webp",
+      "/archive/projects/wander-lore/image-02.webp",
+      "/archive/projects/wander-lore/image-03.webp",
+      "/archive/projects/wander-lore/image-04.webp",
+      "/archive/projects/wander-lore/image-05.webp"
+    ],
+    "qh_track": "Google",
+    "mlh_tracks": [
+      "gemini_api",
+      "snowflake_api",
+      "elevenlabs",
+      "digitalocean",
+      "solana",
+      "backboard",
+      "tech_domains"
+    ],
+    "prize_won": null,
+    "members": [
+      {
+        "id": "participant-005",
+        "name": "Aaron Wong",
+        "university": "Georgia Institute of Technology",
+        "major": "computer-science",
+        "level_of_study": "undergraduate-3-plus"
+      },
+      {
+        "id": "participant-356",
+        "name": "Vivek Patel",
+        "university": "Georgia State University",
+        "major": "computer-science",
+        "level_of_study": "undergraduate-3-plus"
+      }
+    ]
+  },
+  {
+    "id": "web-crawler-the-game",
+    "name": "Web Crawler: The Game",
+    "tagline": "A top-down 2.5D puzzle game starring a spider committing cyberattacks.",
+    "tech_stack": "Unity",
+    "description": "An amateur video game made with very little experience, a huge vision, and lots of caffeine. We wanted to see what we could do in 24 hours, and how close we could come to a finished game while learning a lot on the way. Then everything broke at the very end.",
+    "video_url": "https://youtube.com/shorts/qyNypowUcnU",
+    "submission_url": null,
+    "github_url": "https://github.com/ScArWlvrne/WebCrawlerTheGame",
+    "team_name": "Web Crawlers",
+    "image_urls": [],
+    "qh_track": "Pipeworks",
+    "mlh_tracks": [],
+    "prize_won": null,
+    "members": [
+      {
+        "id": "participant-182",
+        "name": "Justice Gaines",
+        "university": "University of Oregon",
+        "major": "Cybersecurity",
+        "level_of_study": "undergraduate-3-plus"
+      },
+      {
+        "id": "participant-205",
+        "name": "Kyran McCown",
+        "university": "University of Oregon",
+        "major": "computer-science",
+        "level_of_study": "undergraduate-3-plus"
+      },
+      {
+        "id": "participant-014",
+        "name": "Adriana Walls",
+        "university": "University of Oregon",
+        "major": "Cybersecurity",
+        "level_of_study": "undergraduate-3-plus"
+      },
+      {
+        "id": "participant-048",
+        "name": "avd De",
+        "university": "University of Oregon",
+        "major": "computer-science",
+        "level_of_study": "undergraduate-3-plus"
+      }
+    ]
+  },
+  {
+    "id": "whopiq",
+    "name": "WhopIQ",
+    "tagline": "The retention layer Whop never built",
+    "tech_stack": "Base44, Whop API, JavaScript",
+    "description": "WhopIQ is a community intelligence dashboard built specifically for Whop sellers. It connects to your Whop account via API and automatically identifies ghost members, scores engagement across your entire community, and calculates exactly how much monthly revenue is at risk from likely churners. Instead of just showing data, WhopIQ tells you what to do. Generating personalized AI re-engagement messages for at-risk members in one click. For the average Whop community owner managing members with no analytics tooling, WhopIQ turns retention from a guessing game into a system.",
+    "video_url": "https://youtu.be/e97E7ovjQl0",
+    "submission_url": "https://whop-growth-lab.base44.app/",
+    "github_url": "https://github.com/dylchata/whopiq",
+    "team_name": "newco",
+    "image_urls": [
+      "/archive/projects/whopiq/image-01.webp",
+      "/archive/projects/whopiq/image-02.webp",
+      "/archive/projects/whopiq/image-03.webp",
+      "/archive/projects/whopiq/image-04.webp",
+      "/archive/projects/whopiq/image-05.webp",
+      "/archive/projects/whopiq/image-06.webp"
+    ],
+    "qh_track": "Base44",
+    "mlh_tracks": [],
+    "prize_won": null,
+    "members": [
+      {
+        "id": "participant-102",
+        "name": "Dylan Sagahon Smith",
+        "university": "University of Oregon",
+        "major": "business",
+        "level_of_study": "undergraduate-3-plus"
+      }
+    ]
+  },
+  {
+    "id": "wilderness-medicine-assistant",
+    "name": "Wilderness Medicine Assistant",
+    "tagline": "Your level-headed medical assistant in the backcountry.",
+    "tech_stack": "Ollama, RAG Framework, ChromaDB, Python, LlamaIndex, Gemma 3",
+    "description": "An offline wilderness medicine chatbot powered by Gemma 3 4B and RAG, built for Jetson Nano or Raspberry Pi. It guides you through patient assessment in a backcountry emergency--no internet needed.",
+    "video_url": "https://youtu.be/RcGlcXZcdNQ",
+    "submission_url": null,
+    "github_url": "https://github.com/djmurphy6/wilderness-med-chat",
+    "team_name": "Can't wait to sleep",
+    "image_urls": [
+      "/archive/projects/wilderness-medicine-assistant/image-01.webp"
+    ],
+    "qh_track": "Google",
+    "mlh_tracks": [],
+    "prize_won": null,
+    "members": [
+      {
+        "id": "participant-101",
+        "name": "Dylan Murphy",
+        "university": null,
+        "major": null,
+        "level_of_study": null
+      }
+    ]
+  }
+]

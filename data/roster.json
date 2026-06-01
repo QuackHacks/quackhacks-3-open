@@ -1,6 +1,6 @@
 [
   {
-    "id": "participant-098",
+    "id": "participant-100",
     "first_name": "Drew",
     "last_name": "Manley",
     "about_me": "im chill",
@@ -21,7 +21,7 @@
     "total_points": 40
   },
   {
-    "id": "participant-178",
+    "id": "participant-183",
     "first_name": "Justin",
     "last_name": "hatch",
     "about_me": null,
@@ -42,7 +42,7 @@
     "total_points": 30
   },
   {
-    "id": "participant-142",
+    "id": "participant-146",
     "first_name": "Jack",
     "last_name": "Bernstein-Sheehan",
     "about_me": null,
@@ -63,7 +63,7 @@
     "total_points": 70
   },
   {
-    "id": "participant-342",
+    "id": "participant-349",
     "first_name": "Val",
     "last_name": "Levy",
     "about_me": null,
@@ -84,7 +84,7 @@
     "total_points": 60
   },
   {
-    "id": "participant-315",
+    "id": "participant-322",
     "first_name": "Song",
     "last_name": "Zhang",
     "about_me": null,
@@ -105,7 +105,7 @@
     "total_points": 25
   },
   {
-    "id": "participant-176",
+    "id": "participant-181",
     "first_name": "JR",
     "last_name": "Quint",
     "about_me": null,
@@ -123,10 +123,10 @@
     "is_current_user": false,
     "imageUrl": null,
     "display_badges": [],
-    "total_points": 15
+    "total_points": 30
   },
   {
-    "id": "participant-216",
+    "id": "participant-221",
     "first_name": "Maggie",
     "last_name": "Byrne",
     "about_me": null,
@@ -147,7 +147,7 @@
     "total_points": 0
   },
   {
-    "id": "participant-083",
+    "id": "participant-084",
     "first_name": "Connor",
     "last_name": "Lowery-North",
     "about_me": null,
@@ -168,7 +168,7 @@
     "total_points": 190
   },
   {
-    "id": "participant-112",
+    "id": "participant-115",
     "first_name": "Ethan",
     "last_name": "Westerdahl",
     "about_me": null,
@@ -189,7 +189,7 @@
     "total_points": 170
   },
   {
-    "id": "participant-296",
+    "id": "participant-303",
     "first_name": "Sarvesha Kumar",
     "last_name": "Kombaiah Seetha",
     "about_me": null,
@@ -207,10 +207,10 @@
     "is_current_user": false,
     "imageUrl": null,
     "display_badges": [],
-    "total_points": 20
+    "total_points": 35
   },
   {
-    "id": "participant-195",
+    "id": "participant-200",
     "first_name": "Kishan",
     "last_name": "Gupta",
     "about_me": null,
@@ -231,7 +231,7 @@
     "total_points": 15
   },
   {
-    "id": "participant-177",
+    "id": "participant-182",
     "first_name": "Justice",
     "last_name": "Gaines",
     "about_me": "Cybersecurity President, TSOC SOC Analyst, Risk Clinic Compliance Analyst, BizCare Compliance Coordinator, SentinelOne Partner Solutions Engineer",
@@ -249,10 +249,10 @@
     "is_current_user": false,
     "imageUrl": null,
     "display_badges": [],
-    "total_points": 70
+    "total_points": 60
   },
   {
-    "id": "participant-100",
+    "id": "participant-102",
     "first_name": "Dylan",
     "last_name": "Sagahon Smith",
     "about_me": null,
@@ -273,7 +273,7 @@
     "total_points": 30
   },
   {
-    "id": "participant-116",
+    "id": "participant-119",
     "first_name": "Evan",
     "last_name": "Thompson",
     "about_me": null,
@@ -315,7 +315,7 @@
     "total_points": 70
   },
   {
-    "id": "participant-175",
+    "id": "participant-180",
     "first_name": "Joshua",
     "last_name": "Vasquez",
     "about_me": "Sup",
@@ -336,7 +336,7 @@
     "total_points": 15
   },
   {
-    "id": "participant-352",
+    "id": "participant-359",
     "first_name": "Wiggle",
     "last_name": "coin",
     "about_me": "Sorin West, a Computer Science major who's almost out of here and has never done a hackathon before but excited to learn. ",
@@ -354,10 +354,10 @@
     "is_current_user": false,
     "imageUrl": null,
     "display_badges": [],
-    "total_points": 30
+    "total_points": 70
   },
   {
-    "id": "participant-366",
+    "id": "participant-374",
     "first_name": "Zander",
     "last_name": "Johnson",
     "about_me": null,
@@ -375,10 +375,10 @@
     "is_current_user": false,
     "imageUrl": null,
     "display_badges": [],
-    "total_points": 15
+    "total_points": 30
   },
   {
-    "id": "participant-030",
+    "id": "participant-031",
     "first_name": "Andrew",
     "last_name": "Chan",
     "about_me": null,
@@ -399,7 +399,7 @@
     "total_points": 30
   },
   {
-    "id": "participant-200",
+    "id": "participant-205",
     "first_name": "Kyran",
     "last_name": "McCown",
     "about_me": null,
@@ -417,10 +417,10 @@
     "is_current_user": false,
     "imageUrl": null,
     "display_badges": [],
-    "total_points": 200
+    "total_points": 190
   },
   {
-    "id": "participant-186",
+    "id": "participant-191",
     "first_name": "Kalab",
     "last_name": "Kahsay",
     "about_me": null,
@@ -438,10 +438,10 @@
     "is_current_user": false,
     "imageUrl": null,
     "display_badges": [],
-    "total_points": 15
+    "total_points": 30
   },
   {
-    "id": "participant-274",
+    "id": "participant-280",
     "first_name": "ramsaran",
     "last_name": "vk",
     "about_me": null,
@@ -462,7 +462,7 @@
     "total_points": 25
   },
   {
-    "id": "participant-147",
+    "id": "participant-152",
     "first_name": "Jadine",
     "last_name": "Delfin-Watanabe",
     "about_me": null,
@@ -480,10 +480,10 @@
     "is_current_user": false,
     "imageUrl": null,
     "display_badges": [],
-    "total_points": 30
+    "total_points": 105
   },
   {
-    "id": "participant-354",
+    "id": "participant-362",
     "first_name": "William",
     "last_name": "Haas",
     "about_me": null,
@@ -504,7 +504,28 @@
     "total_points": 125
   },
   {
-    "id": "participant-188",
+    "id": "participant-095",
+    "first_name": "Diego",
+    "last_name": "Carpenter",
+    "about_me": null,
+    "university": "University of Oregon",
+    "major": "business",
+    "level_of_study": "undergraduate-3-plus",
+    "highest_education": "secondary",
+    "residing_country": "United States",
+    "linkedin_url": "linkedin.com/in/diego-carpenter-191316297",
+    "github_url": null,
+    "github_public": false,
+    "role_interest": null,
+    "track_interest": null,
+    "has_team": true,
+    "is_current_user": false,
+    "imageUrl": null,
+    "display_badges": [],
+    "total_points": 30
+  },
+  {
+    "id": "participant-193",
     "first_name": "Kate",
     "last_name": "Spencer",
     "about_me": null,
@@ -525,7 +546,7 @@
     "total_points": 75
   },
   {
-    "id": "participant-068",
+    "id": "participant-069",
     "first_name": "Calvin",
     "last_name": "Cai",
     "about_me": null,
@@ -535,18 +556,18 @@
     "highest_education": "secondary",
     "residing_country": "United States",
     "linkedin_url": "https://www.linkedin.com/in/calvin-cai-431b4627a/",
-    "github_url": null,
-    "github_public": false,
+    "github_url": "https://github.com/ccai2053",
+    "github_public": true,
     "role_interest": "data",
     "track_interest": "Gemini API",
-    "has_team": false,
+    "has_team": true,
     "is_current_user": false,
     "imageUrl": null,
     "display_badges": [],
-    "total_points": 0
+    "total_points": 15
   },
   {
-    "id": "participant-028",
+    "id": "participant-029",
     "first_name": "An",
     "last_name": "Vo",
     "about_me": null,
@@ -567,7 +588,7 @@
     "total_points": 75
   },
   {
-    "id": "participant-319",
+    "id": "participant-327",
     "first_name": "Steven",
     "last_name": "Sanchez",
     "about_me": null,
@@ -585,10 +606,10 @@
     "is_current_user": false,
     "imageUrl": null,
     "display_badges": [],
-    "total_points": 30
+    "total_points": 40
   },
   {
-    "id": "participant-341",
+    "id": "participant-348",
     "first_name": "ulys",
     "last_name": "cd",
     "about_me": null,
@@ -606,10 +627,10 @@
     "is_current_user": false,
     "imageUrl": null,
     "display_badges": [],
-    "total_points": 60
+    "total_points": 70
   },
   {
-    "id": "participant-087",
+    "id": "participant-089",
     "first_name": "Daniel",
     "last_name": "Martin",
     "about_me": null,
@@ -626,11 +647,20 @@
     "has_team": true,
     "is_current_user": false,
     "imageUrl": null,
-    "display_badges": [],
-    "total_points": 15
+    "display_badges": [
+      {
+        "name": "Founder of the Flock",
+        "badge_path": "/badgess/QH3_Achievementbadge_FounderOftheFlock.webp"
+      },
+      {
+        "name": "Repo Ranger",
+        "badge_path": "/badgess/QH3_achievement_RepoRanger.webp"
+      }
+    ],
+    "total_points": 30
   },
   {
-    "id": "participant-320",
+    "id": "participant-328",
     "first_name": "Sudarshan",
     "last_name": "Sridhar",
     "about_me": null,
@@ -648,10 +678,10 @@
     "is_current_user": false,
     "imageUrl": null,
     "display_badges": [],
-    "total_points": 30
+    "total_points": 45
   },
   {
-    "id": "participant-039",
+    "id": "participant-040",
     "first_name": "Antonio",
     "last_name": "Robles",
     "about_me": null,
@@ -669,10 +699,10 @@
     "is_current_user": false,
     "imageUrl": null,
     "display_badges": [],
-    "total_points": 35
+    "total_points": 50
   },
   {
-    "id": "participant-076",
+    "id": "participant-077",
     "first_name": "Chris",
     "last_name": "Ho",
     "about_me": null,
@@ -693,7 +723,7 @@
     "total_points": 35
   },
   {
-    "id": "participant-266",
+    "id": "participant-272",
     "first_name": "Prasaya",
     "last_name": "Acharya",
     "about_me": null,
@@ -711,10 +741,10 @@
     "is_current_user": false,
     "imageUrl": null,
     "display_badges": [],
-    "total_points": 40
+    "total_points": 80
   },
   {
-    "id": "participant-369",
+    "id": "participant-377",
     "first_name": "Zheng",
     "last_name": "H. Chen",
     "about_me": null,
@@ -735,7 +765,7 @@
     "total_points": 10
   },
   {
-    "id": "participant-161",
+    "id": "participant-166",
     "first_name": "Jazveer",
     "last_name": "Kaler",
     "about_me": null,
@@ -753,10 +783,10 @@
     "is_current_user": false,
     "imageUrl": null,
     "display_badges": [],
-    "total_points": 15
+    "total_points": 30
   },
   {
-    "id": "participant-078",
+    "id": "participant-079",
     "first_name": "Chris",
     "last_name": "Warner",
     "about_me": null,
@@ -777,7 +807,7 @@
     "total_points": 10
   },
   {
-    "id": "participant-158",
+    "id": "participant-163",
     "first_name": "Jaya Sneha",
     "last_name": "Sannidhi",
     "about_me": null,
@@ -798,7 +828,28 @@
     "total_points": 40
   },
   {
-    "id": "participant-224",
+    "id": "participant-045",
+    "first_name": "Asim",
+    "last_name": "Nepal",
+    "about_me": null,
+    "university": "University of Oregon",
+    "major": "computer-science",
+    "level_of_study": "graduate",
+    "highest_education": "undergraduate-3-plus",
+    "residing_country": "United States",
+    "linkedin_url": "https://www.linkedin.com/in/nepal80m",
+    "github_url": null,
+    "github_public": false,
+    "role_interest": null,
+    "track_interest": null,
+    "has_team": true,
+    "is_current_user": false,
+    "imageUrl": null,
+    "display_badges": [],
+    "total_points": 85
+  },
+  {
+    "id": "participant-229",
     "first_name": "Maximo",
     "last_name": "Stowers-DeWolfe",
     "about_me": null,
@@ -816,10 +867,10 @@
     "is_current_user": false,
     "imageUrl": null,
     "display_badges": [],
-    "total_points": 30
+    "total_points": 40
   },
   {
-    "id": "participant-060",
+    "id": "participant-061",
     "first_name": "Blake",
     "last_name": "Staats",
     "about_me": null,
@@ -840,7 +891,7 @@
     "total_points": 30
   },
   {
-    "id": "participant-290",
+    "id": "participant-297",
     "first_name": "Salem",
     "last_name": "Alfassam",
     "about_me": null,
@@ -858,10 +909,10 @@
     "is_current_user": false,
     "imageUrl": null,
     "display_badges": [],
-    "total_points": 60
+    "total_points": 75
   },
   {
-    "id": "participant-075",
+    "id": "participant-076",
     "first_name": "Chris",
     "last_name": "Gallinger-Long",
     "about_me": "I’m a data scientist through and through. My passion lies in manipulating complex data to uncover hidden insights and solve real-world problems.",
@@ -879,10 +930,10 @@
     "is_current_user": false,
     "imageUrl": null,
     "display_badges": [],
-    "total_points": 20
+    "total_points": 35
   },
   {
-    "id": "participant-069",
+    "id": "participant-070",
     "first_name": "Cameron",
     "last_name": "Coleman",
     "about_me": null,
@@ -900,10 +951,10 @@
     "is_current_user": false,
     "imageUrl": null,
     "display_badges": [],
-    "total_points": 60
+    "total_points": 75
   },
   {
-    "id": "participant-073",
+    "id": "participant-074",
     "first_name": "Charlie",
     "last_name": "Sneed",
     "about_me": null,
@@ -921,7 +972,7 @@
     "is_current_user": false,
     "imageUrl": null,
     "display_badges": [],
-    "total_points": 30
+    "total_points": 45
   },
   {
     "id": "participant-005",
@@ -945,7 +996,7 @@
     "total_points": 20
   },
   {
-    "id": "participant-018",
+    "id": "participant-019",
     "first_name": "Akan",
     "last_name": "Abdireshov ",
     "about_me": null,
@@ -966,7 +1017,7 @@
     "total_points": 70
   },
   {
-    "id": "participant-153",
+    "id": "participant-158",
     "first_name": "James",
     "last_name": "OConnor",
     "about_me": null,
@@ -987,7 +1038,7 @@
     "total_points": 30
   },
   {
-    "id": "participant-137",
+    "id": "participant-141",
     "first_name": "Huy",
     "last_name": "Nguyen",
     "about_me": null,
@@ -1005,10 +1056,10 @@
     "is_current_user": false,
     "imageUrl": null,
     "display_badges": [],
-    "total_points": 15
+    "total_points": 30
   },
   {
-    "id": "participant-340",
+    "id": "participant-347",
     "first_name": "Tyler",
     "last_name": "Quach",
     "about_me": null,
@@ -1029,7 +1080,7 @@
     "total_points": 35
   },
   {
-    "id": "participant-323",
+    "id": "participant-331",
     "first_name": "Tâm",
     "last_name": "Đỗ Thành",
     "about_me": null,
@@ -1050,7 +1101,7 @@
     "total_points": 20
   },
   {
-    "id": "participant-151",
+    "id": "participant-156",
     "first_name": "Jakhangir",
     "last_name": "Tynshimov",
     "about_me": null,
@@ -1068,10 +1119,10 @@
     "is_current_user": false,
     "imageUrl": null,
     "display_badges": [],
-    "total_points": 15
+    "total_points": 65
   },
   {
-    "id": "participant-253",
+    "id": "participant-259",
     "first_name": "Nick",
     "last_name": "Sakys",
     "about_me": null,
@@ -1092,7 +1143,7 @@
     "total_points": 10
   },
   {
-    "id": "participant-031",
+    "id": "participant-032",
     "first_name": "Andrew",
     "last_name": "Hull",
     "about_me": null,
@@ -1112,17 +1163,17 @@
     "display_badges": [
       {
         "name": "Founder of the Flock",
-        "badge_path": "/badgess/QH3_Achievementbadge_FounderOftheFlock.png"
+        "badge_path": "/badgess/QH3_Achievementbadge_FounderOftheFlock.webp"
       },
       {
         "name": "Repo Ranger",
-        "badge_path": "/badgess/QH3_achievement_RepoRanger.png"
+        "badge_path": "/badgess/QH3_achievement_RepoRanger.webp"
       }
     ],
     "total_points": 30
   },
   {
-    "id": "participant-111",
+    "id": "participant-114",
     "first_name": "Ethan",
     "last_name": "Reinhart",
     "about_me": null,
@@ -1143,7 +1194,7 @@
     "total_points": 70
   },
   {
-    "id": "participant-228",
+    "id": "participant-233",
     "first_name": "Mehul",
     "last_name": "Munankarmi",
     "about_me": null,
@@ -1164,7 +1215,7 @@
     "total_points": 45
   },
   {
-    "id": "participant-055",
+    "id": "participant-056",
     "first_name": "Bekzat",
     "last_name": "Uraimov",
     "about_me": null,
@@ -1182,10 +1233,10 @@
     "is_current_user": false,
     "imageUrl": null,
     "display_badges": [],
-    "total_points": 70
+    "total_points": 270
   },
   {
-    "id": "participant-367",
+    "id": "participant-375",
     "first_name": "Zhan",
     "last_name": "Erali",
     "about_me": null,
@@ -1206,7 +1257,7 @@
     "total_points": 30
   },
   {
-    "id": "participant-257",
+    "id": "participant-263",
     "first_name": "Nurbek",
     "last_name": "Bekmuratov",
     "about_me": null,
@@ -1227,7 +1278,7 @@
     "total_points": 30
   },
   {
-    "id": "participant-192",
+    "id": "participant-197",
     "first_name": "Kilion",
     "last_name": "Phaigh",
     "about_me": "I'm Kilion, a Sports Business and Finance major at the University of Oregon. I've never done a hackathon before, but I'm excited to learn, grow, and create something amazing!",
@@ -1245,10 +1296,10 @@
     "is_current_user": false,
     "imageUrl": null,
     "display_badges": [],
-    "total_points": 15
+    "total_points": 20
   },
   {
-    "id": "participant-149",
+    "id": "participant-154",
     "first_name": "Jai",
     "last_name": "Pandhoh",
     "about_me": null,
@@ -1290,7 +1341,7 @@
     "total_points": 25
   },
   {
-    "id": "participant-092",
+    "id": "participant-094",
     "first_name": "Dhruv",
     "last_name": "Bhargava",
     "about_me": null,
@@ -1311,7 +1362,7 @@
     "total_points": 10
   },
   {
-    "id": "participant-249",
+    "id": "participant-255",
     "first_name": "Nathaniel",
     "last_name": "DeMoro",
     "about_me": "Statistics student",
@@ -1332,7 +1383,7 @@
     "total_points": 40
   },
   {
-    "id": "participant-263",
+    "id": "participant-269",
     "first_name": "Peyton",
     "last_name": "Nagle",
     "about_me": null,
@@ -1353,7 +1404,7 @@
     "total_points": 20
   },
   {
-    "id": "participant-040",
+    "id": "participant-041",
     "first_name": "Arav",
     "last_name": "Sarma",
     "about_me": null,
@@ -1371,10 +1422,10 @@
     "is_current_user": false,
     "imageUrl": null,
     "display_badges": [],
-    "total_points": 30
+    "total_points": 55
   },
   {
-    "id": "participant-103",
+    "id": "participant-105",
     "first_name": "Eli",
     "last_name": "Priestley",
     "about_me": null,
@@ -1395,7 +1446,7 @@
     "total_points": 10
   },
   {
-    "id": "participant-282",
+    "id": "participant-288",
     "first_name": "Rishabh Bhargava",
     "last_name": "Bhargava",
     "about_me": null,
@@ -1416,7 +1467,7 @@
     "total_points": 10
   },
   {
-    "id": "participant-252",
+    "id": "participant-258",
     "first_name": "Nick",
     "last_name": "Porter",
     "about_me": null,
@@ -1437,7 +1488,7 @@
     "total_points": 10
   },
   {
-    "id": "participant-190",
+    "id": "participant-195",
     "first_name": "Kevin",
     "last_name": "Le",
     "about_me": "Software Engineer at Oregon Blockchain Group, Tech Team at AISA.\nInterested in the fields of Quantitative Finance, Web3/Blockchain, Machine Learning, and Artificial Intelligence.",
@@ -1457,21 +1508,21 @@
     "display_badges": [
       {
         "name": "Founder of the Flock",
-        "badge_path": "/badgess/QH3_Achievementbadge_FounderOftheFlock.png"
+        "badge_path": "/badgess/QH3_Achievementbadge_FounderOftheFlock.webp"
       },
       {
         "name": "Repo Ranger",
-        "badge_path": "/badgess/QH3_achievement_RepoRanger.png"
+        "badge_path": "/badgess/QH3_achievement_RepoRanger.webp"
       },
       {
         "name": "The Duck Father",
-        "badge_path": "/badgess/QH3_Achievementbadge_theduckfather.png"
+        "badge_path": "/badgess/QH3_Achievementbadge_theduckfather.webp"
       }
     ],
     "total_points": 75
   },
   {
-    "id": "participant-222",
+    "id": "participant-227",
     "first_name": "Matthew",
     "last_name": "Stone",
     "about_me": null,
@@ -1492,7 +1543,7 @@
     "total_points": 30
   },
   {
-    "id": "participant-058",
+    "id": "participant-059",
     "first_name": "Ben",
     "last_name": "Tell",
     "about_me": null,
@@ -1513,7 +1564,7 @@
     "total_points": 125
   },
   {
-    "id": "participant-051",
+    "id": "participant-052",
     "first_name": "Bardia",
     "last_name": "Ahmadi Dafchahi",
     "about_me": null,
@@ -1531,10 +1582,10 @@
     "is_current_user": false,
     "imageUrl": null,
     "display_badges": [],
-    "total_points": 30
+    "total_points": 45
   },
   {
-    "id": "participant-034",
+    "id": "participant-035",
     "first_name": "Angel",
     "last_name": "Rivera",
     "about_me": null,
@@ -1555,7 +1606,7 @@
     "total_points": 15
   },
   {
-    "id": "participant-123",
+    "id": "participant-127",
     "first_name": "Freddie",
     "last_name": "Ford",
     "about_me": null,
@@ -1576,7 +1627,7 @@
     "total_points": 10
   },
   {
-    "id": "participant-077",
+    "id": "participant-078",
     "first_name": "Chris",
     "last_name": "Nguyen",
     "about_me": null,
@@ -1597,7 +1648,7 @@
     "total_points": 30
   },
   {
-    "id": "participant-148",
+    "id": "participant-153",
     "first_name": "Jae",
     "last_name": "Grunwald",
     "about_me": null,
@@ -1618,7 +1669,7 @@
     "total_points": 30
   },
   {
-    "id": "participant-154",
+    "id": "participant-159",
     "first_name": "Jana",
     "last_name": "Hazimeh",
     "about_me": null,
@@ -1639,7 +1690,7 @@
     "total_points": 25
   },
   {
-    "id": "participant-180",
+    "id": "participant-185",
     "first_name": "Justin",
     "last_name": "Metz",
     "about_me": "My name is Justin. I enjoy video games. They're great. Yippee",
@@ -1660,7 +1711,7 @@
     "total_points": 15
   },
   {
-    "id": "participant-086",
+    "id": "participant-088",
     "first_name": "Daniel",
     "last_name": "Diyali",
     "about_me": null,
@@ -1681,7 +1732,7 @@
     "total_points": 30
   },
   {
-    "id": "participant-217",
+    "id": "participant-222",
     "first_name": "Marcus",
     "last_name": "Tin",
     "about_me": null,
@@ -1699,10 +1750,10 @@
     "is_current_user": false,
     "imageUrl": null,
     "display_badges": [],
-    "total_points": 70
+    "total_points": 120
   },
   {
-    "id": "participant-054",
+    "id": "participant-055",
     "first_name": "Beatriz",
     "last_name": "Arevalo Leal",
     "about_me": null,
@@ -1720,21 +1771,21 @@
     "is_current_user": false,
     "imageUrl": null,
     "display_badges": [],
-    "total_points": 30
+    "total_points": 105
   },
   {
-    "id": "participant-358",
+    "id": "participant-366",
     "first_name": "Yael",
     "last_name": "Roque",
     "about_me": null,
-    "university": "Other",
-    "major": "computer-science",
+    "university": "Oregon Institute of Technology",
+    "major": "Embedded Systems Engineering Technology",
     "level_of_study": "undergraduate-3-plus",
     "highest_education": "undergraduate-2-year",
     "residing_country": "United States",
     "linkedin_url": "https://www.linkedin.com/in/yaelroque/",
-    "github_url": null,
-    "github_public": false,
+    "github_url": "https://github.com/yaelroq04",
+    "github_public": true,
     "role_interest": null,
     "track_interest": null,
     "has_team": true,
@@ -1744,7 +1795,7 @@
     "total_points": 10
   },
   {
-    "id": "participant-105",
+    "id": "participant-108",
     "first_name": "Enoch",
     "last_name": "Elumba",
     "about_me": null,
@@ -1762,10 +1813,10 @@
     "is_current_user": false,
     "imageUrl": null,
     "display_badges": [],
-    "total_points": 15
+    "total_points": 30
   },
   {
-    "id": "participant-235",
+    "id": "participant-241",
     "first_name": "Minsu",
     "last_name": "Kim",
     "about_me": null,
@@ -1786,7 +1837,7 @@
     "total_points": 165
   },
   {
-    "id": "participant-026",
+    "id": "participant-027",
     "first_name": "Ally",
     "last_name": "Chen",
     "about_me": null,
@@ -1804,7 +1855,7 @@
     "is_current_user": false,
     "imageUrl": null,
     "display_badges": [],
-    "total_points": 30
+    "total_points": 140
   },
   {
     "id": "participant-011",
@@ -1828,7 +1879,7 @@
     "total_points": 40
   },
   {
-    "id": "participant-288",
+    "id": "participant-295",
     "first_name": "Ryan",
     "last_name": "Shankar",
     "about_me": null,
@@ -1849,7 +1900,7 @@
     "total_points": 40
   },
   {
-    "id": "participant-215",
+    "id": "participant-220",
     "first_name": "Lukas",
     "last_name": "Seufert",
     "about_me": null,
@@ -1870,7 +1921,7 @@
     "total_points": 30
   },
   {
-    "id": "participant-033",
+    "id": "participant-034",
     "first_name": "Angad",
     "last_name": "Srivastava",
     "about_me": null,
@@ -1888,10 +1939,10 @@
     "is_current_user": false,
     "imageUrl": null,
     "display_badges": [],
-    "total_points": 70
+    "total_points": 120
   },
   {
-    "id": "participant-043",
+    "id": "participant-044",
     "first_name": "Aryan",
     "last_name": "Arya",
     "about_me": null,
@@ -1912,7 +1963,7 @@
     "total_points": 30
   },
   {
-    "id": "participant-169",
+    "id": "participant-174",
     "first_name": "Johnny",
     "last_name": "Tran",
     "about_me": null,
@@ -1933,7 +1984,7 @@
     "total_points": 40
   },
   {
-    "id": "participant-139",
+    "id": "participant-143",
     "first_name": "ilhan",
     "last_name": "bas",
     "about_me": null,
@@ -1954,7 +2005,7 @@
     "total_points": 70
   },
   {
-    "id": "participant-102",
+    "id": "participant-104",
     "first_name": "Ekansh",
     "last_name": "Arora",
     "about_me": null,
@@ -1972,10 +2023,10 @@
     "is_current_user": false,
     "imageUrl": null,
     "display_badges": [],
-    "total_points": 30
+    "total_points": 140
   },
   {
-    "id": "participant-364",
+    "id": "participant-372",
     "first_name": "Zahra",
     "last_name": "Alsulaimawi",
     "about_me": null,
@@ -1993,10 +2044,10 @@
     "is_current_user": false,
     "imageUrl": null,
     "display_badges": [],
-    "total_points": 30
+    "total_points": 120
   },
   {
-    "id": "participant-170",
+    "id": "participant-175",
     "first_name": "Jonathon",
     "last_name": "Lim",
     "about_me": null,
@@ -2014,10 +2065,10 @@
     "is_current_user": false,
     "imageUrl": null,
     "display_badges": [],
-    "total_points": 75
+    "total_points": 185
   },
   {
-    "id": "participant-291",
+    "id": "participant-298",
     "first_name": "Sam",
     "last_name": "Garcia Lopez",
     "about_me": null,
@@ -2035,10 +2086,10 @@
     "is_current_user": false,
     "imageUrl": null,
     "display_badges": [],
-    "total_points": 30
+    "total_points": 50
   },
   {
-    "id": "participant-096",
+    "id": "participant-098",
     "first_name": "Donovan",
     "last_name": "Thach",
     "about_me": null,
@@ -2058,13 +2109,13 @@
     "display_badges": [
       {
         "name": "Join the Pond",
-        "badge_path": "/badgess/QH3_Achievementbadge_JoinThePond.png"
+        "badge_path": "/badgess/QH3_Achievementbadge_JoinThePond.webp"
       }
     ],
     "total_points": 50
   },
   {
-    "id": "participant-091",
+    "id": "participant-093",
     "first_name": "David",
     "last_name": "Rincon Villanueva",
     "about_me": null,
@@ -2085,7 +2136,7 @@
     "total_points": 10
   },
   {
-    "id": "participant-280",
+    "id": "participant-286",
     "first_name": "Richard",
     "last_name": "Ramirez",
     "about_me": null,
@@ -2106,7 +2157,7 @@
     "total_points": 45
   },
   {
-    "id": "participant-312",
+    "id": "participant-319",
     "first_name": "Siddharth S",
     "last_name": "Sundaram",
     "about_me": null,
@@ -2127,7 +2178,7 @@
     "total_points": 60
   },
   {
-    "id": "participant-099",
+    "id": "participant-101",
     "first_name": "Dylan",
     "last_name": "Murphy",
     "about_me": null,
@@ -2145,10 +2196,10 @@
     "is_current_user": false,
     "imageUrl": null,
     "display_badges": [],
-    "total_points": 15
+    "total_points": 30
   },
   {
-    "id": "participant-197",
+    "id": "participant-202",
     "first_name": "Koa",
     "last_name": "Castillo",
     "about_me": null,
@@ -2169,7 +2220,7 @@
     "total_points": 30
   },
   {
-    "id": "participant-013",
+    "id": "participant-014",
     "first_name": "Adriana",
     "last_name": "Walls",
     "about_me": null,
@@ -2189,13 +2240,13 @@
     "display_badges": [
       {
         "name": "Join the Pond",
-        "badge_path": "/badgess/QH3_Achievementbadge_JoinThePond.png"
+        "badge_path": "/badgess/QH3_Achievementbadge_JoinThePond.webp"
       }
     ],
-    "total_points": 80
+    "total_points": 70
   },
   {
-    "id": "participant-164",
+    "id": "participant-169",
     "first_name": "Jeremy",
     "last_name": "Mitaux ",
     "about_me": null,
@@ -2213,10 +2264,10 @@
     "is_current_user": false,
     "imageUrl": null,
     "display_badges": [],
-    "total_points": 15
+    "total_points": 30
   },
   {
-    "id": "participant-052",
+    "id": "participant-053",
     "first_name": "Basim",
     "last_name": "Ibsies",
     "about_me": null,
@@ -2237,7 +2288,7 @@
     "total_points": 30
   },
   {
-    "id": "participant-088",
+    "id": "participant-090",
     "first_name": "Daniil",
     "last_name": "Nahliuk",
     "about_me": null,
@@ -2258,7 +2309,7 @@
     "total_points": 10
   },
   {
-    "id": "participant-163",
+    "id": "participant-168",
     "first_name": "Jeffrey",
     "last_name": "McMillan",
     "about_me": null,
@@ -2279,7 +2330,7 @@
     "total_points": 30
   },
   {
-    "id": "participant-120",
+    "id": "participant-124",
     "first_name": "Finn",
     "last_name": "Fujimura",
     "about_me": null,
@@ -2300,7 +2351,7 @@
     "total_points": 30
   },
   {
-    "id": "participant-356",
+    "id": "participant-364",
     "first_name": "Winnie",
     "last_name": "Zhen",
     "about_me": null,
@@ -2321,7 +2372,7 @@
     "total_points": 30
   },
   {
-    "id": "participant-167",
+    "id": "participant-172",
     "first_name": "JJ",
     "last_name": "Meza",
     "about_me": null,
@@ -2342,7 +2393,7 @@
     "total_points": 30
   },
   {
-    "id": "participant-150",
+    "id": "participant-155",
     "first_name": "Jaiden",
     "last_name": "Stipp",
     "about_me": null,
@@ -2363,7 +2414,7 @@
     "total_points": 25
   },
   {
-    "id": "participant-281",
+    "id": "participant-287",
     "first_name": "Riley Patrick",
     "last_name": "Rileyhop@UW.Edu",
     "about_me": null,
@@ -2405,7 +2456,7 @@
     "total_points": 30
   },
   {
-    "id": "participant-046",
+    "id": "participant-047",
     "first_name": "Audrey",
     "last_name": "Hudspeth",
     "about_me": null,
@@ -2419,14 +2470,14 @@
     "github_public": true,
     "role_interest": null,
     "track_interest": null,
-    "has_team": true,
+    "has_team": false,
     "is_current_user": false,
     "imageUrl": null,
     "display_badges": [],
     "total_points": 30
   },
   {
-    "id": "participant-173",
+    "id": "participant-178",
     "first_name": "Joshua",
     "last_name": "Krasnogorov",
     "about_me": null,
@@ -2447,7 +2498,7 @@
     "total_points": 10
   },
   {
-    "id": "participant-157",
+    "id": "participant-162",
     "first_name": "Jason",
     "last_name": "Tran",
     "about_me": null,
@@ -2468,8 +2519,8 @@
     "total_points": 95
   },
   {
-    "id": "participant-205",
-    "first_name": "Legendofjacob18",
+    "id": "participant-149",
+    "first_name": "Jacob",
     "last_name": "Hurst",
     "about_me": null,
     "university": "Oregon State University",
@@ -2486,10 +2537,31 @@
     "is_current_user": false,
     "imageUrl": null,
     "display_badges": [],
-    "total_points": 10
+    "total_points": 20
   },
   {
-    "id": "participant-273",
+    "id": "participant-249",
+    "first_name": "Myan",
+    "last_name": "Gupta",
+    "about_me": null,
+    "university": "University of Minnesota",
+    "major": "computer-science",
+    "level_of_study": "undergraduate-3-plus",
+    "highest_education": null,
+    "residing_country": "United States",
+    "linkedin_url": "https://www.linkedin.com/in/myangupta/",
+    "github_url": null,
+    "github_public": false,
+    "role_interest": null,
+    "track_interest": null,
+    "has_team": true,
+    "is_current_user": false,
+    "imageUrl": null,
+    "display_badges": [],
+    "total_points": 75
+  },
+  {
+    "id": "participant-279",
     "first_name": "Rahul",
     "last_name": "S Kannan",
     "about_me": null,
@@ -2507,10 +2579,10 @@
     "is_current_user": false,
     "imageUrl": null,
     "display_badges": [],
-    "total_points": 75
+    "total_points": 150
   },
   {
-    "id": "participant-292",
+    "id": "participant-299",
     "first_name": "Sam",
     "last_name": "Hatler",
     "about_me": null,
@@ -2531,7 +2603,7 @@
     "total_points": 45
   },
   {
-    "id": "participant-014",
+    "id": "participant-015",
     "first_name": "Adwaith",
     "last_name": "Renjith",
     "about_me": null,
@@ -2552,7 +2624,7 @@
     "total_points": 45
   },
   {
-    "id": "participant-363",
+    "id": "participant-371",
     "first_name": "Zack",
     "last_name": "Wicker",
     "about_me": null,
@@ -2573,7 +2645,7 @@
     "total_points": 30
   },
   {
-    "id": "participant-101",
+    "id": "participant-103",
     "first_name": "Edward",
     "last_name": "Kuoha, IV",
     "about_me": "Hacker from the University of Hawaii",
@@ -2594,7 +2666,7 @@
     "total_points": 190
   },
   {
-    "id": "participant-189",
+    "id": "participant-194",
     "first_name": "Kellen",
     "last_name": "Snider",
     "about_me": null,
@@ -2612,10 +2684,10 @@
     "is_current_user": false,
     "imageUrl": null,
     "display_badges": [],
-    "total_points": 15
+    "total_points": 30
   },
   {
-    "id": "participant-196",
+    "id": "participant-201",
     "first_name": "Knoll",
     "last_name": "Owen",
     "about_me": null,
@@ -2636,7 +2708,7 @@
     "total_points": 65
   },
   {
-    "id": "participant-143",
+    "id": "participant-147",
     "first_name": "Jack",
     "last_name": "Smith",
     "about_me": null,
@@ -2657,7 +2729,7 @@
     "total_points": 60
   },
   {
-    "id": "participant-208",
+    "id": "participant-213",
     "first_name": "London Doyoung",
     "last_name": "Kim",
     "about_me": null,
@@ -2699,7 +2771,7 @@
     "total_points": 15
   },
   {
-    "id": "participant-133",
+    "id": "participant-136",
     "first_name": "Harry",
     "last_name": "Johnson",
     "about_me": null,
@@ -2720,7 +2792,7 @@
     "total_points": 35
   },
   {
-    "id": "participant-114",
+    "id": "participant-117",
     "first_name": "Evan",
     "last_name": "lee",
     "about_me": null,
@@ -2741,7 +2813,7 @@
     "total_points": 30
   },
   {
-    "id": "participant-336",
+    "id": "participant-343",
     "first_name": "Tristan",
     "last_name": "Brester",
     "about_me": null,
@@ -2762,7 +2834,7 @@
     "total_points": 30
   },
   {
-    "id": "participant-038",
+    "id": "participant-039",
     "first_name": "Anthony",
     "last_name": "Duenez Ramirez",
     "about_me": null,
@@ -2783,7 +2855,7 @@
     "total_points": 30
   },
   {
-    "id": "participant-330",
+    "id": "participant-337",
     "first_name": "Thara",
     "last_name": "Rao",
     "about_me": null,
@@ -2804,7 +2876,7 @@
     "total_points": 20
   },
   {
-    "id": "participant-348",
+    "id": "participant-355",
     "first_name": "vital",
     "last_name": "kyungu",
     "about_me": "Always down to vibe code and create some unique stuffs",
@@ -2824,17 +2896,17 @@
     "display_badges": [
       {
         "name": "Founder of the Flock",
-        "badge_path": "/badgess/QH3_Achievementbadge_FounderOftheFlock.png"
+        "badge_path": "/badgess/QH3_Achievementbadge_FounderOftheFlock.webp"
       },
       {
         "name": "Into the Flock",
-        "badge_path": "/badgess/QH3_achievement_intoTheFlock.png"
+        "badge_path": "/badgess/QH3_achievement_intoTheFlock.webp"
       }
     ],
-    "total_points": 25
+    "total_points": 40
   },
   {
-    "id": "participant-035",
+    "id": "participant-036",
     "first_name": "Anish",
     "last_name": "Dulal",
     "about_me": null,
@@ -2852,7 +2924,7 @@
     "is_current_user": false,
     "imageUrl": null,
     "display_badges": [],
-    "total_points": 60
+    "total_points": 100
   },
   {
     "id": "participant-002",
@@ -2876,7 +2948,7 @@
     "total_points": 15
   },
   {
-    "id": "participant-317",
+    "id": "participant-325",
     "first_name": "Stephanie",
     "last_name": "Yang",
     "about_me": null,
@@ -2897,7 +2969,7 @@
     "total_points": 15
   },
   {
-    "id": "participant-165",
+    "id": "participant-170",
     "first_name": "Jerry",
     "last_name": "Zhou",
     "about_me": null,
@@ -2918,7 +2990,7 @@
     "total_points": 40
   },
   {
-    "id": "participant-298",
+    "id": "participant-305",
     "first_name": "Scarlett",
     "last_name": "Rhinehart",
     "about_me": null,
@@ -2939,7 +3011,7 @@
     "total_points": 15
   },
   {
-    "id": "participant-370",
+    "id": "participant-378",
     "first_name": "Zuriahn",
     "last_name": "Yun",
     "about_me": null,
@@ -2960,7 +3032,7 @@
     "total_points": 70
   },
   {
-    "id": "participant-162",
+    "id": "participant-167",
     "first_name": "Jeffrey",
     "last_name": "Guo",
     "about_me": null,
@@ -2981,7 +3053,7 @@
     "total_points": 30
   },
   {
-    "id": "participant-265",
+    "id": "participant-271",
     "first_name": "Pranav",
     "last_name": "Cheraku",
     "about_me": null,
@@ -3002,7 +3074,7 @@
     "total_points": 75
   },
   {
-    "id": "participant-141",
+    "id": "participant-145",
     "first_name": "Israel",
     "last_name": "Avendano",
     "about_me": null,
@@ -3023,7 +3095,7 @@
     "total_points": 30
   },
   {
-    "id": "participant-338",
+    "id": "participant-345",
     "first_name": "Tuan",
     "last_name": "Hoang",
     "about_me": null,
@@ -3044,7 +3116,7 @@
     "total_points": 15
   },
   {
-    "id": "participant-357",
+    "id": "participant-365",
     "first_name": "Wyatt",
     "last_name": "Heath",
     "about_me": null,
@@ -3058,14 +3130,14 @@
     "github_public": true,
     "role_interest": null,
     "track_interest": null,
-    "has_team": false,
+    "has_team": true,
     "is_current_user": false,
     "imageUrl": null,
     "display_badges": [],
-    "total_points": 0
+    "total_points": 15
   },
   {
-    "id": "participant-240",
+    "id": "participant-246",
     "first_name": "Mostafa",
     "last_name": "Elshenawy",
     "about_me": null,
@@ -3083,10 +3155,10 @@
     "is_current_user": false,
     "imageUrl": null,
     "display_badges": [],
-    "total_points": 55
+    "total_points": 70
   },
   {
-    "id": "participant-074",
+    "id": "participant-075",
     "first_name": "Chengen",
     "last_name": "Li",
     "about_me": null,
@@ -3104,10 +3176,10 @@
     "is_current_user": false,
     "imageUrl": null,
     "display_badges": [],
-    "total_points": 15
+    "total_points": 30
   },
   {
-    "id": "participant-027",
+    "id": "participant-028",
     "first_name": "Aman",
     "last_name": "Nurmukhanbetov",
     "about_me": null,
@@ -3128,7 +3200,7 @@
     "total_points": 15
   },
   {
-    "id": "participant-156",
+    "id": "participant-161",
     "first_name": "Jason",
     "last_name": "Do",
     "about_me": null,
@@ -3149,7 +3221,7 @@
     "total_points": 70
   },
   {
-    "id": "participant-231",
+    "id": "participant-237",
     "first_name": "Miles",
     "last_name": "Hamilton-Sommer",
     "about_me": null,
@@ -3170,7 +3242,7 @@
     "total_points": 75
   },
   {
-    "id": "participant-071",
+    "id": "participant-072",
     "first_name": "Carson",
     "last_name": "Secrest",
     "about_me": null,
@@ -3191,7 +3263,7 @@
     "total_points": 30
   },
   {
-    "id": "participant-118",
+    "id": "participant-122",
     "first_name": "Fedya",
     "last_name": "Semenov",
     "about_me": null,
@@ -3209,10 +3281,10 @@
     "is_current_user": false,
     "imageUrl": null,
     "display_badges": [],
-    "total_points": 100
+    "total_points": 130
   },
   {
-    "id": "participant-130",
+    "id": "participant-133",
     "first_name": "Han",
     "last_name": "Lee",
     "about_me": null,
@@ -3230,10 +3302,10 @@
     "is_current_user": false,
     "imageUrl": null,
     "display_badges": [],
-    "total_points": 25
+    "total_points": 40
   },
   {
-    "id": "participant-339",
+    "id": "participant-346",
     "first_name": "Tyler",
     "last_name": "Payne",
     "about_me": null,
@@ -3254,7 +3326,7 @@
     "total_points": 30
   },
   {
-    "id": "participant-047",
+    "id": "participant-048",
     "first_name": "avd",
     "last_name": "De",
     "about_me": null,
@@ -3272,10 +3344,10 @@
     "is_current_user": false,
     "imageUrl": null,
     "display_badges": [],
-    "total_points": 70
+    "total_points": 60
   },
   {
-    "id": "participant-070",
+    "id": "participant-071",
     "first_name": "Carmen ",
     "last_name": "Park",
     "about_me": null,
@@ -3296,7 +3368,7 @@
     "total_points": 15
   },
   {
-    "id": "participant-287",
+    "id": "participant-293",
     "first_name": "Ruslan",
     "last_name": "Kim",
     "about_me": null,
@@ -3317,7 +3389,7 @@
     "total_points": 10
   },
   {
-    "id": "participant-019",
+    "id": "participant-020",
     "first_name": "Aki",
     "last_name": "X",
     "about_me": null,
@@ -3338,7 +3410,7 @@
     "total_points": 30
   },
   {
-    "id": "participant-268",
+    "id": "participant-274",
     "first_name": "Quack",
     "last_name": "Welburn",
     "about_me": null,
@@ -3359,7 +3431,7 @@
     "total_points": 45
   },
   {
-    "id": "participant-334",
+    "id": "participant-341",
     "first_name": "Trenton",
     "last_name": "Pham",
     "about_me": null,
@@ -3380,7 +3452,7 @@
     "total_points": 10
   },
   {
-    "id": "participant-256",
+    "id": "participant-262",
     "first_name": "Norton",
     "last_name": "and Me",
     "about_me": null,
@@ -3394,14 +3466,14 @@
     "github_public": true,
     "role_interest": null,
     "track_interest": null,
-    "has_team": false,
+    "has_team": true,
     "is_current_user": false,
     "imageUrl": null,
     "display_badges": [],
-    "total_points": 0
+    "total_points": 30
   },
   {
-    "id": "participant-135",
+    "id": "participant-139",
     "first_name": "Hayden",
     "last_name": "Truong",
     "about_me": null,
@@ -3422,7 +3494,7 @@
     "total_points": 30
   },
   {
-    "id": "participant-201",
+    "id": "participant-206",
     "first_name": "Lake",
     "last_name": "Hackett",
     "about_me": null,
@@ -3443,7 +3515,7 @@
     "total_points": 10
   },
   {
-    "id": "participant-036",
+    "id": "participant-037",
     "first_name": "Anna",
     "last_name": "Tymoshenko",
     "about_me": null,
@@ -3464,7 +3536,7 @@
     "total_points": 70
   },
   {
-    "id": "participant-109",
+    "id": "participant-112",
     "first_name": "Esmé",
     "last_name": "Nadeau",
     "about_me": null,
@@ -3485,7 +3557,7 @@
     "total_points": 30
   },
   {
-    "id": "participant-213",
+    "id": "participant-218",
     "first_name": "Luis",
     "last_name": "Guzman-Cornejo",
     "about_me": null,
@@ -3506,7 +3578,7 @@
     "total_points": 30
   },
   {
-    "id": "participant-041",
+    "id": "participant-042",
     "first_name": "Arhan",
     "last_name": "Us",
     "about_me": null,
@@ -3527,7 +3599,7 @@
     "total_points": 10
   },
   {
-    "id": "participant-020",
+    "id": "participant-021",
     "first_name": "Alan",
     "last_name": "Nguyen",
     "about_me": null,
@@ -3545,10 +3617,10 @@
     "is_current_user": false,
     "imageUrl": null,
     "display_badges": [],
-    "total_points": 30
+    "total_points": 140
   },
   {
-    "id": "participant-209",
+    "id": "participant-214",
     "first_name": "Lucas",
     "last_name": "Bennett",
     "about_me": null,
@@ -3569,7 +3641,7 @@
     "total_points": 70
   },
   {
-    "id": "participant-365",
+    "id": "participant-373",
     "first_name": "Zain",
     "last_name": "Saeed",
     "about_me": null,
@@ -3590,7 +3662,7 @@
     "total_points": 0
   },
   {
-    "id": "participant-024",
+    "id": "participant-025",
     "first_name": "Alex",
     "last_name": "Rankine",
     "about_me": null,
@@ -3611,28 +3683,28 @@
     "total_points": 15
   },
   {
-    "id": "participant-023",
+    "id": "participant-024",
     "first_name": "Alex",
     "last_name": "Picon",
-    "about_me": null,
-    "university": null,
-    "major": null,
+    "about_me": "ai ai ai ai ai ai",
+    "university": "Seattle University",
+    "major": "Computer Science",
     "level_of_study": null,
     "highest_education": null,
     "residing_country": null,
-    "linkedin_url": null,
-    "github_url": null,
+    "linkedin_url": "https://www.linkedin.com/in/alexpicon/",
+    "github_url": "https://github.com/alexpicon",
     "github_public": true,
     "role_interest": null,
     "track_interest": null,
-    "has_team": false,
+    "has_team": true,
     "is_current_user": false,
     "imageUrl": null,
     "display_badges": [],
     "total_points": 155
   },
   {
-    "id": "participant-299",
+    "id": "participant-306",
     "first_name": "Sebastian",
     "last_name": "Morse",
     "about_me": null,
@@ -3653,7 +3725,7 @@
     "total_points": 10
   },
   {
-    "id": "participant-012",
+    "id": "participant-013",
     "first_name": "Adrian",
     "last_name": "Partain",
     "about_me": null,
@@ -3674,7 +3746,7 @@
     "total_points": 70
   },
   {
-    "id": "participant-057",
+    "id": "participant-058",
     "first_name": "Ben",
     "last_name": "Gilmour",
     "about_me": null,
@@ -3695,7 +3767,7 @@
     "total_points": 30
   },
   {
-    "id": "participant-302",
+    "id": "participant-309",
     "first_name": "Selloane",
     "last_name": "A",
     "about_me": null,
@@ -3716,7 +3788,100 @@
     "total_points": 15
   },
   {
-    "id": "participant-349",
+    "id": "participant-235",
+    "first_name": "Miguel",
+    "last_name": "Pimienta",
+    "about_me": null,
+    "university": "University of Oregon",
+    "major": "computer-science",
+    "level_of_study": "undergraduate-3-plus",
+    "highest_education": "undergraduate-3-plus",
+    "residing_country": "United States",
+    "linkedin_url": null,
+    "github_url": null,
+    "github_public": true,
+    "role_interest": null,
+    "track_interest": null,
+    "has_team": false,
+    "is_current_user": false,
+    "imageUrl": null,
+    "display_badges": [],
+    "total_points": 20
+  },
+  {
+    "id": "participant-360",
+    "first_name": "Will",
+    "last_name": "Bozich",
+    "about_me": "Hello World",
+    "university": "University of Oregon",
+    "major": "business",
+    "level_of_study": "secondary",
+    "highest_education": "secondary",
+    "residing_country": "United States",
+    "linkedin_url": "https://www.linkedin.com/in/williambozich/",
+    "github_url": "https://github.com/bozzzzzy",
+    "github_public": true,
+    "role_interest": "frontend",
+    "track_interest": "Solana",
+    "has_team": true,
+    "is_current_user": false,
+    "imageUrl": null,
+    "display_badges": [
+      {
+        "name": "Founder of the Flock",
+        "badge_path": "/badgess/QH3_Achievementbadge_FounderOftheFlock.webp"
+      },
+      {
+        "name": "Dynamic Duo",
+        "badge_path": "/badgess/QH3_achievement_dynamicDUO.webp"
+      }
+    ],
+    "total_points": 35
+  },
+  {
+    "id": "participant-106",
+    "first_name": "Ellie",
+    "last_name": "Lewis",
+    "about_me": null,
+    "university": null,
+    "major": null,
+    "level_of_study": null,
+    "highest_education": null,
+    "residing_country": null,
+    "linkedin_url": null,
+    "github_url": null,
+    "github_public": true,
+    "role_interest": "backend",
+    "track_interest": "Gemini API",
+    "has_team": false,
+    "is_current_user": false,
+    "imageUrl": null,
+    "display_badges": [],
+    "total_points": 0
+  },
+  {
+    "id": "participant-210",
+    "first_name": "Leo",
+    "last_name": "Carlsson",
+    "about_me": null,
+    "university": "University of Oregon",
+    "major": "social-science",
+    "level_of_study": "undergraduate-3-plus",
+    "highest_education": "secondary",
+    "residing_country": "United States",
+    "linkedin_url": "https://www.linkedin.com/in/leo-carlsson-0v0/",
+    "github_url": "https://github.com/youngleonard",
+    "github_public": true,
+    "role_interest": "frontend",
+    "track_interest": "ElevenLabs",
+    "has_team": false,
+    "is_current_user": false,
+    "imageUrl": null,
+    "display_badges": [],
+    "total_points": 30
+  },
+  {
+    "id": "participant-356",
     "first_name": "Vivek",
     "last_name": "Patel",
     "about_me": null,
@@ -3734,10 +3899,10 @@
     "is_current_user": false,
     "imageUrl": null,
     "display_badges": [],
-    "total_points": 15
+    "total_points": 30
   },
   {
-    "id": "participant-053",
+    "id": "participant-054",
     "first_name": "Bawan",
     "last_name": "Boparai",
     "about_me": null,
@@ -3751,14 +3916,14 @@
     "github_public": true,
     "role_interest": null,
     "track_interest": null,
-    "has_team": false,
+    "has_team": true,
     "is_current_user": false,
     "imageUrl": null,
     "display_badges": [],
     "total_points": 135
   },
   {
-    "id": "participant-129",
+    "id": "participant-132",
     "first_name": "Haddy",
     "last_name": "Alnasser",
     "about_me": null,
@@ -3772,14 +3937,14 @@
     "github_public": false,
     "role_interest": "generalist",
     "track_interest": "Gemini API",
-    "has_team": false,
+    "has_team": true,
     "is_current_user": false,
     "imageUrl": null,
     "display_badges": [],
     "total_points": 15
   },
   {
-    "id": "participant-283",
+    "id": "participant-289",
     "first_name": "Robert",
     "last_name": "Mimms",
     "about_me": null,
@@ -3800,7 +3965,7 @@
     "total_points": 30
   },
   {
-    "id": "participant-184",
+    "id": "participant-189",
     "first_name": "Kai",
     "last_name": "Hogan",
     "about_me": null,
@@ -3821,7 +3986,7 @@
     "total_points": 0
   },
   {
-    "id": "participant-362",
+    "id": "participant-370",
     "first_name": "Zachary",
     "last_name": "Brunner",
     "about_me": null,
@@ -3839,10 +4004,10 @@
     "is_current_user": false,
     "imageUrl": null,
     "display_badges": [],
-    "total_points": 75
+    "total_points": 85
   },
   {
-    "id": "participant-247",
+    "id": "participant-253",
     "first_name": "Nate",
     "last_name": "Haas",
     "about_me": null,
@@ -3863,9 +4028,9 @@
     "total_points": 0
   },
   {
-    "id": "participant-124",
-    "first_name": "Future",
-    "last_name": "Pear",
+    "id": "participant-012",
+    "first_name": "Adrian",
+    "last_name": "Alupoaei",
     "about_me": null,
     "university": null,
     "major": null,
@@ -3884,7 +4049,7 @@
     "total_points": 60
   },
   {
-    "id": "participant-332",
+    "id": "participant-339",
     "first_name": "Timothy",
     "last_name": "Mullen",
     "about_me": null,
@@ -3902,10 +4067,10 @@
     "is_current_user": false,
     "imageUrl": null,
     "display_badges": [],
-    "total_points": 30
+    "total_points": 40
   },
   {
-    "id": "participant-172",
+    "id": "participant-177",
     "first_name": "josh",
     "last_name": "gould",
     "about_me": null,
@@ -3926,7 +4091,7 @@
     "total_points": 30
   },
   {
-    "id": "participant-119",
+    "id": "participant-123",
     "first_name": "Finian",
     "last_name": "Kierstead",
     "about_me": null,
@@ -3947,7 +4112,7 @@
     "total_points": 70
   },
   {
-    "id": "participant-066",
+    "id": "participant-067",
     "first_name": "Bryce",
     "last_name": "Estacio",
     "about_me": null,
@@ -3968,7 +4133,7 @@
     "total_points": 85
   },
   {
-    "id": "participant-187",
+    "id": "participant-192",
     "first_name": "Kanish",
     "last_name": "Gupta",
     "about_me": null,
@@ -3986,10 +4151,10 @@
     "is_current_user": false,
     "imageUrl": null,
     "display_badges": [],
-    "total_points": 65
+    "total_points": 135
   },
   {
-    "id": "participant-272",
+    "id": "participant-278",
     "first_name": "Raghav",
     "last_name": "Ojha",
     "about_me": "Trying to get cracked",
@@ -4007,10 +4172,10 @@
     "is_current_user": false,
     "imageUrl": null,
     "display_badges": [],
-    "total_points": 65
+    "total_points": 90
   },
   {
-    "id": "participant-331",
+    "id": "participant-338",
     "first_name": "Theo",
     "last_name": "Miranda-Zellnik",
     "about_me": null,
@@ -4031,7 +4196,7 @@
     "total_points": 15
   },
   {
-    "id": "participant-107",
+    "id": "participant-110",
     "first_name": "Enrique",
     "last_name": "Viton",
     "about_me": null,
@@ -4045,14 +4210,14 @@
     "github_public": true,
     "role_interest": null,
     "track_interest": null,
-    "has_team": false,
+    "has_team": true,
     "is_current_user": false,
     "imageUrl": null,
     "display_badges": [],
-    "total_points": 0
+    "total_points": 30
   },
   {
-    "id": "participant-355",
+    "id": "participant-363",
     "first_name": "William",
     "last_name": "Tu",
     "about_me": null,
@@ -4070,10 +4235,10 @@
     "is_current_user": false,
     "imageUrl": null,
     "display_badges": [],
-    "total_points": 20
+    "total_points": 70
   },
   {
-    "id": "participant-191",
+    "id": "participant-196",
     "first_name": "Kian",
     "last_name": "Collins",
     "about_me": null,
@@ -4094,7 +4259,7 @@
     "total_points": 30
   },
   {
-    "id": "participant-179",
+    "id": "participant-184",
     "first_name": "Justin",
     "last_name": "Lee",
     "about_me": null,
@@ -4108,14 +4273,14 @@
     "github_public": true,
     "role_interest": null,
     "track_interest": null,
-    "has_team": false,
+    "has_team": true,
     "is_current_user": false,
     "imageUrl": null,
     "display_badges": [],
-    "total_points": 0
+    "total_points": 30
   },
   {
-    "id": "participant-084",
+    "id": "participant-085",
     "first_name": "Craig",
     "last_name": "Chisholm",
     "about_me": null,
@@ -4136,7 +4301,7 @@
     "total_points": 10
   },
   {
-    "id": "participant-144",
+    "id": "participant-148",
     "first_name": "Jacob",
     "last_name": "Cordova",
     "about_me": null,
@@ -4150,14 +4315,14 @@
     "github_public": true,
     "role_interest": null,
     "track_interest": null,
-    "has_team": true,
+    "has_team": false,
     "is_current_user": false,
     "imageUrl": null,
     "display_badges": [],
     "total_points": 30
   },
   {
-    "id": "participant-210",
+    "id": "participant-215",
     "first_name": "Lucas",
     "last_name": "Meskel",
     "about_me": null,
@@ -4178,7 +4343,7 @@
     "total_points": 20
   },
   {
-    "id": "participant-155",
+    "id": "participant-160",
     "first_name": "Jared",
     "last_name": "Vaughn",
     "about_me": null,
@@ -4199,7 +4364,7 @@
     "total_points": 15
   },
   {
-    "id": "participant-193",
+    "id": "participant-198",
     "first_name": "Kimball",
     "last_name": "Weeks",
     "about_me": null,
@@ -4220,7 +4385,7 @@
     "total_points": 30
   },
   {
-    "id": "participant-025",
+    "id": "participant-026",
     "first_name": "Alexandr",
     "last_name": "Iapara",
     "about_me": null,
@@ -4241,7 +4406,7 @@
     "total_points": 10
   },
   {
-    "id": "participant-122",
+    "id": "participant-126",
     "first_name": "Francisco",
     "last_name": "Holdman",
     "about_me": null,
@@ -4255,14 +4420,14 @@
     "github_public": true,
     "role_interest": null,
     "track_interest": null,
-    "has_team": false,
+    "has_team": true,
     "is_current_user": false,
     "imageUrl": null,
     "display_badges": [],
-    "total_points": 0
+    "total_points": 15
   },
   {
-    "id": "participant-128",
+    "id": "participant-131",
     "first_name": "Gilbert",
     "last_name": "Knight",
     "about_me": null,
@@ -4283,7 +4448,7 @@
     "total_points": 30
   },
   {
-    "id": "participant-168",
+    "id": "participant-173",
     "first_name": "Joe",
     "last_name": "Lorance",
     "about_me": null,

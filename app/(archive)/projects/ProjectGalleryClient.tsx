@@ -3,7 +3,7 @@
 import { useMemo, useState } from "react";
 import { SubmissionCard, type SubmissionCardData } from "./SubmissionCard";
 
-type TrackFilter = "All" | "Base44" | "Google" | "Pipeworks" | "General";
+type TrackFilter = "All" | "Base44" | "Google" | "Pipeworks";
 type MlhFilter =
 	| "All"
 	| "gemini_api"
@@ -14,16 +14,12 @@ type MlhFilter =
 	| "tech_domains"
 	| "backboard";
 
-const TRACK_FILTERS: TrackFilter[] = ["All", "General", "Base44", "Google", "Pipeworks"];
+const TRACK_FILTERS: TrackFilter[] = ["All", "Base44", "Google", "Pipeworks"];
 
 const TRACK_META: Record<TrackFilter, { label: string; cls: string }> = {
 	All: {
 		label: "All",
 		cls: "bg-neutral-100 text-neutral-700 border-neutral-300 data-[active=true]:bg-neutral-900 data-[active=true]:text-white data-[active=true]:border-neutral-900",
-	},
-	General: {
-		label: "General",
-		cls: "bg-amber-50 text-amber-800 border-amber-300 data-[active=true]:bg-amber-500 data-[active=true]:text-white data-[active=true]:border-amber-500",
 	},
 	Base44: {
 		label: "Base44",
@@ -64,6 +60,23 @@ const MLH_LABEL: Record<MlhFilter, string> = {
 const MLH_PILL_CLS =
 	"bg-neutral-50 text-neutral-700 border-neutral-300 data-[active=true]:bg-neutral-900 data-[active=true]:text-white data-[active=true]:border-neutral-900";
 
+function normalizeMlhTrack(value: string): MlhFilter | null {
+	const key = value.trim().toLowerCase().replace(/[^a-z0-9_]+/g, "");
+	const aliases: Record<string, MlhFilter> = {
+		gemini_api: "gemini_api",
+		geminiapi: "gemini_api",
+		snowflake_api: "snowflake_api",
+		snowflakeapi: "snowflake_api",
+		elevenlabs: "elevenlabs",
+		digitalocean: "digitalocean",
+		solana: "solana",
+		tech_domains: "tech_domains",
+		techdomains: "tech_domains",
+		backboard: "backboard",
+	};
+	return aliases[key] ?? null;
+}
+
 export function ProjectGalleryClient({ cards }: { cards: SubmissionCardData[] }) {
 	const [query, setQuery] = useState("");
 	const [activeTrack, setActiveTrack] = useState<TrackFilter>("All");
@@ -72,14 +85,14 @@ export function ProjectGalleryClient({ cards }: { cards: SubmissionCardData[] })
 	const trackCounts = useMemo(() => {
 		const counts: Record<TrackFilter, number> = {
 			All: cards.length,
-			General: 0,
 			Base44: 0,
 			Google: 0,
 			Pipeworks: 0,
 		};
 		for (const c of cards) {
-			if (!c.qh_track) counts.General += 1;
-			else if (c.qh_track in counts) counts[c.qh_track as TrackFilter] += 1;
+			if (c.qh_track && c.qh_track in counts) {
+				counts[c.qh_track as TrackFilter] += 1;
+			}
 		}
 		return counts;
 	}, [cards]);
@@ -97,7 +110,8 @@ export function ProjectGalleryClient({ cards }: { cards: SubmissionCardData[] })
 		};
 		for (const c of cards) {
 			for (const t of c.mlh_tracks) {
-				if (t in counts) counts[t as MlhFilter] += 1;
+				const track = normalizeMlhTrack(t);
+				if (track) counts[track] += 1;
 			}
 		}
 		return counts;
@@ -106,14 +120,13 @@ export function ProjectGalleryClient({ cards }: { cards: SubmissionCardData[] })
 	const filteredCards = useMemo(() => {
 		const q = query.trim().toLowerCase();
 		return cards.filter((c) => {
-			if (activeTrack !== "All") {
-				if (activeTrack === "General") {
-					if (c.qh_track) return false;
-				} else if (c.qh_track !== activeTrack) {
-					return false;
-				}
+			if (activeTrack !== "All" && c.qh_track !== activeTrack) {
+				return false;
 			}
-			if (activeMlh !== "All" && !c.mlh_tracks.includes(activeMlh)) {
+			if (
+				activeMlh !== "All" &&
+				!c.mlh_tracks.some((track) => normalizeMlhTrack(track) === activeMlh)
+			) {
 				return false;
 			}
 			if (!q) return true;

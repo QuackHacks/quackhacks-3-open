@@ -1,8 +1,8 @@
 "use client";
 
 import { useEffect, useRef } from "react";
-import DuckClosedMouth from "../../_assets/elements/duckClosed.png";
-import DuckOpenMouth from "../../_assets/elements/duckOpen.png";
+import DuckClosedMouth from "../../_assets/elements/duckClosed.webp";
+import DuckOpenMouth from "../../_assets/elements/duckOpen.webp";
 
 // ─── Tunable constants ────────────────────────────────────────────────────────
 const CELL_STEP_SM = 5,

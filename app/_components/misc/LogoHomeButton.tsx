@@ -5,7 +5,7 @@ import { useRouter } from "next/navigation";
 export default function LogoHomeButton({size, path} : {size : number[], path ?: string}) {
 
     const router = useRouter()
-    const logoPath = path ?? "/logo/quackhacks_logo_white_no_letters.png"
+    const logoPath = path ?? "/logo/quackhacks_logo_white_no_letters.webp"
 
     return (
         <>
