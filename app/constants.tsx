@@ -19,6 +19,7 @@ export const kHomeLinks: NavLink[] = [
 	{ href: "/roster", label: "Roster" },
 	{ href: "/achievements", label: "Achievements" },
 	{ href: "/projects", label: "Projects" },
+	{ href: "/photos", label: "Photos" },
 ];
 
 /** Badge image paths served from /public — keyed by achievement.key. */
