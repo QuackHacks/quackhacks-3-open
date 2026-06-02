@@ -1,6 +1,8 @@
 import { Award, Crown, Medal, Trophy } from "lucide-react";
+import type { CSSProperties } from "react";
 import { BADGE_MAP } from "@/app/constants";
 import type { Sponsor, WinnerPlacement } from "@/lib/winners";
+import { QH_TRACK_BADGE_STYLES } from "../trackBadgeStyles";
 
 type IconComponent = React.ComponentType<{ className?: string }>;
 
@@ -81,33 +83,49 @@ export const PLACEMENT_BADGE: Record<WinnerPlacement, { src: string; alt: string
 /** Per-sponsor chip styling. `text` is a tailwind class; MLH uses a gradient. */
 export const SPONSOR_META: Record<
 	Sponsor,
-	{ chip: string; isGradientText?: boolean }
+	{ chip: string; isGradientText?: boolean; chipStyle?: CSSProperties }
 > = {
 	QuackHacks: { chip: "bg-brand-100 border-brand-300 text-brand-800" },
 	MLH: { chip: "bg-white border-neutral-300", isGradientText: true },
-	Base44: { chip: "bg-violet-100 border-violet-300 text-violet-800" },
-	Pipeworks: { chip: "bg-rose-100 border-rose-300 text-rose-800" },
-	Google: { chip: "bg-sky-100 border-sky-300 text-sky-800" },
-	MongoDB: { chip: "bg-emerald-100 border-emerald-300 text-emerald-800" },
+	Base44: {
+		chip: "text-neutral-800",
+		chipStyle: QH_TRACK_BADGE_STYLES.Base44,
+	},
+	Pipeworks: {
+		chip: "",
+		chipStyle: QH_TRACK_BADGE_STYLES.Pipeworks,
+	},
+	Google: {
+		chip: "",
+		chipStyle: QH_TRACK_BADGE_STYLES.Google,
+	},
+	MongoDB: {
+		chip: "",
+		chipStyle: QH_TRACK_BADGE_STYLES.MongoDB,
+	},
 };
 
 /** A small sponsor pill. MLH renders with the animated tri-color text. */
 export function SponsorChip({
 	sponsor,
+	label,
 	className = "",
 }: {
 	sponsor: Sponsor;
+	label?: string;
 	className?: string;
 }) {
 	const meta = SPONSOR_META[sponsor];
+	const displayLabel = label ?? sponsor;
 	return (
 		<span
 			className={`inline-flex items-center h-[20px] px-2 text-[0.62rem] font-mono uppercase tracking-[0.16em] border ${meta.chip} ${className}`}
+			style={meta.chipStyle}
 		>
-			{meta.isGradientText ? (
-				<span className="mlh-color-text font-bold">{sponsor}</span>
+			{meta.isGradientText && !label ? (
+				<span className="mlh-color-text font-bold">{displayLabel}</span>
 			) : (
-				sponsor
+				displayLabel
 			)}
 		</span>
 	);

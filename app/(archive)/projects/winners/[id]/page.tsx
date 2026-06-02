@@ -2,7 +2,6 @@ import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getProjectById } from "@/lib/archive";
 import { getAllWinnerProjectIds, getAwardMeta, getWinnerByProjectId } from "@/lib/winners";
-import { WinnersBackground } from "../WinnersBackground";
 import { WinnerDetailClient } from "./WinnerDetailClient";
 
 export function generateStaticParams() {
@@ -67,10 +66,5 @@ export default async function WinnerDetailPage({
 	const tags = parseTags(project.tech_stack);
 	const embedUrl = project.video_url ? youtubeEmbedUrl(project.video_url) : null;
 
-	return (
-		<>
-			<WinnersBackground />
-			<WinnerDetailClient project={project} award={award} embedUrl={embedUrl} tags={tags} />
-		</>
-	);
+	return <WinnerDetailClient project={project} award={award} embedUrl={embedUrl} tags={tags} />;
 }

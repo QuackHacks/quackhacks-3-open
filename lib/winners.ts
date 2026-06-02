@@ -55,7 +55,7 @@ export const PODIUM_TRACKS: WinnerTrackDef[] = [
 		id: "pipeworks",
 		name: "Pipeworks",
 		sponsor: "Pipeworks",
-		blurb: "Top three builds in the Pipeworks track.",
+		blurb: "Top three builds in this track.",
 		winners: [
 			{ projectId: "carcosa", placement: 1 },
 			{ projectId: "signninja", placement: 2 },
@@ -66,7 +66,7 @@ export const PODIUM_TRACKS: WinnerTrackDef[] = [
 		id: "base44",
 		name: "Base44",
 		sponsor: "Base44",
-		blurb: "Top three builds in the Base44 track.",
+		blurb: "Top three builds in this track.",
 		winners: [
 			{ projectId: "portflo", placement: 1 },
 			{ projectId: "safereturn", placement: 2 },
@@ -81,14 +81,14 @@ export const PARTNER_TRACKS: WinnerTrackDef[] = [
 		id: "google",
 		name: "Google",
 		sponsor: "Google",
-		blurb: "Best use of Google technology.",
+		blurb: "Best use of sponsor technology.",
 		winners: [{ projectId: "find-it" }],
 	},
 	{
 		id: "mongodb",
 		name: "MongoDB",
 		sponsor: "MongoDB",
-		blurb: "Best use of MongoDB.",
+		blurb: "Best use of sponsor technology.",
 		winners: [{ projectId: "medledger" }],
 	},
 ];

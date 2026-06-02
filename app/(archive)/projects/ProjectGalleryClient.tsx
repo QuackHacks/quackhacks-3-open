@@ -2,6 +2,7 @@
 
 import { useMemo, useState } from "react";
 import { SubmissionCard, type SubmissionCardData } from "./SubmissionCard";
+import { QH_TRACK_ACTIVE_STYLES, QH_TRACK_BADGE_STYLES, type QhTrackName } from "./trackBadgeStyles";
 
 type TrackFilter = "All" | "Base44" | "Google" | "Pipeworks" | "MongoDB";
 type MlhFilter =
@@ -23,19 +24,19 @@ const TRACK_META: Record<TrackFilter, { label: string; cls: string }> = {
 	},
 	Base44: {
 		label: "Base44",
-		cls: "bg-violet-50 text-violet-800 border-violet-300 data-[active=true]:bg-violet-600 data-[active=true]:text-white data-[active=true]:border-violet-600",
+		cls: "",
 	},
 	Google: {
 		label: "Google",
-		cls: "bg-sky-50 text-sky-800 border-sky-300 data-[active=true]:bg-sky-600 data-[active=true]:text-white data-[active=true]:border-sky-600",
+		cls: "",
 	},
 	Pipeworks: {
 		label: "Pipeworks",
-		cls: "bg-rose-50 text-rose-800 border-rose-300 data-[active=true]:bg-rose-600 data-[active=true]:text-white data-[active=true]:border-rose-600",
+		cls: "",
 	},
 	MongoDB: {
 		label: "MongoDB",
-		cls: "bg-rose-50 text-emerald-800 border-green-300 data-[active=true]:bg-green-600 data-[active=true]:text-white data-[active=true]:border-green-600",
+		cls: "",
 	}
 };
 
@@ -140,10 +141,6 @@ export function ProjectGalleryClient({ cards }: { cards: SubmissionCardData[] })
 	}, [cards, query, activeTrack, activeMlh]);
 
 	const totalProjects = cards.length;
-	const totalTeams = useMemo(
-		() => new Set(cards.map((c) => c.team_name).filter(Boolean)).size,
-		[cards],
-	);
 	const uniqueTechs = useMemo(
 		() =>
 			new Set(
@@ -163,7 +160,7 @@ export function ProjectGalleryClient({ cards }: { cards: SubmissionCardData[] })
 				<div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-10">
 					{[
 						{ label: "Submissions", value: String(totalProjects) },
-						{ label: "Teams", value: String(totalTeams) },
+						{ label: "Judges", value: "42" },
 						{ label: "Unique Techs", value: String(uniqueTechs) },
 					].map((s) => (
 						<div
@@ -217,6 +214,13 @@ export function ProjectGalleryClient({ cards }: { cards: SubmissionCardData[] })
 									onClick={() => setActiveTrack(t)}
 									data-active={activeTrack === t}
 									className={`inline-flex items-center gap-1.5 border px-3 py-1.5 text-xs font-semibold transition-colors duration-150 ${meta.cls}`}
+									style={
+										t === "All"
+											? undefined
+											: activeTrack === t
+												? QH_TRACK_ACTIVE_STYLES[t as QhTrackName]
+												: QH_TRACK_BADGE_STYLES[t as QhTrackName]
+									}
 								>
 									{meta.label}
 									<span className="font-mono text-[10px] opacity-70">

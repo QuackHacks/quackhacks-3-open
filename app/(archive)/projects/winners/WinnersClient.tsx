@@ -6,6 +6,7 @@ import { motion, type Variants } from "motion/react";
 import { ArrowUpRight } from "lucide-react";
 import type { Sponsor, WinnerCard, WinnersView, WinnerPlacement } from "@/lib/winners";
 import { PLACEMENT_BADGE, SponsorChip, placementMeta } from "./_shared";
+import { WinnersBackground } from "./WinnersBackground";
 
 // ── Shared motion variants ──────────────────────────────────────────────────
 
@@ -126,7 +127,7 @@ function PodiumColumn({ card }: { card: WinnerCard }) {
 						</p>
 						{card.teamName && (
 							<p className="mt-0.5 w-full truncate font-mono text-[9px] uppercase tracking-superwide text-neutral-500">
-								{card.teamName}
+								Team {card.teamName}
 							</p>
 						)}
 						<span className="mt-2 inline-flex items-center gap-1 font-mono text-[9px] uppercase tracking-[0.18em] text-neutral-400 transition-colors group-hover:text-brand-600">
@@ -165,13 +166,25 @@ function TrackWinnerCard({
 	const m = placementMeta(card.placement);
 	const imgH = variant === "partner" ? "h-44" : variant === "podium" ? "h-36" : "h-28";
 	const showTagline = variant === "partner";
+	const isSponsorAward = sponsor !== "MLH";
+	const isTopSponsorAward = isSponsorAward && (card.placement === 1 || !card.placement);
+	const sponsorLabel = isSponsorAward
+		? card.placement
+			? `${sponsor} ${m.label}`
+			: `${sponsor} 1st`
+		: undefined;
+	const detailLabel = isSponsorAward
+		? null
+		: card.placement
+			? `${m.label} · ${trackName}`
+			: `${trackName} Winner`;
 
 	return (
 		<motion.div variants={itemV} className="min-w-0">
 			<Link
 				href={`/projects/winners/${card.id}`}
 				className={`group relative flex h-full flex-col overflow-hidden rounded-xl border bg-white shadow-[0_14px_34px_rgba(0,0,0,0.04)] transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_22px_50px_rgba(0,0,0,0.10)] ${
-					emphasize ? "border-amber-300 ring-1 ring-amber-200" : "border-neutral-200 hover:border-neutral-900/70"
+					emphasize || isTopSponsorAward ? "border-amber-300 ring-1 ring-amber-200" : "border-neutral-200 hover:border-neutral-900/70"
 				}`}
 			>
 				{/* Image */}
@@ -181,21 +194,23 @@ function TrackWinnerCard({
 
 					{/* Sponsor chip */}
 					<div className="absolute right-2.5 top-2.5">
-						<SponsorChip sponsor={sponsor} className="bg-white/90 backdrop-blur-sm" />
+						<SponsorChip sponsor={sponsor} label={sponsorLabel} className="bg-white/90 backdrop-blur-sm" />
 					</div>
 				</div>
 
 				{/* Body */}
 				<div className="flex grow flex-col gap-1.5 p-4">
-					<p className="font-mono text-[9px] uppercase tracking-superwide text-neutral-400">
-						{card.placement ? `${m.label} · ${trackName}` : `${trackName} Winner`}
-					</p>
+					{detailLabel && (
+						<p className="font-mono text-[9px] uppercase tracking-superwide text-neutral-400">
+							{detailLabel}
+						</p>
+					)}
 					<h3 className="font-instrument-serif text-xl font-bold leading-tight text-neutral-900 transition-colors group-hover:text-brand-600">
 						{card.name}
 					</h3>
 					{card.teamName && (
 						<p className="font-mono text-[10px] uppercase tracking-[0.14em] text-neutral-500">
-							&gt; Team {card.teamName}
+							Team {card.teamName}
 						</p>
 					)}
 					{showTagline && card.tagline && (
@@ -217,12 +232,9 @@ function TrackWinnerCard({
 
 // ── Section heading ───────────────────────────────────────────────────────────
 
-function SectionHeading({ eyebrow, title, subtitle }: { eyebrow: string; title: string; subtitle?: string }) {
+function SectionHeading({ title, subtitle }: { title: string; subtitle?: string }) {
 	return (
 		<motion.div variants={itemV} className="mb-6">
-			<p className="mb-1 flex items-center gap-1.5 font-mono text-[10px] uppercase tracking-superwide text-brand-600">
-				{eyebrow}
-			</p>
 			<h2 className="font-liebling text-2xl font-bold text-neutral-900 md:text-3xl">{title}</h2>
 			{subtitle && <p className="mt-1 max-w-2xl text-sm leading-relaxed text-neutral-500">{subtitle}</p>}
 		</motion.div>
@@ -236,39 +248,20 @@ export function WinnersClient({ view }: { view: WinnersView }) {
 
 	return (
 		<main className="relative min-h-full overflow-x-hidden bg-[#f4f4f4]">
+			<WinnersBackground />
 			<section className="relative mx-auto max-w-6xl px-5 pb-24 pt-24 md:px-8">
 				{/* ── Header ── */}
 				<motion.div initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }} className="mb-12">
-					<div className="mb-5 flex items-center justify-between">
-						<p className="font-mono text-[9px] uppercase tracking-superwide text-neutral-500">
-							&gt; Archive /{" "}
-							<Link href="/projects" className="transition-colors hover:text-neutral-900">
-								Projects
-							</Link>{" "}
-							/ Winners
-						</p>
-						<Link
-							href="/projects"
-							className="inline-flex items-center justify-center border border-neutral-300 bg-white px-3 py-1.5 font-mono text-[10px] uppercase tracking-[0.22em] text-neutral-700 transition-colors hover:border-neutral-900 hover:text-neutral-900"
-						>
-							All projects
-						</Link>
-					</div>
-
 					<div className="flex items-center gap-3">
-
-						<div>
-							<p className="font-mono text-[10px] uppercase tracking-superwide text-black">Hall of Champions</p>
-							<h1 className="font-liebling text-4xl font-bold leading-[0.95] text-neutral-900 md:text-6xl">
-								<span className="qh-color-text mt-5">Winners</span>
-							</h1>
-						</div>
+						<h1 className="font-liebling text-4xl font-bold leading-[0.95] text-neutral-900 md:text-6xl">
+							<span className="qh-color-text mt-5">Winners</span>
+						</h1>
 					</div>
 				</motion.div>
 
 				{/* ── Grand prize podium ── */}
 				<motion.section variants={sectionV} {...inView} className="mb-20">
-					<SectionHeading eyebrow="Grand Prize" title={grand.name} subtitle={grand.blurb} />
+					<SectionHeading title={grand.name} subtitle={grand.blurb} />
 					<motion.div variants={staggerWrap} className="mx-auto flex max-w-3xl items-end gap-2 sm:gap-4">
 						{grand.winners.map((card) => (
 							<PodiumColumn key={card.id} card={card} />
@@ -278,18 +271,12 @@ export function WinnersClient({ view }: { view: WinnersView }) {
 
 				{/* ── Sponsor podium tracks ── */}
 				<motion.section variants={sectionV} {...inView} className="mb-16">
-					<SectionHeading
-						eyebrow="Track Champions"
-						title="Sponsor Tracks"
-						subtitle="Winners from each of our sponsor tracks."
-					/>
+					<SectionHeading title="Sponsor Tracks" subtitle="Winners from each of our sponsor tracks." />
 					<div className="flex flex-col gap-10">
 						{[...podiumTracks, ...partnerTracks].map((track) => (
 							<div key={track.id}>
 								<motion.div variants={itemV} className="mb-4 flex flex-wrap items-center gap-3">
-									<SponsorChip sponsor={track.sponsor} />
 									<h3 className="font-instrument-serif text-2xl font-bold text-neutral-900">{track.name}</h3>
-									{track.blurb && <p className="text-xs text-neutral-500">{track.blurb}</p>}
 								</motion.div>
 								<motion.div variants={staggerWrap} className="grid grid-cols-1 gap-5 sm:grid-cols-3">
 									{track.winners.map((card) => (
@@ -311,7 +298,6 @@ export function WinnersClient({ view }: { view: WinnersView }) {
 				{/* ── MLH tracks ── */}
 				<motion.section variants={sectionV} {...inView}>
 					<SectionHeading
-						eyebrow="MLH Prizes"
 						title="MLH Tracks"
 						subtitle="Best use of each sponsor technology, judged by Major League Hacking."
 					/>

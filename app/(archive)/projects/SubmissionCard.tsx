@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { QH_TRACK_BADGE_STYLES, type QhTrackName } from "./trackBadgeStyles";
 
 export type SubmissionCardData = {
 	id: string;
@@ -11,12 +12,6 @@ export type SubmissionCardData = {
 	image_urls: string[];
 	qh_track: string | null;
 	mlh_tracks: string[];
-};
-
-const TRACK_BADGE_CLS: Record<string, string> = {
-	Base44: "bg-violet-100 border-violet-300 text-violet-800",
-	Google: "bg-sky-100 border-sky-300 text-sky-800",
-	Pipeworks: "bg-rose-100 border-rose-300 text-rose-800",
 };
 
 function parseTags(techStack: string): string[] {
@@ -66,14 +61,13 @@ export function SubmissionCard({
 					<div className="flex items-center justify-between gap-2 mb-1.5">
 						{submission.team_name ? (
 							<p className="font-mono text-[9px] uppercase tracking-superwide text-neutral-500">
-								&gt; Team {submission.team_name}
+								Team {submission.team_name}
 							</p>
 						) : <span />}
 						{submission.qh_track ? (
 							<span
-								className={`inline-flex items-center h-[20px] px-2 text-[0.65rem] font-mono uppercase tracking-[0.14em] border ${
-									TRACK_BADGE_CLS[submission.qh_track] ?? "bg-neutral-100 border-neutral-300 text-neutral-700"
-								}`}
+								className="inline-flex items-center h-[20px] px-2 text-[0.65rem] font-mono uppercase tracking-[0.14em] border bg-neutral-100 border-neutral-300 text-neutral-700"
+								style={QH_TRACK_BADGE_STYLES[submission.qh_track as QhTrackName]}
 							>
 								{submission.qh_track}
 							</span>

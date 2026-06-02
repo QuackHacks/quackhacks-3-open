@@ -62,14 +62,7 @@ export default async function ProjectDetailPage({
 			/>
 
 			<section className="pt-24 pb-20 px-5 md:px-8 max-w-300 mx-auto w-full relative">
-				<div className="mb-6 flex items-center justify-between">
-					<p className="font-mono text-[9px] uppercase tracking-superwide text-neutral-500">
-						&gt; Archive /{" "}
-						<Link href="/projects" className="hover:text-neutral-900 transition-colors">
-							Projects
-						</Link>{" "}
-						/ {submission.name}
-					</p>
+				<div className="mb-6 flex justify-end">
 					<Link
 						href="/projects"
 						className="hidden md:inline-flex items-center justify-center border border-neutral-300 bg-white text-neutral-700 text-[10px] font-mono uppercase tracking-[0.22em] px-3 py-1.5 hover:border-neutral-900 hover:text-neutral-900 transition-colors"
@@ -81,7 +74,7 @@ export default async function ProjectDetailPage({
 				<header className="mb-8">
 					{submission.team_name ? (
 						<p className="font-mono text-[10px] uppercase tracking-superwide text-neutral-500 mb-2">
-							&gt; Team {submission.team_name}
+							Team {submission.team_name}
 						</p>
 					) : null}
 					<h1 className="font-liebling font-bold text-4xl md:text-6xl text-neutral-900 leading-[0.95]">

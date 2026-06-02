@@ -1,6 +1,5 @@
 import { Metadata } from "next";
 import { getWinnersView } from "@/lib/winners";
-import { WinnersBackground } from "./WinnersBackground";
 import { WinnersClient } from "./WinnersClient";
 
 export const metadata: Metadata = {
@@ -11,10 +10,5 @@ export const metadata: Metadata = {
 export default function WinnersPage() {
 	const view = getWinnersView();
 
-	return (
-		<>
-			<WinnersBackground />
-			<WinnersClient view={view} />
-		</>
-	);
+	return <WinnersClient view={view} />;
 }

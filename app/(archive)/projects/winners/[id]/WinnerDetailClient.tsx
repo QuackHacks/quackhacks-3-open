@@ -3,10 +3,12 @@
 import Link from "next/link";
 import Image from "next/image";
 import { motion, type Variants } from "motion/react";
+import type { CSSProperties } from "react";
 import { ArrowLeft } from "lucide-react";
 import type { ArchivedProject } from "@/lib/types";
-import type { AwardMeta } from "@/lib/winners";
-import { PLACEMENT_BADGE, SponsorChip, placementMeta } from "../_shared";
+import type { AwardMeta, Sponsor } from "@/lib/winners";
+import { PLACEMENT_BADGE } from "../_shared";
+import { WinnersBackground } from "../WinnersBackground";
 
 const sectionV: Variants = {
 	hidden: { opacity: 0, y: 22 },
@@ -17,6 +19,67 @@ const itemV: Variants = {
 	show: { opacity: 1, y: 0, transition: { duration: 0.45, ease: "easeOut" } },
 };
 const inView = { initial: "hidden", whileInView: "show", viewport: { once: true, margin: "-60px" } } as const;
+
+type BannerTheme = {
+	className: string;
+	style?: CSSProperties;
+	textClass: string;
+	mutedClass: string;
+	pillClass: string;
+	glowClass: string;
+	sheen: string;
+};
+
+const SPONSOR_BANNER_THEME: Partial<Record<Sponsor, BannerTheme>> = {
+	Pipeworks: {
+		className: "",
+		style: {
+			background: "linear-gradient(135deg, oklch(62.31% 0.22091456150381159 28.98950037544506), oklch(48% 0.22091456150381159 28.98950037544506))",
+			borderColor: "oklch(54% 0.22091456150381159 28.98950037544506)",
+		},
+		textClass: "text-white",
+		mutedClass: "text-white/75",
+		pillClass: "bg-white/16 text-white",
+		glowClass: "bg-white/15",
+		sheen: "linear-gradient(105deg, transparent 42%, rgba(255,255,255,0.22) 50%, transparent 58%)",
+	},
+	Base44: {
+		className: "",
+		style: {
+			background: "linear-gradient(135deg, oklch(77.82% 0.1564431718534738 58.81181880510718), oklch(66% 0.1564431718534738 58.81181880510718))",
+			borderColor: "oklch(69% 0.1564431718534738 58.81181880510718)",
+		},
+		textClass: "text-neutral-950",
+		mutedClass: "text-neutral-950/70",
+		pillClass: "bg-white/38 text-neutral-950",
+		glowClass: "bg-white/20",
+		sheen: "linear-gradient(105deg, transparent 42%, rgba(255,255,255,0.30) 50%, transparent 58%)",
+	},
+	Google: {
+		className: "",
+		style: {
+			background: "linear-gradient(135deg, oklch(60.67% 0.19124997374813318 253.70485550337392), oklch(46% 0.19124997374813318 253.70485550337392))",
+			borderColor: "oklch(52% 0.19124997374813318 253.70485550337392)",
+		},
+		textClass: "text-white",
+		mutedClass: "text-white/75",
+		pillClass: "bg-white/16 text-white",
+		glowClass: "bg-white/15",
+		sheen: "linear-gradient(105deg, transparent 42%, rgba(255,255,255,0.22) 50%, transparent 58%)",
+	},
+	MongoDB: {
+		className: "",
+		style: {
+			background: "linear-gradient(135deg, oklch(64.64% 0.17423982179538322 150.04627459928668), oklch(47% 0.17423982179538322 150.04627459928668))",
+			borderColor: "oklch(55% 0.17423982179538322 150.04627459928668)",
+		},
+		textClass: "text-white",
+		mutedClass: "text-white/75",
+		pillClass: "bg-white/16 text-white",
+		glowClass: "bg-white/15",
+		sheen: "linear-gradient(105deg, transparent 42%, rgba(255,255,255,0.22) 50%, transparent 58%)",
+	},
+};
 
 function Panel({ title, children }: { title: string; children: React.ReactNode }) {
 	return (
@@ -41,28 +104,33 @@ export function WinnerDetailClient({
 	embedUrl: string | null;
 	tags: string[];
 }) {
-	const m = placementMeta(award.placement);
 	// QuackHacks result badge — only the overall top three earn one.
 	const placeBadge = award.isGrand && award.placement ? PLACEMENT_BADGE[award.placement] : null;
 	// Grand prize → celebratory gold banner; track winners → deep brand-green banner.
 	const goldBanner = award.isGrand;
+	const bannerTheme = goldBanner
+		? {
+				className: "gold-background border-amber-300 bg-linear-to-br from-amber-500 via-amber-600 to-yellow-600",
+				textClass: "text-white",
+				mutedClass: "text-white/70",
+				pillClass: "bg-white/15 text-white",
+				glowClass: "bg-white/15",
+				sheen: "linear-gradient(105deg, transparent 42%, rgba(255,255,255,0.22) 50%, transparent 58%)",
+			}
+		: (SPONSOR_BANNER_THEME[award.sponsor] ?? {
+				className: "border-brand-700 bg-linear-to-br from-brand-600 via-brand-700 to-brand-900",
+				textClass: "text-white",
+				mutedClass: "text-white/70",
+				pillClass: "bg-white/15 text-white",
+				glowClass: "bg-white/15",
+				sheen: "linear-gradient(105deg, transparent 42%, rgba(255,255,255,0.22) 50%, transparent 58%)",
+			});
 
 	return (
 		<main className="relative min-h-full overflow-x-hidden bg-[#f4f4f4]">
+			<WinnersBackground />
 			<section className="relative mx-auto w-full max-w-300 px-5 pb-20 pt-24 md:px-8">
-				{/* Breadcrumb */}
-				<div className="mb-6 flex items-center justify-between">
-					<p className="font-mono text-[9px] uppercase tracking-superwide text-neutral-500">
-						&gt; Archive /{" "}
-						<Link href="/projects" className="transition-colors hover:text-neutral-900">
-							Projects
-						</Link>{" "}
-						/{" "}
-						<Link href="/projects/winners" className="transition-colors hover:text-neutral-900">
-							Winners
-						</Link>{" "}
-						/ {project.name}
-					</p>
+				<div className="mb-6 flex justify-end">
 					<Link
 						href="/projects/winners"
 						className="hidden items-center gap-1.5 border border-neutral-300 bg-white px-3 py-1.5 font-mono text-[10px] uppercase tracking-[0.22em] text-neutral-700 transition-colors hover:border-neutral-900 hover:text-neutral-900 md:inline-flex"
@@ -77,22 +145,19 @@ export function WinnerDetailClient({
 					initial={{ opacity: 0, y: 18 }}
 					animate={{ opacity: 1, y: 0 }}
 					transition={{ duration: 0.55, ease: "easeOut" }}
-					className={`relative mb-10 overflow-hidden rounded-2xl border p-7 shadow-[0_24px_60px_rgba(0,0,0,0.12)] md:p-10 ${
-						goldBanner
-							? "gold-background border-amber-300 bg-linear-to-br from-amber-500 via-amber-600 to-yellow-600"
-							: "border-brand-700 bg-linear-to-br from-brand-600 via-brand-700 to-brand-900"
-					}`}
+					className={`relative mb-10 overflow-hidden rounded-2xl border p-7 shadow-[0_24px_60px_rgba(0,0,0,0.12)] md:p-10 ${bannerTheme.className}`}
+					style={bannerTheme.style}
 				>
 					{/* Moving sheen */}
 					<motion.div
 						aria-hidden
 						className="pointer-events-none absolute inset-0"
-						style={{ background: "linear-gradient(105deg, transparent 42%, rgba(255,255,255,0.22) 50%, transparent 58%)", backgroundSize: "220% 100%" }}
+						style={{ background: bannerTheme.sheen, backgroundSize: "220% 100%" }}
 						animate={{ backgroundPosition: ["-220% 0", "220% 0"] }}
 						transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
 					/>
 					{/* Soft glow blob */}
-					<div className="pointer-events-none absolute -right-16 -top-16 h-56 w-56 rounded-full bg-white/15 blur-3xl" />
+					<div className={`pointer-events-none absolute -right-16 -top-16 h-56 w-56 rounded-full ${bannerTheme.glowClass} blur-3xl`} />
 
 					<div className="relative flex flex-col gap-5 sm:flex-row sm:items-center">
 						{/* QuackHacks place badge — overall top three only */}
@@ -119,25 +184,22 @@ export function WinnerDetailClient({
 						)}
 
 						<div className="min-w-0 flex-1">
-							{/* Award eyebrow */}
 							<div className="mb-2 flex flex-wrap items-center gap-2">
-								<span className="inline-flex items-center rounded-full bg-white/15 px-3 py-1 font-mono text-[10px] font-bold uppercase tracking-[0.18em] text-white backdrop-blur-sm">
+								<span className={`inline-flex items-center rounded-full px-3 py-1 font-mono text-[10px] font-bold uppercase tracking-[0.18em] backdrop-blur-sm ${bannerTheme.pillClass}`}>
 									{award.placeLabel}
 								</span>
-								<SponsorChip sponsor={award.sponsor} className="border-white/30 bg-white/90" />
-								<span className="font-mono text-[11px] uppercase tracking-superwide text-white/80">{award.trackName}</span>
 							</div>
 
 							{project.team_name && (
-								<p className="mb-1 font-mono text-[10px] uppercase tracking-superwide text-white/70">
-									&gt; Team {project.team_name}
+								<p className={`mb-1 font-mono text-[10px] uppercase tracking-superwide ${bannerTheme.mutedClass}`}>
+									Team {project.team_name}
 								</p>
 							)}
-							<h1 className="font-liebling text-4xl font-bold leading-[0.95] text-white drop-shadow-sm md:text-6xl">
+							<h1 className={`font-liebling text-4xl font-bold leading-[0.95] drop-shadow-sm md:text-6xl ${bannerTheme.textClass}`}>
 								{project.name}
 							</h1>
 							{project.tagline && (
-								<p className="mt-3 max-w-3xl font-sans text-base italic leading-snug text-white/90 md:text-lg">
+								<p className={`mt-3 max-w-3xl font-sans text-base italic leading-snug md:text-lg ${bannerTheme.textClass}`}>
 									{project.tagline}
 								</p>
 							)}
@@ -201,26 +263,6 @@ export function WinnerDetailClient({
 
 					{/* Aside */}
 					<aside className="flex flex-col gap-6 lg:sticky lg:top-24">
-						{/* Award summary */}
-						<motion.div variants={itemV} className={`overflow-hidden rounded-xl border bg-white p-6 shadow-[0_18px_40px_rgba(0,0,0,0.06)] ${goldBanner ? "border-amber-200" : "border-brand-200"}`}>
-							<h3 className="mb-3 font-mono text-[10px] uppercase tracking-superwide text-neutral-500">Award</h3>
-							<div className="flex items-center gap-3">
-								{placeBadge && (
-									<Image
-										src={placeBadge.src}
-										alt={placeBadge.alt}
-										width={56}
-										height={56}
-										className="h-14 w-14 shrink-0 object-contain drop-shadow"
-									/>
-								)}
-								<div className="min-w-0">
-									<p className={`font-instrument-serif text-lg font-bold leading-tight ${m.accentText}`}>{award.placeLabel}</p>
-									<p className="truncate font-mono text-[10px] uppercase tracking-[0.14em] text-neutral-500">{award.trackName}</p>
-								</div>
-							</div>
-						</motion.div>
-
 						{/* Built with */}
 						{tags.length > 0 && (
 							<motion.div variants={itemV} className="border border-neutral-200 bg-white p-6 shadow-[0_18px_40px_rgba(0,0,0,0.06)]">
@@ -272,28 +314,6 @@ export function WinnerDetailClient({
 										Watch demo
 									</a>
 								)}
-							</motion.div>
-						)}
-
-						{/* Tracks */}
-						{(project.qh_track || project.mlh_tracks.length > 0) && (
-							<motion.div variants={itemV} className="border border-neutral-200 bg-white p-6 shadow-[0_18px_40px_rgba(0,0,0,0.06)]">
-								<h3 className="mb-3 font-mono text-[10px] uppercase tracking-superwide text-neutral-500">Tracks</h3>
-								<div className="flex flex-wrap gap-1.5">
-									{project.qh_track && (
-										<span className="inline-flex h-[24px] items-center border border-green-300 bg-green-100 px-2 font-mono text-[0.7rem] uppercase tracking-[0.12em] text-green-800">
-											QH · {project.qh_track}
-										</span>
-									)}
-									{project.mlh_tracks.map((track) => (
-										<span
-											key={track}
-											className="inline-flex h-[24px] items-center border border-amber-300 bg-amber-100 px-2 font-mono text-[0.7rem] uppercase tracking-[0.12em] text-amber-800"
-										>
-											MLH · {track}
-										</span>
-									))}
-								</div>
 							</motion.div>
 						)}
 
