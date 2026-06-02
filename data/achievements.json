@@ -235,7 +235,7 @@
     "points": 10,
     "difficulty": "EASY",
     "category": "Engagement",
-    "icon": "/badgess/VoiceOfThePond.webp",
+    "icon": "/badgess/VoiceOfThePond.png",
     "easter_egg": false,
     "sort_order": 47
   },
@@ -247,7 +247,7 @@
     "points": 25,
     "difficulty": "MEDIUM",
     "category": "Special",
-    "icon": "/badgess/QH3_achievement_AchievementHunter.webp",
+    "icon": "/badgess/QH3_achievement_AchievementHunter.png",
     "easter_egg": false,
     "sort_order": 48
   },

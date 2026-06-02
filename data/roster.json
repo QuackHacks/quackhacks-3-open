@@ -650,11 +650,11 @@
     "display_badges": [
       {
         "name": "Founder of the Flock",
-        "badge_path": "/badgess/QH3_Achievementbadge_FounderOftheFlock.webp"
+        "badge_path": "/badgess/QH3_Achievementbadge_FounderOftheFlock.png"
       },
       {
         "name": "Repo Ranger",
-        "badge_path": "/badgess/QH3_achievement_RepoRanger.webp"
+        "badge_path": "/badgess/QH3_achievement_RepoRanger.png"
       }
     ],
     "total_points": 30
@@ -1163,11 +1163,11 @@
     "display_badges": [
       {
         "name": "Founder of the Flock",
-        "badge_path": "/badgess/QH3_Achievementbadge_FounderOftheFlock.webp"
+        "badge_path": "/badgess/QH3_Achievementbadge_FounderOftheFlock.png"
       },
       {
         "name": "Repo Ranger",
-        "badge_path": "/badgess/QH3_achievement_RepoRanger.webp"
+        "badge_path": "/badgess/QH3_achievement_RepoRanger.png"
       }
     ],
     "total_points": 30
@@ -1508,15 +1508,15 @@
     "display_badges": [
       {
         "name": "Founder of the Flock",
-        "badge_path": "/badgess/QH3_Achievementbadge_FounderOftheFlock.webp"
+        "badge_path": "/badgess/QH3_Achievementbadge_FounderOftheFlock.png"
       },
       {
         "name": "Repo Ranger",
-        "badge_path": "/badgess/QH3_achievement_RepoRanger.webp"
+        "badge_path": "/badgess/QH3_achievement_RepoRanger.png"
       },
       {
         "name": "The Duck Father",
-        "badge_path": "/badgess/QH3_Achievementbadge_theduckfather.webp"
+        "badge_path": "/badgess/QH3_Achievementbadge_theduckfather.png"
       }
     ],
     "total_points": 75
@@ -2109,7 +2109,7 @@
     "display_badges": [
       {
         "name": "Join the Pond",
-        "badge_path": "/badgess/QH3_Achievementbadge_JoinThePond.webp"
+        "badge_path": "/badgess/QH3_Achievementbadge_JoinThePond.png"
       }
     ],
     "total_points": 50
@@ -2240,7 +2240,7 @@
     "display_badges": [
       {
         "name": "Join the Pond",
-        "badge_path": "/badgess/QH3_Achievementbadge_JoinThePond.webp"
+        "badge_path": "/badgess/QH3_Achievementbadge_JoinThePond.png"
       }
     ],
     "total_points": 70
@@ -2896,11 +2896,11 @@
     "display_badges": [
       {
         "name": "Founder of the Flock",
-        "badge_path": "/badgess/QH3_Achievementbadge_FounderOftheFlock.webp"
+        "badge_path": "/badgess/QH3_Achievementbadge_FounderOftheFlock.png"
       },
       {
         "name": "Into the Flock",
-        "badge_path": "/badgess/QH3_achievement_intoTheFlock.webp"
+        "badge_path": "/badgess/QH3_achievement_intoTheFlock.png"
       }
     ],
     "total_points": 40
@@ -3829,11 +3829,11 @@
     "display_badges": [
       {
         "name": "Founder of the Flock",
-        "badge_path": "/badgess/QH3_Achievementbadge_FounderOftheFlock.webp"
+        "badge_path": "/badgess/QH3_Achievementbadge_FounderOftheFlock.png"
       },
       {
         "name": "Dynamic Duo",
-        "badge_path": "/badgess/QH3_achievement_dynamicDUO.webp"
+        "badge_path": "/badgess/QH3_achievement_dynamicDUO.png"
       }
     ],
     "total_points": 35

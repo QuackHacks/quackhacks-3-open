@@ -276,7 +276,7 @@ body {
 	filter: brightness(1.2) contrast(1.2);
 	mix-blend-mode: screen;
 
-	background-image: url("./_assets/textures/holo1.webp");
+	background-image: url("./_assets/textures/holo1.jpeg");
 	background-position: center;
 	background-size: auto;
 

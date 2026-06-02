@@ -5,7 +5,7 @@ import { motion } from "motion/react";
 import { useId, useMemo, useState } from "react";
 
 // every team member photo imported as StaticImageData
-import Image_DeafaultAvatar from "../../../../public/default-avatar.webp";
+import Image_DeafaultAvatar from "../../../../public/default-avatar.jpg";
 
 // Tech
 import anthony from "@team/anthony.webp";
@@ -248,7 +248,7 @@ const kTeamMembers: TeamMember[] = [
 	// prettier-ignore
 	{ name: "Nigel Epperson", role: "Security Engineer", image: nigel, hoverImage: nigelCasual, department: "tech", executive: false, quote: "I hadn't turned 6 until I was 7" },
 	// prettier-ignore
-	{ name: "Oliver Boorstein", role: "Fullstack Engineer", image: oliver, hoverImage: oliverCasual, department: "tech", executive: false, quote: "Tuned In" },
+	{ name: "Oliver Boorstein", role: "Fullstack Engineer", image: oliver, hoverImage: oliverCasual, department: "tech", executive: false, quote: "Tuned in" },
 
 	// Marketing
 	// prettier-ignore

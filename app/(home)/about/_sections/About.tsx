@@ -3,9 +3,9 @@
 import Image, { StaticImageData } from "next/image";
 import { motion } from "motion/react";
 
-import Image_Moment1 from "../../../../public/photos/moments-16.webp";
-import Image_Moment2 from "../../../../public/photos/moments-02.webp";
-import Image_Moment3 from "../../../../public/photos/moments-10.webp";
+import Image_Moment1 from "../../../../public/photos/moments-16.jpg";
+import Image_Moment2 from "../../../../public/photos/moments-02.jpg";
+import Image_Moment3 from "../../../../public/photos/moments-10.jpg";
 
 import { fadeUp, viewportOpts } from "../_utils/animations";
 import SectionHeader from "../_components/SectionHeader";
