@@ -17,26 +17,32 @@ npm run build
 
 ## Photo Gallery
 
-Build public R2-ready originals, thumbnails, and manifest from local originals:
+Build public S3/CloudFront-ready originals, thumbnails, and manifest from local originals:
 
 ```bash
-PHOTO_GALLERY_PUBLIC_BASE=https://photos.quackhacks.com
-PHOTO_GALLERY_MANIFEST_URL=https://photos.quackhacks.com/manifest.json
+PHOTO_GALLERY_PUBLIC_BASE=https://photo.quackhacks.org/qh3/photos
+PHOTO_GALLERY_MANIFEST_URL=https://photo.quackhacks.org/qh3/photos/manifest.json
 ```
 
-Then build public R2-ready originals, thumbnails, and manifest from local originals:
+Then build public S3/CloudFront-ready originals, thumbnails, and manifest from local originals:
 
 ```bash
-npm run photos:build -- --input ./photos/originals --output ./dist/photo-gallery
+npm run photos:build -- --input ./photos/originals/qh3-deduped --output ./dist/qh3-photos/qh3/photos --public-base https://photo.quackhacks.org/qh3/photos --full-prefix originals --thumb-prefix thumbs
 ```
 
-Upload `dist/photo-gallery` to the R2 bucket root. CLI override:
+Dry-run the S3 upload:
 
 ```bash
-npm run photos:build -- --input ./photos/originals --public-base https://pub-xxxxx.r2.dev
+scripts/upload-qh3-photos-s3.sh --dry-run
 ```
 
-The gallery route is `/photos`. Originals stay under `full/`; generated WebP thumbnails live under `thumbs/480/` and `thumbs/1200/`.
+Execute the S3 upload:
+
+```bash
+scripts/upload-qh3-photos-s3.sh --execute
+```
+
+The gallery route is `/photos`. In S3, originals stay under `qh3/photos/originals/`; generated WebP thumbnails live under `qh3/photos/thumbs/480/` and `qh3/photos/thumbs/1200/`.
 
 ## Archive Data
 

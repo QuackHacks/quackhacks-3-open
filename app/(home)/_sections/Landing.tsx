@@ -6,7 +6,7 @@ import Link from "next/link";
 import Image_PixelArrow from "@assets/elements/pixelarrow.png";
 import Image_PixelSquare3x3 from "@assets/elements/gappixelsquare3x3.png";
 import SVG_WarningSquare from "@assets/elements/warningsquare.svg";
-import DuckCanvasPassive from "@/app/_components/duck/DuckCanvasPassive";
+import DuckInteractive from "@/app/_components/duck/DuckInteractive";
 import useMediaQuery from "@/app/_utils/useMediaQuery";
 import { MapPin } from "lucide-react";
 
@@ -145,7 +145,7 @@ const Landing = () => {
 			{isXlOrGreater && (
 				<div aria-hidden className="pointer-events-none absolute right-34 -top-16 hidden xl:block">
 					<div className="w-150 -z-10 aspect-square">
-						<DuckCanvasPassive />
+						<DuckInteractive />
 					</div>
 				</div>
 			)} 
