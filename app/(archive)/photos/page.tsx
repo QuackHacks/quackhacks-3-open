@@ -7,15 +7,18 @@ export const metadata: Metadata = {
 	description: "Browse photos from QuackHacks 3.",
 };
 
+const defaultManifestUrl = "https://photo.quackhacks.org/qh3/photos/manifest.json";
 const manifestUrl =
-	process.env.PHOTO_GALLERY_MANIFEST_URL ?? process.env.NEXT_PUBLIC_PHOTO_GALLERY_MANIFEST_URL;
+	process.env.PHOTO_GALLERY_MANIFEST_URL ??
+	process.env.NEXT_PUBLIC_PHOTO_GALLERY_MANIFEST_URL ??
+	defaultManifestUrl;
 
 async function getGalleryManifest(): Promise<GalleryManifest | null> {
 	if (!manifestUrl) return null;
 
 	try {
 		const response = await fetch(manifestUrl, {
-			next: { revalidate: 300 },
+			cache: "no-store",
 		});
 
 		if (!response.ok) return null;
