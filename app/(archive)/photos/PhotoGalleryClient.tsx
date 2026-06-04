@@ -58,6 +58,18 @@ function formatTitle(title: string) {
   return title.replace(/[-_]+/g, " ").replace(/\s+/g, " ").trim();
 }
 
+function getDownloadHref(photo: GalleryPhoto) {
+  const photoUrl = new URL(photo.urls.full);
+  const extension = photoUrl.pathname.split(".").pop() ?? "jpg";
+  const filename = `${formatTitle(photo.title) || photo.id}.${extension}`;
+  const params = new URLSearchParams({
+    url: photo.urls.full,
+    filename,
+  });
+
+  return `/photos/download?${params.toString()}`;
+}
+
 function getNextPhotoZIndex() {
   photoHoverStack =
     photoHoverStack >= kPhotoHoverStackMax
@@ -307,7 +319,7 @@ export function PhotoGalleryClient({ photos }: Props) {
             </div>
             <div className="flex items-center gap-2">
               <a
-                href={activePhoto.urls.full}
+                href={getDownloadHref(activePhoto)}
                 download
                 className="inline-flex h-10 w-10 items-center justify-center border border-white/15 bg-white/10 text-white transition-colors hover:bg-white/20"
                 aria-label="Download photo"
